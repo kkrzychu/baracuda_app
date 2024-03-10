@@ -1,14 +1,32 @@
-
+import {Route, Routes} from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Products from './pages/Products'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
+import styles from './style'
 
 const App = () => (
 
     <div className='bg-primary w-full overflow-hidden'>
-      <h1>Hello World</h1>
 
-      <Navbar>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}><Navbar /></div>
+      </div>
 
-      </Navbar>
+      <div className={`bg-primary ${styles.flexStart}`}>
+
+        
+          <Routes>
+            <Route path='/home' element={<Home />}/>
+            <Route path='/products' element={<Products />}/>
+            <Route path='/about' element={<About />}/>
+            <Route path='/contact' element={<Contact />}/>
+          </Routes>
+        
+
+      </div>
 
     </div>
 

@@ -138,3 +138,11 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+.home_section_1_background {
+  background-image: url('./assets/home_section_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
