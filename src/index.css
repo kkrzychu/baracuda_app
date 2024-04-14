@@ -146,3 +146,26 @@
   background-position: center;
   background-size: cover;
 }
+
+textarea {
+   resize: none;
+}
+
+.abot_section_1 {
+  background-image: url('./assets/about_section_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+.about_section_1_content {
+  transform: rotate(180deg);
+}
+
+.abot_section_3 {
+  background-image: url('./assets/about_section_3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
