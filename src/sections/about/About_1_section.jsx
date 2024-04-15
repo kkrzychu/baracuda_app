@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMask } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { aboutGoals } from "../../constants/index";
 
 const About_1_section = () => {
@@ -27,7 +27,7 @@ const About_1_section = () => {
                     <div className="p-4 w-[50%] h-[100%]">
                         <ul>
                             {aboutGoals.map((item) => (
-                                <li key={item.key} className='py-3 flex flex-row items-center text-xl'><FontAwesomeIcon  icon={faMask} className={`w-[18px] h-[18px] object-contain text-white pr-4`} />{item.goal}</li>
+                                <li key={item.key} className='py-3 flex flex-row items-center text-xl'><FontAwesomeIcon  icon={faCircle} className={`w-[13px] h-[13px] object-contain text-white pr-4`} />{item.goal}</li>
                             ))}
                         </ul>
                     </div>

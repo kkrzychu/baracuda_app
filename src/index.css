@@ -163,8 +163,15 @@ textarea {
   transform: rotate(180deg);
 }
 
-.abot_section_3 {
+.about_section_3 {
   background-image: url('./assets/about_section_3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.products_section_1 {
+  background-image: url('./assets/products_section_1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

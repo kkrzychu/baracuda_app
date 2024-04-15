@@ -5,6 +5,23 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+
+export const strapBenefits = [
+    {
+        benefit: "Letraset sheets containing Lorem"
+    },{
+        benefit: "Letraset sheets containing Lorem"
+    },{
+        benefit: "Letraset sheets containing Lorem"
+    },{
+        benefit: "Letraset sheets containing Lorem"
+    },{
+        benefit: "Letraset sheets containing Lorem"
+    },{
+        benefit: "Letraset sheets containing Lorem"
+    }
+];
+
 export const aboutGoals = [
     {
         key: "goal_1",

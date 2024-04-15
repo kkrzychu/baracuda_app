@@ -3,7 +3,7 @@ import OwnerAvatar from '../../assets/ownerAvatar.png'
 
 const About_3_section = () => {
   return (
-    <div className="abot_section_3 flex justify-center sm:px-40 px-6">
+    <div className="about_section_3 flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
             <section id="about_3" className=" flex flex-row justify-center items-center w-[100%]  py-20">

@@ -10,7 +10,7 @@ const About_2_section = () => {
     <div className="bg-white flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
-            <section id="about_2_1" className=" flex flex-row justify-center items center w-[100%]  pt-20">
+            <section id="about_2_1" className=" flex flex-row justify-center items-center w-[100%]  pt-20">
 
               <div className="w-[100%] flex flex-col px-20">
 
