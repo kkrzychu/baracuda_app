@@ -176,3 +176,43 @@ textarea {
   background-position: center;
   background-size: cover;
 }
+
+
+.containerGallery {
+  columns: 4;
+}
+
+.navItems a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.navItems a:hover {
+  color: #33bbcf
+}
+
+.active a {
+  color: #33bbcf;
+}
+
+.navItems a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #17cf97;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.stickyNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+

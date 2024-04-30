@@ -21,7 +21,7 @@ const Products_1_section = () => {
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     </p>
 
-                    <button className='bg-blue-500 w-[150px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Contact us</button>
+                    <button className='bg-indigo-600 w-[150px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Contact us</button>
 
                 </div>
 

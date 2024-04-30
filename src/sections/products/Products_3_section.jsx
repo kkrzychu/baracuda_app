@@ -36,21 +36,18 @@ const Products_3_section = () => {
 
             <section id="product_3_2" className=" flex flex-row  w-[100%]  pt-6 pb-20">
 
-                <div className="flex flex-col w-[65%] p-6">
+                <div className="flex flex-row w-[65%] p-6 gap-6">
 
-                    <div className='w-[100%] h-[250px] flex flex-row rounded box-shadow mb-6 '>
+                    <div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
                         <img className=' h-[100%] object-contain' src={Strap_1} />
                         <img className=' h-[100%] object-contain' src={Strap_2} />
                     </div>
 
-                    <div className='w-[100%] h-[250px] flex flex-row rounded box-shadow mb-6 '>
+                    <div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
                         <img className=' h-[100%] object-contain' src={Strap_3} />
                         <img className=' h-[100%] object-contain' src={Strap_4} />
                     </div>
-{/* 
-                    <div className='w-[100%] h-[150px] rounded box-shadow mb-6 '>
-                        <img className=' h-[100%] object-contain' src={Strap_3} />
-                    </div> */}
+
 
 
                 </div>

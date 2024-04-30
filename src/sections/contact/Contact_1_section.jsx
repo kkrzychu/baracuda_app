@@ -64,7 +64,7 @@ const Contact_1_section = () => {
 
               {/* SUBMIT BUTTON*/}
               <div className="col-span-full">
-                <button className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full`}>SUBMIT</button>
+                <button className={`bg-indigo-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full`}>SUBMIT</button>
               </div>
 
 
