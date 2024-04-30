@@ -1,21 +1,18 @@
 
-import Logo_3  from '../../assets/logo_3.jpg';
-import PolandFlag  from '../../assets/polandFlag.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { logo_3, polandFlag } from '../../assets'
 
 const Contact_2_section = () => {
   return (
-    <div className="bg-slate-100">
       <div className="sm:px-40 px-6">
 
         <section id="contact_2" className={`flex flex-row justify-center items-center w-[100%] gap-x-28 sm:py-24 py-6 max-h-196`}>
 
         <div className="w-[35%] min-w-[370px] max-w-[470px] rounded overflow-hidden shadow-lg bg-white h-[550px]">
             <div className='h-[65%]'>
-              <img className="w-full h-[100%]" src={Logo_3} />
+              <img className="w-full h-[100%]" src={logo_3} />
             </div>
             <div className='h-[35%]'>
               <div className="px-6 py-4">
@@ -28,7 +25,7 @@ const Contact_2_section = () => {
 
           <div className='w-[100%] flex flex-row items-center justify-between p-6'>
             <h1 className='font-bold text-xl'>You can find us</h1>
-            <img src={PolandFlag} className='w-[100px]'/>
+            <img src={polandFlag} className='w-[100px]'/>
           </div>
 
           <div className='w-[100%] flex flex-row p-6 items-center'>
@@ -61,7 +58,6 @@ const Contact_2_section = () => {
         </section>
 
       </div>
-    </div>
   )
 }
 

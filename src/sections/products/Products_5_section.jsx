@@ -1,11 +1,10 @@
 
-import Bands from '../../assets/bands.png'
-import Wetsuit from '../../assets/COLOURS.jpg'
-import NeoPack from '../../assets/neo_pack.png'
+
+import { bands, COLOURS, neo_pack } from '../../assets'
 
 const Products_5_section = () => {
   return (
-    <div className="bg-white flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
             {/* BANDS */}
@@ -24,7 +23,7 @@ const Products_5_section = () => {
                 </div>
 
                 <div className="flex flex-col w-[100%] p-6">
-                    <img className='rounded h-[100%] object-contain' src={Bands} />
+                    <img className='rounded h-[100%] object-contain' src={bands} />
                 </div>
 
             </section>
@@ -33,7 +32,7 @@ const Products_5_section = () => {
             <section id="product_5" className=" flex flex-row  w-[100%]  pt-10 pb-10">
 
                 <div className="flex flex-col w-[100%] max-h-[500px] p-6">
-                    <img className='rounded h-[100%] object-contain' src={Wetsuit} />
+                    <img className='rounded h-[100%] object-contain' src={COLOURS} />
                 </div>
 
                 <div className="flex flex-col w-[100%] p-6">
@@ -66,7 +65,7 @@ const Products_5_section = () => {
                 </div>
 
                 <div className="flex flex-col w-[100%] p-6">
-                    <img className='rounded h-[100%] object-contain' src={NeoPack} />
+                    <img className='rounded h-[100%] object-contain' src={neo_pack} />
                 </div>
 
             </section>

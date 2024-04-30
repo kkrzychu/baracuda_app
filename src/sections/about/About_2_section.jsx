@@ -1,13 +1,9 @@
 
-
-import EuropeFlag from '../../assets/europeFlag.png'
-import Straps from '../../assets/straps.png'
-import Neopren from '../../assets/neopren.png'
-import Sewing from '../../assets/sewing.jpg'
+import { europeFlag, straps, neopren, sewing } from '../../assets'
 
 const About_2_section = () => {
   return (
-    <div className="bg-white flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
             <section id="about_2_1" className=" flex flex-row justify-center items-center w-[100%]  pt-20">
@@ -24,9 +20,9 @@ const About_2_section = () => {
 
               <div className="w-[100%] flex flex-col">
 
-                <div className="w-[100%] relative z-30 flex flex-row justify-end items-center"><div   className="bg-white w-[50%]"><img className='rounded' src={EuropeFlag} /></div></div>
-                <div className="w-[100%] relative z-20 top-[-30px] right-[-30px] flex flex-row justify-start items-center"><div className="bg-white w-[50%]"><img className='rounded' src={Straps} /></div></div>
-                <div className="w-[100%] relative z-10 top-[-100px] flex flex-row justify-end items-center"><div   className="bg-white w-[50%]"><img className='rounded' src={Neopren} /></div></div>
+                <div className="w-[100%] relative z-30 flex flex-row justify-end items-center"><div   className="bg-white w-[50%]"><img className='rounded' src={europeFlag} /></div></div>
+                <div className="w-[100%] relative z-20 top-[-30px] right-[-30px] flex flex-row justify-start items-center"><div className="bg-white w-[50%]"><img className='rounded' src={straps} /></div></div>
+                <div className="w-[100%] relative z-10 top-[-100px] flex flex-row justify-end items-center"><div   className="bg-white w-[50%]"><img className='rounded' src={neopren} /></div></div>
 
               </div>
 
@@ -36,7 +32,7 @@ const About_2_section = () => {
 
               <div className="w-[100%] flex flex-col max-h-[500px]">
 
-                <img className='rounded h-[100%] object-contain' src={Sewing} />
+                <img className='rounded h-[100%] object-contain' src={sewing} />
 
               </div>
 

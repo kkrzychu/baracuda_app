@@ -1,7 +1,7 @@
 
 const Contact_1_section = () => {
   return (
-    <div className="bg-black flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
       <div className=" max-w-[1280px]">
 
         <section id="contact_1" className={`flex flex-row justify-center gap-x-20 sm:py-24 py-6 items-center bg-black w-[100%]  max-h-196`}>

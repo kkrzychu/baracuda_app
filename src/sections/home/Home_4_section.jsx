@@ -2,7 +2,7 @@
 
 const Home_4_section = () => {
   return (
-    <div className="bg-white flex justify-center sm:px-40 px-6 py-16">
+    <div className="flex justify-center sm:px-40 px-6 py-16">
       <div className="w-[100%] max-w-[1280px] ">
 
         <section id="home_2_1" className={`flex flex-row w-[100%] pt-36 pb-10 justify-center items-center`}>

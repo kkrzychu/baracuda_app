@@ -1,15 +1,15 @@
 
-import LandingSewing from '../../assets/landingSewing.jpg'
+import { landingSewing } from '../../assets'
 
 const Home_3_section = () => {
   return (
-    <div className="bg-indigo-950 flex justify-center sm:px-40 px-6 py-16">
+    <div className="flex justify-center sm:px-40 px-6 py-16">
       <div className="w-[100%] max-w-[1280px] ">
 
         <section id="home_2_1" className={`flex flex-row w-[100%] items-center`}>
 
           <div className="w-[40%] relative">
-            <img src={LandingSewing} className='rounded-xl absolute top-[-270px]' />
+            <img src={landingSewing} className='rounded-xl absolute top-[-270px]' />
           </div>
 
           <div className="flex flex-col w-[100%] p-10">

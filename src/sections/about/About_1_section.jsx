@@ -5,7 +5,7 @@ import { aboutGoals } from "../../constants/index";
 
 const About_1_section = () => {
   return (
-    <div className="abot_section_1 flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] about_section_1_content">
 
             <section id="about_1" className=" flex flex-row justify-center items-center w-[100%]  py-20 px-16">

@@ -1,14 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
-import Strap_1 from '../../assets/strap_1.png'
-import Strap_2 from '../../assets/strap_2.png'
-import Strap_3 from '../../assets/strap_3.png'
-import Strap_4 from '../../assets/strap_4.png'
+import { strap_1, strap_2, strap_3, strap_4 } from '../../assets'
+
 
 const Home_2_section = () => {
   return (
-    <div className="bg-white flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
       <div className="w-[100%] max-w-[1280px] ">
 
         <section id="home_2_1" className={`flex flex-col w-[100%] items-center pt-28 pb-10`}>
@@ -28,13 +26,13 @@ const Home_2_section = () => {
             <div className="flex flex-row w-[100%] p-6 gap-6">
 
               <div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_1} />
-                  <img className=' h-[100%] object-contain' src={Strap_2} />
+                  <img className=' h-[100%] object-contain' src={strap_1} />
+                  <img className=' h-[100%] object-contain' src={strap_2} />
               </div>
 
               <div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_3} />
-                  <img className=' h-[100%] object-contain' src={Strap_4} />
+                  <img className=' h-[100%] object-contain' src={strap_3} />
+                  <img className=' h-[100%] object-contain' src={strap_4} />
               </div>
 
             </div>
@@ -50,7 +48,7 @@ const Home_2_section = () => {
             <div className="flex flex-col w-[100%] p-6">
 
               <div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_1} />
+                  <img className=' h-[100%] object-contain' src={strap_1} />
               </div>
 
               <div className='w-[100%] flex justify-center my-6 items-center'>
@@ -58,7 +56,7 @@ const Home_2_section = () => {
               </div>
 
               <div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_3} />
+                  <img className=' h-[100%] object-contain' src={strap_3} />
               </div>
 
             </div>
@@ -90,7 +88,7 @@ const Home_2_section = () => {
             <div className="flex flex-col w-[100%] p-6">
 
               <div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_1} />
+                  <img className=' h-[100%] object-contain' src={strap_1} />
               </div>
 
               <div className='w-[100%] flex justify-center my-6 items-center'>
@@ -98,7 +96,7 @@ const Home_2_section = () => {
               </div>
 
               <div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
-                  <img className=' h-[100%] object-contain' src={Strap_3} />
+                  <img className=' h-[100%] object-contain' src={strap_3} />
               </div>
 
             </div>

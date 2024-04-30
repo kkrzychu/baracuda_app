@@ -1,9 +1,9 @@
 
-import OwnerAvatar from '../../assets/ownerAvatar.png'
+import { ownerAvatar } from '../../assets'
 
 const About_3_section = () => {
   return (
-    <div className="about_section_3 flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
             <section id="about_3" className=" flex flex-row justify-center items-center w-[100%]  py-20">
@@ -13,7 +13,7 @@ const About_3_section = () => {
                 <div className="flex flex-row w-[100%]">
 
                   <div className=" flex justify-center items-center w-[100%] max-h-[400px]">
-                      <img className='rounded h-[100%] object-contain' src={OwnerAvatar} />
+                      <img className='rounded h-[100%] object-contain' src={ownerAvatar} />
                   </div>
 
                   <div className=" flex flex-col  w-[100%] text-white">

@@ -5,7 +5,7 @@ import { faCube } from '@fortawesome/free-solid-svg-icons';
 
 const Products_6_section = () => {
   return (
-    <div className="bg-black flex justify-center sm:px-40 px-6">
+    <div className="flex justify-center sm:px-40 px-6">
         <div className="w-[100%] max-w-[1280px] ">
 
             <section id="product_6" className=" flex flex-col  w-[100%] items-center pt-20 pb-20">
