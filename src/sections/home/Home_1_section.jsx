@@ -1,39 +1,35 @@
 import styles from "../../style";
-import { stats, socialMedia } from "../../constants";
+import { socialMedia } from "../../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ownerAvatar } from "../../assets";
+import Stats from "../../components/Stats";
 
 const Home_1_section = () => {
 	return (
-		<div className='flex justify-center sm:px-40 px-6'>
-			<div className='w-[100%] max-w-[1280px] '>
-				<section id='home_1' className={`flex flex-col w-[100%] items-center pt-20 pb-20`}>
-					<div className={`flex flex-col w-full`}>
-						<h1 className='flex-1 font-poppins font-semibold ss:text-[52px] text-white ss:leading-[100px] leading-[75px] tracking-wide'>
-							HIGH QUALITY <br className='sm:block hidden' />
-							NEOPRENE <br className='sm:block hidden' />
-							PRODUCTS
-						</h1>
+		<>
+			<section id='home_1' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+				<div className={`flex-1 flex items-center md:items-start justify-center flex-col xl:px-0 sm:px-16 px-6 `}>
+					<h1 className='flex flex-col items-center md:items-start font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+						High Quality <br /> <span className='text-gradient'>Neoprene</span>
+					</h1>
 
-						<h3 className='tracking-wide font-poppins font-semibold ss:text-[18px] text-white mt-10 mb-3'>Follow us</h3>
+					<h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>Products.</h1>
 
-						<div className='flex flex-row md:mt-0 mt-6'>
-							{socialMedia.map((social, index) => (
-								<FontAwesomeIcon key={social.id} icon={social.icon} className={`w-[21px] h-[21px] object-contain cursor-pointer text-white ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`} onClick={() => window.open(social.link)} />
-							))}
-						</div>
-					</div>
+					<p className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
 
-					<div className={`${styles.flexCenter} flex-row w-full flex-wrap sm:mt-32 mt-6`}>
-						{stats.map((stat) => (
-							<div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`}>
-								<h4 className='font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white'>{stat.value}</h4>
-								<p className='font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3'>{stat.title}</p>
-							</div>
+					<div className='flex flex-row mt-6'>
+						{socialMedia.map((social, index) => (
+							<FontAwesomeIcon key={social.id} icon={social.icon} className={`w-[21px] h-[21px] object-contain cursor-pointer text-white ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`} onClick={() => window.open(social.link)} />
 						))}
 					</div>
-				</section>
-			</div>
-		</div>
+				</div>
+
+				<div className={`flex-1 flex items-center justify-center md:justify-end  md:my-0 my-10 relative`}>
+					<img src={ownerAvatar} alt='mainStrap' className='w-[100%] h-[100%] object-contain max-h-[350px] sm:max-h-[400px] md:max-h-[500px] xl:px-0 sm:px-16 px-6 relative z-[5]' />
+				</div>
+			</section>
+			<Stats />
+		</>
 	);
 };
 

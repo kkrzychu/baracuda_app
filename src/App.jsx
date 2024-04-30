@@ -35,8 +35,7 @@ const App = () => {
 				</div>
 			</div>
 
-			<div className={`bg-primary  ${styles.flexStart}`}>
-				<div className={`${styles.boxWidth}`}>
+			<div className={`bg-primary  ${styles.flexStart} flex-col w-full`}>
 					<Routes>
 						<Route path='/home' element={<Home />} />
 						<Route path='/products' element={<Products />} />
@@ -44,7 +43,6 @@ const App = () => {
 						<Route path='/contact' element={<Contact />} />
 					</Routes>
 					<Footer />
-				</div>
 			</div>
 		</div>
 	);
