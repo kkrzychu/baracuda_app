@@ -1,26 +1,32 @@
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { strap_1, strap_3 } from "../../assets";
 
 const Home_4_section = () => {
   return (
-    <div className="flex justify-center sm:px-40 px-6 py-16">
-      <div className="w-[100%] max-w-[1280px] ">
+    <section id='home_2_3' className={`flex flex-col w-[100%] items-center pt-10 pb-36`}>
+			<div className='flex flex-row w-full items-center'>
+				<div className='flex flex-col w-[100%]'>
+					<h1 className='font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full'>We create all our products by hand</h1>
 
-        <section id="home_2_1" className={`flex flex-row w-[100%] pt-36 pb-10 justify-center items-center`}>
+					<p className='font-poppins font-normal text-black text-[18px] leading-[30.8px] max-w-[470px] mt-5'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+				</div>
 
-          <div className="flex flex-col w-[60%] items-center">
+				<div className='flex flex-col w-[100%] p-6'>
+					<div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
+						<img className=' h-[100%] object-contain' src={strap_1} />
+					</div>
 
-            <h1 className="text-5xl pb-10 font-bold">Dont wait to ask for an offer</h1>
+					<div className='w-[100%] flex justify-center my-6 items-center'>
+						<FontAwesomeIcon icon={faAnglesDown} className='w-[30px] h-[30px]' />
+					</div>
 
-            <p className="pb-10 text-xl text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
-
-            <button className='bg-indigo-600 w-[150px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Ask us</button>
-
-          </div>
-
-        </section>
-
-      </div>
-    </div>
+					<div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
+						<img className=' h-[100%] object-contain' src={strap_3} />
+					</div>
+				</div>
+			</div>
+		</section>
   )
 }
 

@@ -15,7 +15,7 @@ const Home_1_section = () => {
 
 					<h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>Products.</h1>
 
-					<p className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+					<p className={`${styles.paragraph} max-w-[470px] text-dimWhite md:text-left text-center mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
 
 					<div className='flex flex-row mt-6'>
 						{socialMedia.map((social, index) => (
