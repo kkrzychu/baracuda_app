@@ -6,7 +6,7 @@ import styles, { layout } from "../../style";
 const Home_3_section = () => {
 	return (
 		<section id='home_3' className={layout.sectionReverse}>
-			<div className={`${layout.sectionInfo} md:items-start xl:px-0 sm:px-16 px-6 `}>
+			<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 
 				<h2 className={`${styles.heading2} text-black`}>Send your logo to us</h2>
 
@@ -16,7 +16,7 @@ const Home_3_section = () => {
 			
       </div>
 
-			<div className={`flex-1 flex justify-center items-start flex-col md:items-start xl:px-0 sm:px-16 px-6 md:mt-0 mt-6`}>
+			<div className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
 				
         <div className='w-[100%] h-[150px] flex flex-col rounded box-shadow p-4 '>
 					<img className=' h-[100%] object-contain' src={strap_1} />
