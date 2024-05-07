@@ -1,10 +1,7 @@
 
 
-// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-// import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faMedal, faUsers, faHands } from "@fortawesome/free-solid-svg-icons";
 
 import Bands from '../assets/bands.png'
 import NeoPack from '../assets/neo_pack.png'
@@ -19,8 +16,30 @@ import StrapPack from '../assets/strap_pack.png'
 import Brylok from '../assets/brylok.png'
 import BottleCap from '../assets/nakladki_butla.png'
 import WetSuit from '../assets/COLOURS.jpg'
+import Surfer from '../assets/surfer.jpg'
+import Handmade from '../assets/handmade.jpg'
+import Fitting from '../assets/fitting.jpg'
 
 export const gallery = [Bands,NeoPack,ProductLogo1,Strap1,Strap2,Strap3,Strap4,Straps,BestDivers,StrapPack,Brylok,BottleCap,WetSuit];
+
+export const productIntro = [
+    {
+        icon: faMedal,
+        img: Surfer,
+        title: 'High quality material',
+        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+    },{
+        icon: faHands,
+        img: Handmade,
+        title: 'Handmade',
+        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+    },{
+        icon: faUsers,
+        img: Fitting,
+        title: 'Fitted to you',
+        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+    },
+]
 
 
 export const footerLinks = [

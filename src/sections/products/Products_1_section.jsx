@@ -1,45 +1,37 @@
-
-
-import { product_logo_1, diverIcon } from '../../assets'
+import { product_logo_1, diverIcon } from "../../assets";
+import styles, { layout } from "../../style";
 
 const Products_1_section = () => {
-  return (
-    <div className="flex justify-center sm:px-40 px-6 relative">
-        <div className="w-[100%] max-w-[1280px]">
-            <section id="products_1" className=" flex flex-row justify-center relative w-[100%]  py-28">
+	return (
+		<>
+			<section id='products_1' className={`${layout.section} relative md:mb-20`}>
+				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+					<h1 className='flex flex-col items-center md:items-start font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
+						See Our <br /> <span className='text-gradient'>Products</span>
+					</h1>
 
-                <div className="flex flex-col w-[100%] ">
+					<h4 className='flex flex-col items-center md:items-start text-center md:text-start mt-6 font-poppins font-semibold ss:text-[36px] text-[26px] ss:leading-[50px] leading-[38px]'>or match the offer to yourself</h4>
 
-                    <div className='flex flex-row items-center'>
-                        <h1 className=" text-[72px] font-bold mb-6">See our products</h1>
+					<p className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5`}>
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+					</p>
 
-                    </div>
+					<button type='button' className='bg-indigo-600 my-14 hover:bg-blue-700 text-white font-poppins font-medium text-[18px] py-4 px-6 rounded'>
+						Contact us
+					</button>
+				</div>
 
-                    <h4 className=" text-[32px] font-bold mb-2">or match the offer to yourself</h4>
+				<div className={`flex-1 hidden md:flex justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded h-[100%] max-h-[500px] object-contain' src={product_logo_1} />
+				</div>
 
-                    <p className="mb-10">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
+                <img className='w-[200px] flex ss:hidden absolute bottom-[-75px] left-[25%]' src={diverIcon} />
 
-                    <button className='bg-indigo-600 w-[150px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Contact us</button>
+			</section>
 
-                </div>
+			
+		</>
+	);
+};
 
-                <div className="flex flex-col w-[100%] max-h-[500px]">
-                    <img className='rounded h-[100%] max-h-[500px] object-contain' src={product_logo_1} />
-                </div>
-
-                
-
-            </section>
-
-            
-        </div>
-
-        <img className='w-[25%] absolute bottom-[-30%] left-0' src={diverIcon} />
-
-    </div>
-  )
-}
-
-export default Products_1_section
+export default Products_1_section;

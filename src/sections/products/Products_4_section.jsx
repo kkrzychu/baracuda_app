@@ -1,27 +1,38 @@
-
+import { strap_1, strap_2, strap_3, strap_4 } from "../../assets";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import { strapBenefits } from "../../constants/index";
+import styles, { layout } from "../../style";
 
 const Products_4_section = () => {
-  return (
-    <div className="flex justify-center sm:px-40 px-6">
-        <div className="w-[100%] max-w-[1280px] ">
+	return (
+		<section id='product_4' className={`${layout.sectionReverse} md:mb-20`}>
+			<div className='flex flex-col md:w-[35%] w-full justify-center px-10'>
+				<h1 className={`${styles.heading2} mb-6`}>Benefits</h1>
 
-            <section id="product_4" className=" flex flex-col  w-[100%] items-center pt-20 pb-20">
+				<ul className='flex flex-col md:items-start items-center'>
+					{strapBenefits.map((item, index) => (
+						<li key={index} className='mb-6 flex flex-row items-center'>
+							<FontAwesomeIcon className='w-[10px] h-[10px] mr-[10px]' icon={faCircle} />
+							<span className={`${styles.paragraph}`}>{item.benefit}</span>
+						</li>
+					))}
+				</ul>
+			</div>
 
-                <h1 className="font-bold text-3xl text-white mb-6">Two version of strap</h1>
+			<div className='flex flex-row md:w-[65%] w-full p-6 gap-6'>
+				<div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
+					<img className=' h-[100%] object-contain' src={strap_1} />
+					<img className=' h-[100%] object-contain' src={strap_2} />
+				</div>
 
-                <p className="text-white text-center mb-10">The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products. Neoprene protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.</p>
+				<div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
+					<img className=' h-[100%] object-contain' src={strap_3} />
+					<img className=' h-[100%] object-contain' src={strap_4} />
+				</div>
+			</div>
+		</section>
+	);
+};
 
-                <div className="flex flex-row justify-around w-[100%]">
-
-                    <div className="flex flex-col bg-white rounded w-[35%] h-[400px]"></div>
-                    <div className="flex flex-col bg-white rounded w-[35%] h-[400px]"></div>
-
-                </div>
-
-            </section>
-        </div>
-    </div>
-  )
-}
-
-export default Products_4_section
+export default Products_4_section;

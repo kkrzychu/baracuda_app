@@ -1,77 +1,23 @@
 
+import styles from "../../style";
 
-import { bands, COLOURS, neo_pack } from '../../assets'
 
 const Products_5_section = () => {
-  return (
-    <div className="flex justify-center sm:px-40 px-6">
-        <div className="w-[100%] max-w-[1280px] ">
+	return (
+		<section id='product_5' className={`flex flex-col justify-center items-center ${styles.paddingY} md:mb-20`}>
+			<h2 className={`font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] text-white`}>Two starp versions</h2>
 
-            {/* BANDS */}
-            <section id="product_5" className=" flex flex-row  w-[100%]  pt-28 pb-10">
+			<p className='w-[80%] text-white text-center font-poppins font-normal text-[18px] leading-[30.8px] mb-10'>
+				The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products. Neoprene
+				protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.
+			</p>
 
-                <div className="flex flex-col w-[100%] p-6">
-                    <h1 className="font-bold text-[50px]">BANDS</h1>
+			<div className='flex md:flex-row flex-col md:justify-around md:gap-0 gap-10 items-center w-[100%]'>
+				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
+				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
+			</div>
+		</section>
+	);
+};
 
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text.  All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-                    </p>
-                    <p className='mt-6'>
-                        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                    </p>
-
-                </div>
-
-                <div className="flex flex-col w-[100%] p-6">
-                    <img className='rounded h-[100%] object-contain' src={bands} />
-                </div>
-
-            </section>
-
-            {/* WETSUIT */}
-            <section id="product_5" className=" flex flex-row  w-[100%]  pt-10 pb-10">
-
-                <div className="flex flex-col w-[100%] max-h-[500px] p-6">
-                    <img className='rounded h-[100%] object-contain' src={COLOURS} />
-                </div>
-
-                <div className="flex flex-col w-[100%] p-6">
-                    <h1 className="font-bold text-[50px]">WETSUIT</h1>
-
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text.  All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-                    </p>
-                    <p className='mt-6'>
-                        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                    </p>
-
-                </div>
-
-            </section>
-
-            {/* KIT */}
-            <section id="product_5" className=" flex flex-row  w-[100%]  pt-10 pb-20">
-
-                <div className="flex flex-col w-[100%] p-6">
-                    <h1 className="font-bold text-[50px]">ORDER A KIT</h1>
-
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text.  All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-                    </p>
-                    <p className='mt-6'>
-                        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                    </p>
-
-                </div>
-
-                <div className="flex flex-col w-[100%] p-6">
-                    <img className='rounded h-[100%] object-contain' src={neo_pack} />
-                </div>
-
-            </section>
-        </div>
-    </div>
-  )
-}
-
-export default Products_5_section
+export default Products_5_section;
