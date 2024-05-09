@@ -1,51 +1,29 @@
-
-import { ownerAvatar } from '../../assets'
+import { ownerAvatar } from "../../assets";
+import styles, { layout } from "../../style";
 
 const About_3_section = () => {
-  return (
-    <div className="flex justify-center sm:px-40 px-6">
-        <div className="w-[100%] max-w-[1280px] ">
+	return (
+		<section id='about_3' className={layout.sectionReverse}>
 
-            <section id="about_3" className=" flex flex-row justify-center items-center w-[100%]  py-20">
+        <div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+					<h2 className={`${styles.heading2} text-white`}>Company Owner</h2>
 
-              <div className="flex flex-col w-[100%] pt-20">
+					<p className={`${styles.paragraph} text-white mt-5`}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor vitae felis non eleifend. Pellentesque metus libero, placerat vel varius sodales, sollicitudin ut turpis. Fusce id leo condimentum, elementum ante vel, faucibus odio. Morbi condimentum lacinia libero.
+							Maecenas laoreet convallis urna in egestas. In id diam bibendum, efficitur massa et, convallis neque.
+            </p>
+					<p className={`${styles.paragraph} text-white mt-5`}>
+          The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products.
+							Neoprene protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.
+              </p>
+				</div>
 
-                <div className="flex flex-row w-[100%]">
+				<div className={`flex flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded h-[100%] max-h-[450px] object-contain' src={ownerAvatar} />
+				</div>
 
-                  <div className=" flex justify-center items-center w-[100%] max-h-[400px]">
-                      <img className='rounded h-[100%] object-contain' src={ownerAvatar} />
-                  </div>
+		</section>
+	);
+};
 
-                  <div className=" flex flex-col  w-[100%] text-white">
-
-                    <h1 className='font-bold text-3xl mb-6'>Company Owner</h1>
-
-                    <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor vitae felis non eleifend. Pellentesque metus libero, placerat vel varius sodales, sollicitudin ut turpis. Fusce id leo condimentum, elementum ante vel, faucibus odio. Morbi condimentum lacinia libero. Maecenas laoreet convallis urna in egestas. In id diam bibendum, efficitur massa et, convallis neque.</p>
-                    <p className='mb-6'>The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products. Neoprene protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.</p>
-
-                  </div>
-
-                </div>
-
-                <div className='flex flex-col w-[100%] text-white py-20'>
-
-                  <p className='mb-6'>
-                    Morbi condimentum lacinia libero. Maecenas laoreet convallis urna in egestas. In id diam bibendum, efficitur massa et, convallis neque. Donec commodo blandit orci nec posuere. Quisque urna leo, congue at mauris varius, dignissim pellentesque nunc. Nunc fermentum nisl lorem, a aliquam nisl mollis vel. Curabitur ut tellus non augue tincidunt vestibulum nec id nibh. Proin congue ac urna quis maximus. In vulputate magna sit amet mattis euismod. Nullam tincidunt gravida tortor, in semper magna egestas nec. Nulla luctus elit dui, at rutrum arcu congue a.
-                  </p>
-
-                  <p>
-                    Morbi condimentum lacinia libero. Maecenas laoreet convallis urna in egestas. In id diam bibendum, efficitur massa et, convallis neque. Donec commodo blandit orci nec posuere. Quisque urna leo, congue at mauris varius, dignissim pellentesque nunc. Nunc fermentum nisl lorem, a aliquam nisl mollis vel. Curabitur ut tellus non augue tincidunt vestibulum nec id nibh. Proin congue ac urna quis maximus. In vulputate magna sit amet mattis euismod. Nullam tincidunt gravida tortor, in semper magna egestas nec. Nulla luctus elit dui, at rutrum arcu congue a.
-                  </p>
-
-                </div>
-
-              </div>
-
-            </section>
-
-        </div>
-    </div>
-  )
-}
-
-export default About_3_section
+export default About_3_section;

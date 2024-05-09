@@ -32,12 +32,12 @@ const Home = () => {
 					<Home_4_section />
 				</div>
 			</div>
-      <div className={`${styles.bg_home_5} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_home_5} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Home_5_section />
 				</div>
 			</div>
-      <div className={`${styles.bg_home_6} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_home_6} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Home_6_section />
 				</div>
