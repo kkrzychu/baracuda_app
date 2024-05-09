@@ -42,16 +42,16 @@ const Products = () => {
 					<Products_6_section />
 				</div>
 			</div>
-			{/* <div className={`${styles.bg_products_7} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_products_7} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_7_section />
 				</div>
 			</div>
-      <div className={`${styles.bg_products_8} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_products_8} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_8_section />
 				</div>
-			</div> */}
+			</div>
 		</>
 	);
 };

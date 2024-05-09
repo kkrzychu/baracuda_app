@@ -18,8 +18,8 @@ const Products_6_section = () => {
 					</p>
 				</div>
 
-				<div className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] object-contain' src={bands} />
+				<div className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded h-[100%] max-h-[450px] object-contain' src={bands} />
 				</div>
 			</section>
 
@@ -37,8 +37,8 @@ const Products_6_section = () => {
 					</p>
 				</div>
 
-				<div className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] object-contain' src={COLOURS} />
+				<div className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded h-[100%] max-h-[450px] object-contain' src={COLOURS} />
 				</div>
 			</section>
 
@@ -56,8 +56,8 @@ const Products_6_section = () => {
 					</p>
 				</div>
 
-				<div className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] object-contain' src={neo_pack} />
+				<div className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded h-[100%] max-h-[450px] object-contain' src={neo_pack} />
 				</div>
 			</section>
 		</>
