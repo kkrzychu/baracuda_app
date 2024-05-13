@@ -2,15 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { strap_1, strap_3 } from "../../assets";
 import styles, { layout } from "../../style";
+import { home_sec_4_h, home_sec_4_desc } from "../../constants";
 
 const Home_4_section = () => {
 	return (
 		<section id='home_4' className={`${layout.section} md:mb-20`}>
 
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-black`}>We create all our products by hand</h2>
+					<h2 className={`${styles.heading2} text-black`}>{home_sec_4_h}</h2>
 
-					<p className={`${styles.paragraph} text-black max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+					<p className={`${styles.paragraph} text-black max-w-[470px] mt-5`}>{home_sec_4_desc}</p>
 				</div>
 
 				<div className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>

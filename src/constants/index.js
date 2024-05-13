@@ -22,6 +22,21 @@ import Fitting from '../assets/fitting.jpg'
 
 export const gallery = [Bands,NeoPack,ProductLogo1,Strap1,Strap2,Strap3,Strap4,Straps,BestDivers,StrapPack,Brylok,BottleCap,WetSuit];
 
+export const footerShortDesc = 'Experience quality and innovation with our neoprene products. Dive into comfort and functionality!';
+
+
+export const home_intro = 'Discover the world of unique neoprene products where quality meets innovative design. Our products are the result of meticulous craftsmanship and a passion for excellence. Immerse yourself in the comfort and functionality offered by our diverse range of neoprene goods.'
+export const home_sec_2_h = 'Strap - our flagship product';
+export const home_sec_2_desc = 'Discover our signature neoprene product, meticulously hand-stitched for premium quality and unrivaled comfort.';
+export const home_sec_3_h = 'Send your logo to us';
+export const home_sec_3_desc = "Send us your logo, and we'll make it an exceptional feature on the neoprene surface. Our precision and high quality ensure flawless execution.";
+export const home_sec_4_h = 'We create all our products by hand';
+export const home_sec_4_desc = 'Our company is a mastery of craftsmanship - every product is exclusively handmade, with meticulous attention to the highest quality materials. Discover uniqueness in every detail!';
+export const home_sec_5_h = 'A company with experience';
+export const home_sec_5_desc = 'With a legacy spanning many years, our company has become synonymous with quality and innovation in the neoprene industry. Our dedication to craftsmanship and attention to detail ensure that each product meets the highest standards of performance and durability. Join the countless dive centers who rely on us for their neoprene needs, and experience the difference firsthand.';
+export const home_sec_6_h = 'Dont wait to ask for an offer';
+export const home_sec_6_desc = 'Reach out today and discover the perfect solution for your needs. Our team is ready to assist you in finding the ideal neoprene product for your requirements, ensuring both quality and satisfaction.';
+
 export const productIntro = [
     {
         icon: faMedal,

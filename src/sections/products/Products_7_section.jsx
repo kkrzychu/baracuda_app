@@ -2,7 +2,7 @@ import { allProductsFromNeopren } from "../../constants/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCube } from "@fortawesome/free-solid-svg-icons";
 
-import styles, { layout } from "../../style";
+import { layout } from "../../style";
 
 const Products_7_section = () => {
 	return (

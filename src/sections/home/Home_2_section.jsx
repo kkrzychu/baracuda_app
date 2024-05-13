@@ -1,13 +1,14 @@
 import { strap_1, strap_2, strap_3, strap_4 } from "../../assets";
 import styles, { layout } from "../../style";
+import { home_sec_2_h, home_sec_2_desc } from "../../constants";
 
 const Home_2_section = () => {
 	return (
 		<section id='home_2' className={layout.section}>
 			<div className={`${layout.sectionInfo} md:items-start xl:px-0 sm:px-16 px-6 `}>
-				<h2 className={`${styles.heading2} text-black`}>Strap - our flagship product</h2>
+				<h2 className={`${styles.heading2} text-black`}>{home_sec_2_h}</h2>
 
-				<p className={`${styles.paragraph} text-black max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+				<p className={`${styles.paragraph} text-black max-w-[470px] mt-5`}>{home_sec_2_desc}</p>
 
 				<button type='button' className='bg-indigo-600 mt-6  hover:bg-blue-700 text-white font-poppins font-medium text-[18px] py-4 px-6 rounded'>
 					View products

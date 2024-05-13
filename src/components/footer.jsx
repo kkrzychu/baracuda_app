@@ -2,6 +2,7 @@ import styles from "../style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { socialMedia, footerLinks } from "../constants/index";
 import Logo from "../assets/logo_3.jpg";
+import { footerShortDesc } from '../constants'
 
 const Footer = () => (
 	<div className={`${styles.flexCenter} w-full`}>
@@ -10,7 +11,7 @@ const Footer = () => (
 				<div className={`${styles.flexStart} md:flex-row flex-col items-center mb-8 w-full sm:px-16 px-6`}>
 					<div className='flex-[1] flex flex-col justify-start items-center md:mr-10 mr-0'>
 						<img src={Logo} alt='hoobank' className='w-[266px] h-[72.14px] object-contain' />
-						<p className={`${styles.paragraph} mt-4 max-w-[312px] text-white`}>A new way to make the payments easy, reliable and secure.</p>
+						<p className={`${styles.paragraph} mt-4 max-w-[312px] text-white`}>{footerShortDesc}</p>
 					</div>
 
 					<div className='flex-[1.5] w-full flex flex-row justify-center gap-20 flex-wrap md:mt-0 mt-10'>

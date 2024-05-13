@@ -6,71 +6,59 @@ import { layout } from "../../style";
 const Contact_2_section = () => {
 	return (
 		<section id='contact_2' className={layout.section}>
-			<div className={layout.sectionInfo}>
-				<div className='h-[65%]'>
-					<img className='w-full h-[100%]' src={logo_3} />
-				</div>
-				<div className='h-[35%]'>
+			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem]`}>
+				<div className='rounded-xl box-shadow'>
+					<div className='flex justify-center'>
+						<img className='w-full h-full max-h-[500px] max-w-[500px]' src={logo_3} />
+					</div>
+
 					<div className='px-6 py-4'>
-						<p className='text-gray-700 text-base'>
+						<p className='font-poppins font-normal text-[18px] leading-[30.8px]  text-center'>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 						</p>
 					</div>
 				</div>
 			</div>
 
-			<div className={layout.sectionInfo}>
-				<div className='w-[100%] flex flex-row items-center justify-between p-6'>
-					<h1 className='font-bold text-xl'>You can find us</h1>
-					<img src={polandFlag} className='w-[100px]' />
-				</div>
-
-				<div className='w-[100%] flex flex-row p-6 items-center'>
-					<div className='pr-6'>
-						<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
+			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem]`}>
+				<div className='rounded-xl box-shadow w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
+						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>You can find us</h2>
+						<img src={polandFlag} className='w-[100px]' />
 					</div>
 
-					<div className='flex flex-col'>
-						<div className='font-bold'>
-							<p>Budowlanych 33 (p17)</p>
+					<div className='w-[100%] flex flex-row p-6 items-center'>
+						<div className='px-6'>
+							<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
 						</div>
-						<div className='font-bold'>
-							<p>Głogów 67-200</p>
-						</div>
-						<div className='font-bold'>
-							<p>Poland</p>
-						</div>
-					</div>
-				</div>
 
-				<div className='w-[100%] flex flex-row p-6 items-center'>
-					<div className='pr-6'>
-						<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
-					</div>
-					<p className='font-bold'>info@baracuda-neo.pl</p>
-				</div>
-				<div className='w-[100%] flex flex-row p-6 items-center'>
-					<div className='pr-6'>
-						<FontAwesomeIcon icon={faPhone} className='text-3xl' />
-					</div>
-					<p className='font-bold'>0048 600 38 23 38</p>
-				</div>
-			</div>
+						<div className='flex flex-col'>
 
-			{/* <div className='w-[35%] min-w-[370px] max-w-[470px] rounded overflow-hidden shadow-lg bg-white h-[550px]'>
-				<div className='h-[65%]'>
-					<img className='w-full h-[100%]' src={logo_3} />
-				</div>
-				<div className='h-[35%]'>
-					<div className='px-6 py-4'>
-						<p className='text-gray-700 text-base'>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						</p>
+								<p className="font-poppins font-bold text-[18px] leading-[30.8px] text-left">Budowlanych 33 (p17)</p>
+
+
+								<p className="font-poppins font-bold text-[18px] leading-[30.8px] text-left">Głogów 67-200</p>
+
+
+								<p className="font-poppins font-bold text-[18px] leading-[30.8px] text-left">Poland</p>
+
+						</div>
+					</div>
+
+					<div className='w-[100%] flex flex-row p-6 items-center'>
+						<div className='px-6'>
+							<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
+						</div>
+						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>info@baracuda-neo.pl</p>
+					</div>
+					<div className='w-[100%] flex flex-row p-6 items-center'>
+						<div className='px-6 mb-6'>
+							<FontAwesomeIcon icon={faPhone} className='text-3xl' />
+						</div>
+						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>0048 600 38 23 38</p>
 					</div>
 				</div>
 			</div>
-
-			<div className='w-[35%]  min-w-[370px] max-w-[470px] rounded overflow-hidden shadow-lg bg-white h-[550px] p-6 flex flex-col gap-3'></div> */}
 		</section>
 	);
 };
