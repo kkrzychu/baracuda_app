@@ -1,4 +1,4 @@
-import { allProductsFromNeopren } from "../../constants/index";
+import { allProductsFromNeopren, product_what_manufature } from "../../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCube } from "@fortawesome/free-solid-svg-icons";
 
@@ -11,8 +11,7 @@ const Products_7_section = () => {
 				<h2 className={`font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] md:w-full w-auto text-center text-white`}>What we manufacture from neoprene</h2>
 
 				<p className={`font-poppins font-normal text-[18px] leading-[30.8px] text-center text-white  mt-5`}>
-					The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products. Neoprene
-					protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.
+					{product_what_manufature}
 				</p>
 			</div>
 

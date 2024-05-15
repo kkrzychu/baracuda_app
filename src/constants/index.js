@@ -37,22 +37,59 @@ export const home_sec_5_desc = 'With a legacy spanning many years, our company h
 export const home_sec_6_h = 'Dont wait to ask for an offer';
 export const home_sec_6_desc = 'Reach out today and discover the perfect solution for your needs. Our team is ready to assist you in finding the ideal neoprene product for your requirements, ensuring both quality and satisfaction.';
 
+export const products_intro = "Browse through our diverse range of products and find the perfect match for you. Not sure where to start? Get in touch with us, and we'll help tailor the offer to your expectations and needs.";
+export const product_what_manufature = "We specialize in manufacturing a wide range of neoprene diving accessories, including jackets, wetsuits, gloves, gear bags, and more. Additionally, we offer a customization service, allowing us to embroider any logo on any of our products to meet the individual needs and preferences of our customers.";
+export const check_products = "Explore our product gallery! Take a glimpse into what we've crafted so far and invite you to browse through our collection. From sleek neoprene accessories to functional gear, discover the variety and quality we offer. Find something that speaks to you and enhances your experience today.";
+
+export const ask_for_an_offer = "Ready to find the perfect fit? Reach out and let us tailor an offer just for you. Whether it's customizing products to your exact specifications or exploring our range for the ideal solution, we're here to ensure your needs are met. Contact us today and let's create something uniquely yours!";
+
+export const about_intro_part_1 = "Up4Q is a new brand based on decades of experience in manufacturing neoprene products dating back to the 1950s. We use specialized machinery tailored to work with neoprene. Our team's experience includes thousands of products, many of which are unique and fully designed by us.";
+export const about_intro_part_2 = "Our product range is very wide - from custom-made suits, to practical items for water sports and recreation, to products for all branches of industry, medicine, rescue, ...";
+
+export const about_neopren_1 = "Neoprene is a unique, practical and versatile material with unique properties. Only 100% original European neoprene provides the full range of benefits. The manufacturing process produces a foamed plastic, filled with micro air particles.";
+export const about_neopren_2 = "Neoprene is flexible, perfectly adapting to the shape of the object. Thanks to the appropriate production technology, this material is waterproof. It provides protection against mechanical damage and thermal protection limiting the impact of high and low temperatures.";
+
+export const about_handmade_1 = "Production is a complex process aimed at obtaining products of the highest quality.Our experience in design and our machinery allow us to create unique items, often made to individual order.";
+export const about_handmade_2 = "Each order is discussed in detail and tailored to the expectations and capabilities of the customer. Many works are still made by hand, with the utmost care.";
+
+export const about_neopren_where_use = [
+    "Industry (automotive, electronics: waterproof and thermal covers for equipment and machinery, winches; foot coverings)",
+    "Rescue (protectors, bands, pullers, covers, shields)",
+    "Hiking (covers for bottles, thermoses, cups, etc.)",
+    "Recreation (water sports - clothes, outfits, accessories, body bands and protectors and equipment)",
+    "Fitness (weight loss clothes and belts; wacu equipment seals)",
+    "Hobbies (fishing, sailing, motorboating)",
+    "Utility items (covers for laptops/notebooks, cell phones, cameras, lenses, GPS electronic devices, etc.).",
+    "Sports (equipment covers and pole covers - a lightweight and convenient option for proper protection against bumps and injuries for children and teenagers; protectors, armbands for various parts of the body)",
+    "Rehabilitation (a wide range of possible armbands and accessories for rehabilitation, musculoskeletal improvement and coordination with very high safety)",
+    "Animals (various products, including: protective bands for horses; vests, shoes for dogs and cats, etc.).",
+    "Advertising (advertising gadgets with unique features)"
+];
+
+export const about_neopren_solutions= [
+    "Available neoprene thicknesses range from 1.5 mm to 10 mm in stock and up to 30 mm on request",
+    "The texture of the finish can be rough, smooth or finely crimped",
+    "Perforated neoprene is also available on special order, which provides additional properties such as ventilation and breathability",
+    "Neoprene can be covered on one or both sides with a variety of materials, such as lycra, stretch, terry, flausch, and others on request",
+    "Various colors of neoprene covering are available",
+];
+
 export const productIntro = [
     {
         icon: faMedal,
         img: Surfer,
         title: 'High quality material',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+        description: "Our neoprene ensures unparalleled durability, flexibility, and user comfort. That's why our products are the perfect choice for those who value high quality and comfort."
     },{
         icon: faHands,
         img: Handmade,
         title: 'Handmade',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+        description: "Our products are carefully hand-sewn using specialized sewing machines. This allows us to ensure not only precision in craftsmanship but also attention to every detail."
     },{
         icon: faUsers,
         img: Fitting,
         title: 'Fitted to you',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.'
+        description: "We have the ability to create tailor-made products to suit each customer's needs. Whether it's custom sizing, design preferences, or specific requirements"
     },
 ]
 
@@ -101,26 +138,26 @@ export const footerLinks = [
 export const allProductsFromNeopren = [
     {
         title: 'Strap',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: 'Made from soft and durable neoprene, they ensure a snug and comfortable fit, allowing you to enjoy your diving experience to the fullest.'
     },
     {
         title: 'Bands',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: "Made from high-quality neoprene, they provide a secure fit, moisture-wicking, and protection from cold and wind, allowing you to enjoy them all day long."
     },
     {
         title: 'Caps',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: 'Make your mark with our embroidered logo caps.'
     },
     {
         title: 'Wetsuits',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: 'Engineered for comfort, flexibility, and durability, our wetsuits are the perfect companion for your underwater adventures.'
     },
     {
         title: 'Brylok',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: 'Keep your keys secure and add a touch of style with our durable and vibrant key fobs.'
     },{
         title: 'Bottle caps',
-        desc: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.'
+        desc: 'Keep your scuba tanks secure and easily identifiable with our durable and vibrant valve caps.'
     },
 ]
 
@@ -144,23 +181,27 @@ export const strapBenefits = [
 export const aboutGoals = [
     {
         key: "goal_1",
-        goal: "l Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        goal: "Our company stands for QUALITY WITHOUT COMPROMISES"
     },
     {
         key: "goal_2",
-        goal: "l Nam tempor vitae felis non eleifend"
+        goal: "Our customers include police and rescue services"
     },
     {
         key: "goal_3",
-        goal: "l Pellentesque metus libero, placerat vel varius sodales, sollicitudin ut turpis"
+        goal: "We are personally involved in every stage of production"
     },
     {
         key: "goal_4",
-        goal: "l Fusce id leo condimentum, elementum ante vel, faucibus odio"
+        goal: "We manufacture our products exclusively from neoprene and EU-sourced materials"
     },
     {
         key: "goal_5",
-        goal: "l Morbi condimentum lacinia libero"
+        goal: "We sew our products only from the highest quality approved materials of European origin"
+    },
+    {
+        key: "goal_6",
+        goal: "The neoprene we use is certified by HumanTest, confirming its safety for human skin"
     }
 ]
 

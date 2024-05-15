@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { logo_3, polandFlag } from "../../assets";
 import { layout } from "../../style";
+import { footerShortDesc } from '../../constants'
 
 const Contact_2_section = () => {
 	return (
@@ -14,7 +15,7 @@ const Contact_2_section = () => {
 
 					<div className='px-6 py-4'>
 						<p className='font-poppins font-normal text-[18px] leading-[30.8px]  text-center'>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							{footerShortDesc}
 						</p>
 					</div>
 				</div>

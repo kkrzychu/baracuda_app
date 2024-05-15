@@ -1,5 +1,6 @@
 import { product_logo_1, diverIcon } from "../../assets";
 import styles, { layout } from "../../style";
+import { products_intro } from '../../constants'
 
 const Products_1_section = () => {
 	return (
@@ -13,7 +14,7 @@ const Products_1_section = () => {
 					<h4 className='flex flex-col items-center md:items-start text-center md:text-start mt-6 font-poppins font-semibold ss:text-[36px] text-[26px] ss:leading-[50px] leading-[38px]'>or match the offer to yourself</h4>
 
 					<p className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5`}>
-						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+						{products_intro}
 					</p>
 
 					<button type='button' className='bg-indigo-600 my-14 hover:bg-blue-700 text-white font-poppins font-medium text-[18px] py-4 px-6 rounded'>

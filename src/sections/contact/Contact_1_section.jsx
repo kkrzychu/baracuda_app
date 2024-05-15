@@ -1,4 +1,5 @@
 import styles, { layout } from "../../style";
+import { ask_for_an_offer } from "../../constants";
 
 const Contact_1_section = () => {
 	return (
@@ -6,7 +7,7 @@ const Contact_1_section = () => {
 			<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 				<h2 className={`${styles.heading2} text-white`}>Ask for an offer</h2>
 
-				<p className={`${styles.paragraph} text-white mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at arcu purus. Suspendisse elementum faucibus diam, quis viverra urna laoreet mattis. Praesent vel pellentesque tortor.</p>
+				<p className={`${styles.paragraph} text-white mt-5`}>{ask_for_an_offer}</p>
 			</div>
 
 			<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
