@@ -1,6 +1,7 @@
 import { product_logo_1, diverIcon } from "../../assets";
 import styles, { layout } from "../../style";
 import { products_intro } from '../../constants'
+import Button from "../../components/Button";
 
 const Products_1_section = () => {
 	return (
@@ -17,9 +18,8 @@ const Products_1_section = () => {
 						{products_intro}
 					</p>
 
-					<button type='button' className='bg-indigo-600 my-14 hover:bg-blue-700 text-white font-poppins font-medium text-[18px] py-4 px-6 rounded'>
-						Contact us
-					</button>
+
+					<Button to={'contact'} text={'Contact us'} styles={"mt-6"} />
 				</div>
 
 				<div className={`flex-1 hidden md:flex justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>

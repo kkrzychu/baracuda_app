@@ -24,6 +24,7 @@ import neo_pack from './neo_pack.png';
 import neopren from './neopren.png';
 import ownerAvatar from './ownerAvatar.png';
 import polandFlag from './polandFlag.png';
+import ukFlag from './ukFlag.png';
 import product_logo_1 from './product_logo_1.png';
 import products_section_1 from './products_section_1.jpg';
 import sewing from './sewing.jpg';
@@ -76,5 +77,6 @@ export {
     straps,
     surfer,
     close,
-    menu
+    menu,
+    ukFlag
 }

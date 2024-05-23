@@ -66,13 +66,52 @@ export const about_neopren_where_use = [
     "Advertising (advertising gadgets with unique features)"
 ];
 
-export const about_neopren_solutions= [
+export const about_neopren_solutions = [
     "Available neoprene thicknesses range from 1.5 mm to 10 mm in stock and up to 30 mm on request",
     "The texture of the finish can be rough, smooth or finely crimped",
     "Perforated neoprene is also available on special order, which provides additional properties such as ventilation and breathability",
     "Neoprene can be covered on one or both sides with a variety of materials, such as lycra, stretch, terry, flausch, and others on request",
     "Various colors of neoprene covering are available",
 ];
+
+export const splitStringRegex = (str) => {
+    const chars = [];
+    const regex = /[\s\S]/gu;
+    let match;
+
+    while((match = regex.exec(str)) !== null) {
+        chars.push(match[0]);
+    }
+    return chars;
+}
+
+export const leftVariants = {
+	offscreen: {
+		y: 500,
+	},
+	onscreen: {
+		y: 0,
+		transition: {
+			type: "spring",
+			bounce: 0.4,
+			duration: 2.5,
+		},
+	},
+};
+
+export const rightVariants = {
+	offscreen: {
+		y: 500,
+	},
+	onscreen: {
+		y: 0,
+		transition: {
+			type: "spring",
+			bounce: 0.4,
+			duration: 2.5,
+		},
+	},
+};
 
 export const productIntro = [
     {
