@@ -23,7 +23,7 @@ import nakladki_butla from './nakladki_butla.png';
 import neo_pack from './neo_pack.png';
 import neopren from './neopren.png';
 import ownerAvatar from './ownerAvatar.png';
-import polandFlag from './polandFlag.png';
+import poland_flag from './poland_flag.png';
 import ukFlag from './ukFlag.png';
 import product_logo_1 from './product_logo_1.png';
 import products_section_1 from './products_section_1.jpg';
@@ -37,6 +37,7 @@ import straps from './straps.png';
 import surfer from './surfer.jpg';
 import close from './close.svg';
 import menu from './menu.svg';
+import neoprene_structure from './neoprene_structure.jpg';
 
 
 export {
@@ -65,7 +66,7 @@ export {
     neo_pack,
     neopren,
     ownerAvatar,
-    polandFlag,
+    poland_flag,
     product_logo_1,
     products_section_1,
     sewing,
@@ -78,5 +79,6 @@ export {
     surfer,
     close,
     menu,
-    ukFlag
+    ukFlag,
+    neoprene_structure
 }

@@ -18,11 +18,11 @@ const Home_1_section = () => {
 
 	return (
 		<>
-			<section id='home_1' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+			<section id='home_1' className={`flex md:flex-row flex-col sm:pt-16 pt-6 sm:pb-6 pb-6`}>
 				<div className={`flex-1 flex items-center md:items-start justify-center flex-col xl:px-0 sm:px-16 px-6 `}>
 					<motion.h1 initial="hidden" animate="reveal"  transition={{ staggerChildren: 0.15, delayChildren: .5 }} className='text-white text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
 						{heading_chars_1.map((x, index) => (
-							<motion.span key={index} transition={{ duration: 0.5}} variants={ charVariants } >
+							<motion.span key={`h1_${index}`} transition={{ duration: 0.5}} variants={ charVariants } >
 								{x}
 							</motion.span>
 						))} 
@@ -30,7 +30,7 @@ const Home_1_section = () => {
 
 					<motion.h1 initial="hidden" animate="reveal" transition={{ staggerChildren: 0.2 }} className='text-gradient text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
 						{heading_chars_2.map((x, index) => (
-							<motion.span key={index} transition={{ duration: 0.5, }} variants={ charVariants } >
+							<motion.span key={`h2_${index}`} transition={{ duration: 0.5, }} variants={ charVariants } >
 								{x}
 							</motion.span>
 						))} 
@@ -38,7 +38,7 @@ const Home_1_section = () => {
 
 					<motion.h1 initial="hidden" animate="reveal" transition={{ staggerChildren: 0.2, delayChildren: .5 }} className='text-white text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
 						{heading_chars_3.map((x, index) => (
-							<motion.span key={index} transition={{ duration: 0.5}} variants={ charVariants } >
+							<motion.span key={`h3_${index}`} transition={{ duration: 0.5}} variants={ charVariants } >
 								{x}
 							</motion.span>
 						))} 
@@ -46,7 +46,7 @@ const Home_1_section = () => {
 
 					<motion.p initial="hidden" animate="reveal" transition={{ staggerChildren: .02, delayChildren: 1 }} className={`${styles.paragraph} max-w-[470px] text-white md:text-left text-center mt-5`}>
 						{introChars.map((x, index) => (
-							<motion.span key={index} transition={{ duration: 0.5}} variants={ charVariants }>
+							<motion.span key={`h_p_${index}`} transition={{ duration: 0.5}} variants={ charVariants }>
 								{x}
 							</motion.span>
 						))}

@@ -1,5 +1,5 @@
 import Products_1_section from "../sections/products/Products_1_section";
-import Products_2_section from "../sections/products/Products_2_section";
+// import Products_2_section from "../sections/products/Products_2_section";
 import Products_3_section from "../sections/products/Products_3_section";
 import Products_4_section from "../sections/products/Products_4_section";
 import Products_5_section from "../sections/products/Products_5_section";
@@ -17,11 +17,11 @@ const Products = () => {
 					<Products_1_section />
 				</div>
 			</div>
-			<div className={`${styles.bg_products_2} ${styles.flexCenter} w-full`}>
+			{/* <div className={`${styles.bg_products_2} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_2_section />
 				</div>
-			</div>
+			</div> */}
 			<div className={`${styles.bg_products_3} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_3_section />

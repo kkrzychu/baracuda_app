@@ -108,7 +108,7 @@ export const rightVariants = {
 		transition: {
 			type: "spring",
 			bounce: 0.4,
-			duration: 2.5,
+			duration: 2,
 		},
 	},
 };
@@ -287,17 +287,18 @@ export const navLinks = [
 export const stats = [
     {
         id: "stats-1",
-        title: "years of experience",
-        value: "20+",
-    },
-    {
-        id: "stats-2",
         title: "products sold",
-        value: "3000+",
-    },
-    {
-        id: "stats-3",
+        value: "30000",
+        postfix: "+"
+    },{
+        id: "stats-2",
         title: "customers",
-        value: "100+",
-    },
+        value: "500",
+        postfix: "+"
+    },{
+        id: "stats-3",
+        title: "years of experience",
+        value: "70+",
+        postfix: "+"
+    }
 ];

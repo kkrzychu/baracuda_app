@@ -5,7 +5,7 @@ import styles, { layout } from "../../style";
 
 const About_1_section = () => {
 	return (
-		<section id='about_1' className={`${layout.section} rotate-180`}>
+		<section id='about_1' className={`${layout.section}`} >
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h1 className={`flex flex-col text-white items-center md:items-start font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]`}>About us</h1>
 					<p className={`${styles.paragraph} text-white`}>

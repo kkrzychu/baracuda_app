@@ -6,8 +6,8 @@ import styles, { layout } from "../../style";
 
 const Products_4_section = () => {
 	return (
-		<section id='product_4' className={`${layout.sectionReverse} md:mb-20`}>
-			<div className='flex flex-col md:w-[35%] w-full justify-center px-10'>
+		<section id='product_4' className={`${layout.sectionReverse}`}>
+			<div className='flex flex-col md:w-[35%] w-full justify-center px-10 text-white'>
 				<h1 className={`${styles.heading2} mb-6`}>Benefits</h1>
 
 				<ul className='flex flex-col md:items-start items-center'>
@@ -21,12 +21,12 @@ const Products_4_section = () => {
 			</div>
 
 			<div className='flex flex-row md:w-[65%] w-full p-6 gap-6'>
-				<div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
+				<div className='w-[100%] bg-white flex flex-col rounded box-shadow p-4 '>
 					<img className=' h-[100%] object-contain' src={strap_1} />
 					<img className=' h-[100%] object-contain' src={strap_2} />
 				</div>
 
-				<div className='w-[100%]  flex flex-col rounded box-shadow p-4 '>
+				<div className='w-[100%] bg-white flex flex-col rounded box-shadow p-4 '>
 					<img className=' h-[100%] object-contain' src={strap_3} />
 					<img className=' h-[100%] object-contain' src={strap_4} />
 				</div>

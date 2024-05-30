@@ -9,6 +9,7 @@ import { AnimatePresence } from "framer-motion";
 import styles from "./style";
 
 import { useState, useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
 	const [isSticky, setIsSticky] = useState(false);
@@ -29,20 +30,22 @@ const App = () => {
 
 	return (
 		<div className='bg-primary w-full overflow-hidden'>
-			<div className={`${styles.paddingX} ${styles.flexCenter} ${isSticky ? "stickyNav" : ""}`}>
-				<div className={`${styles.boxWidth}`}>
+			<div className={`${styles.paddingX} ${styles.flexCenter} bg-primary ${isSticky ? "stickyNav" : ""}`}>
+				<div className={`${styles.boxWidth} bg-nav-color`}>
 					<Navbar />
 				</div>
 			</div>
 
-			<div className={`bg-primary  ${styles.flexStart} flex-col w-full`}>
+			<div className={`bg-black-gradient  ${styles.flexStart} flex-col w-full`}>
 				<AnimatePresence>
-					<Routes>
-						<Route path='/home' element={<Home />} />
-						<Route path='/products' element={<Products />} />
-						<Route path='/about' element={<About />} />
-						<Route path='/contact' element={<Contact />} />
-					</Routes>
+					<ScrollToTop>
+						<Routes>
+							<Route path='/home' element={<Home />} />
+							<Route path='/products' element={<Products />} />
+							<Route path='/about' element={<About />} />
+							<Route path='/contact' element={<Contact />} />
+						</Routes>
+					</ScrollToTop>
 					<Footer />
 				</AnimatePresence>
 			</div>

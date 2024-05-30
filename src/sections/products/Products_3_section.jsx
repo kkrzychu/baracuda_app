@@ -3,9 +3,9 @@ import styles, { layout } from "../../style";
 // STRAP
 const Products_3_section = () => {
 	return (
-		<section id='product_3' className={`${layout.section} md:mb-20`}>
-			<div className='flex flex-col w-[100%] p-6'>
-				<h2 className={`${styles.heading2} text-black`}>STRAP</h2>
+		<section id='product_3' className={`${layout.section} `}>
+			<div className='flex flex-col w-[100%] text-white p-6'>
+				<h2 className={`${styles.heading2} `}>STRAP</h2>
 
 				<p className={`${styles.paragraph}`}>
 					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there

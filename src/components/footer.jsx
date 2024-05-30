@@ -6,7 +6,7 @@ import { footerShortDesc } from '../constants'
 
 const Footer = () => (
 	<div className={`${styles.flexCenter} w-full`}>
-		<div className={`${styles.boxWidth}`}>
+		<div className={`${styles.boxWidth} border-t-[1px] border-t-[#3F3E45]`}>
 			<section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
 				<div className={`${styles.flexStart} md:flex-row flex-col items-center mb-8 w-full sm:px-16 px-6`}>
 					<div className='flex-[1] flex flex-col justify-start items-center md:mr-10 mr-0'>

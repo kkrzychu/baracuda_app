@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { polandFlag, ukFlag } from "../../assets";
+import { poland_flag, ukFlag } from "../../assets";
 import { layout } from "../../style";
 
 const Contact_2_section = () => {
 	return (
 		<section id='contact_2' className={layout.section}>
-			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem]`}>
-				<div className='rounded-xl box-shadow w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
+				<div className='rounded-xl box-shadow w-full bg-[#00000082] h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>Office</h2>
 						<img src={ukFlag} className='w-[100px]' />
@@ -42,11 +42,11 @@ const Contact_2_section = () => {
 				</div>
 			</div>
 
-			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem]`}>
-				<div className='rounded-xl box-shadow w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
+				<div className='rounded-xl box-shadow bg-[#00000082] w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>Production</h2>
-						<img src={polandFlag} className='w-[100px]' />
+						<img src={poland_flag} className='w-[100px]' />
 					</div>
 
 					<div className='w-[100%] flex flex-row p-6 items-center'>
