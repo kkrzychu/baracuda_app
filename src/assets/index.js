@@ -38,6 +38,10 @@ import surfer from './surfer.jpg';
 import close from './close.svg';
 import menu from './menu.svg';
 import neoprene_structure from './neoprene_structure.jpg';
+import girl_1 from './girl_1.png';
+import girl_2 from './girl_2.png';
+import developing from './developing.jpg';
+import people_talking from './people_talking.jpg';
 
 
 export {
@@ -80,5 +84,9 @@ export {
     close,
     menu,
     ukFlag,
-    neoprene_structure
+    neoprene_structure,
+    girl_1,
+    girl_2,
+    developing,
+    people_talking
 }

@@ -26,12 +26,16 @@ export const footerShortDesc = 'Experience quality and innovation with our neopr
 
 
 export const home_intro = 'Discover the world of unique neoprene products where quality meets innovative design. Our products are the result of meticulous craftsmanship and a passion for excellence. Immerse yourself in the comfort and functionality offered by our diverse range of neoprene goods.'
-export const home_sec_2_h = 'Strap - our flagship product';
-export const home_sec_2_desc = 'Discover our signature neoprene product, meticulously hand-stitched for premium quality and unrivaled comfort.';
+export const home_sec_2_h = 'Neopren Strap With Logo - our flagship product';
+export const home_sec_2_desc = "Discover our flagship neoprene product! The combination of the highest quality strap with our own production bands ensures unparalleled comfort. Additionally, by using specialized machines and the expertise of our employees, we can embroider the client's logo on the strap with the utmost precision.";
 export const home_sec_3_h = 'Send your logo to us';
 export const home_sec_3_desc = "Send us your logo, and we'll make it an exceptional feature on the neoprene surface. Our precision and high quality ensure flawless execution.";
-export const home_sec_4_h = 'We create all our products by hand';
-export const home_sec_4_desc = 'Our company is a mastery of craftsmanship - every product is exclusively handmade, with meticulous attention to the highest quality materials. Discover uniqueness in every detail!';
+export const home_sec_4_h = 'Products Made with the Highest Quality';
+export const home_sec_4_desc = 'Our company produces materials of the highest quality, using specialized machines and the extensive experience of our employees. This allows us to craft virtually anything from neoprene, with even the smallest details meticulously finished by our skilled workers. We manufacture a wide range of products, from straps and belts to diving suits and much more...';
+// export const home_sec_4_desc = 'Our company is a mastery of craftsmanship - every product is exclusively handmade, with meticulous attention to the highest quality materials. Discover uniqueness in every detail!';
+export const home_sec_4_dev_h = 'Continuous Development ';
+export const home_sec_4_dev_desc = 'We are continuously evolving. We are upgrading our machines to ensure the highest quality of production. Our employees are regularly acquiring knowledge about the latest technologies and new production techniques, which allows us to constantly improve our products and services.';
+
 export const home_sec_5_h = 'A company with experience';
 export const home_sec_5_desc = 'With a legacy spanning many years, our company has become synonymous with quality and innovation in the neoprene industry. Our dedication to craftsmanship and attention to detail ensure that each product meets the highest standards of performance and durability. Join the countless dive centers who rely on us for their neoprene needs, and experience the difference firsthand.';
 export const home_sec_6_h = 'Dont wait to ask for an offer';
@@ -41,6 +45,10 @@ export const products_intro = "Browse through our diverse range of products and 
 export const product_what_manufature = "We specialize in manufacturing a wide range of neoprene diving accessories, including jackets, wetsuits, gloves, gear bags, and more. Additionally, we offer a customization service, allowing us to embroider any logo on any of our products to meet the individual needs and preferences of our customers.";
 export const check_products = "Explore our product gallery! Take a glimpse into what we've crafted so far and invite you to browse through our collection. From sleek neoprene accessories to functional gear, discover the variety and quality we offer. Find something that speaks to you and enhances your experience today.";
 
+export const products_strap_1_desc = "A diving mask strap is a strap used to secure the mask firmly to the diver's face, a key piece of diving equipment for comfort and safety underwater. Neoprene straps are often chosen for their width, softness and less likelihood of slipping through hair, minimizing the risk of hair pulling. They are typically wider than standard straps, which helps evenly distribute pressure on the back of the head and prevents discomfort during prolonged diving.";
+export const products_strap_2_desc = "We produce straps with an adjustment mechanism that allows you to adjust the length of the strap to the circumference of the diver's head. This keeps the mask firmly and securely seated on the face, preventing water intrusion. The adjustment straps are available in different colors according to the customer's needs. Made of durable material and solidly attached to the strap, they ensure long product life. We can also produce adjustment straps in different colors upon request.";
+export const products_strap_versions_desc = "Many diving masks allow easy replacement of straps, which can be purchased separately. This allows you to personalize your equipment and replace worn or damaged straps without having to buy a new mask. We offer two models of straps: the first is a strap with sewn-on adjustment straps, mounted directly to the mask, and the second is a strap that attaches to the original rubber strap of the diving mask. We can embroider the customer's logo on each strap.";
+
 export const ask_for_an_offer = "Ready to find the perfect fit? Reach out and let us tailor an offer just for you. Whether it's customizing products to your exact specifications or exploring our range for the ideal solution, we're here to ensure your needs are met. Contact us today and let's create something uniquely yours!";
 
 export const about_intro_part_1 = "Up4Q is a new brand based on decades of experience in manufacturing neoprene products dating back to the 1950s. We use specialized machinery tailored to work with neoprene. Our team's experience includes thousands of products, many of which are unique and fully designed by us.";
@@ -49,7 +57,7 @@ export const about_intro_part_2 = "Our product range is very wide - from custom-
 export const about_neopren_1 = "Neoprene is a unique, practical and versatile material with unique properties. Only 100% original European neoprene provides the full range of benefits. The manufacturing process produces a foamed plastic, filled with micro air particles.";
 export const about_neopren_2 = "Neoprene is flexible, perfectly adapting to the shape of the object. Thanks to the appropriate production technology, this material is waterproof. It provides protection against mechanical damage and thermal protection limiting the impact of high and low temperatures.";
 
-export const about_handmade_1 = "Production is a complex process aimed at obtaining products of the highest quality.Our experience in design and our machinery allow us to create unique items, often made to individual order.";
+export const about_handmade_1 = "Production is a complex process aimed at obtaining products of the highest quality. Our experience in design and our machinery allow us to create unique items, often made to individual order.";
 export const about_handmade_2 = "Each order is discussed in detail and tailored to the expectations and capabilities of the customer. Many works are still made by hand, with the utmost care.";
 
 export const about_neopren_where_use = [
@@ -73,6 +81,9 @@ export const about_neopren_solutions = [
     "Neoprene can be covered on one or both sides with a variety of materials, such as lycra, stretch, terry, flausch, and others on request",
     "Various colors of neoprene covering are available",
 ];
+
+export const about_3_production_h = 'Individual Approach to Production at the Highest Level';
+export const about_3_production_desc = 'Manufacturing is a complex process aimed at obtaining products of the highest quality. Our experience in design and machinery allow us to create items that are often unique and made specifically for a particular contractor. Each order is discussed in detail and adapted to the expectations and capabilities of the client. Much of the work is still done by hand, with the utmost care.';
 
 export const splitStringRegex = (str) => {
     const chars = [];
@@ -203,17 +214,32 @@ export const allProductsFromNeopren = [
 
 export const strapBenefits = [
     {
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Comfort',
+        benefit: "The neoprene strap is wide and soft, which minimizes pressure on the head and makes it comfortable to wear, even during prolonged diving"
     },{
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Stability',
+        benefit: "Thanks to its width, the neoprene strap better distributes pressure, which helps keep the mask stable on the face, preventing it from slipping"
     },{
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Easy fit',
+        benefit: "Neoprene straps often have adjustment mechanisms that make it quick and easy to adjust the strap length to suit the diver's individual needs"
     },{
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Slip Resistance',
+        benefit: "Neoprene has non-slip properties, reducing the risk of the strap sliding around in the hair, even when wet"
     },{
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Durability',
+        benefit: "Neoprene is a durable material that is resistant to sea salt, chlorine and UV rays, ensuring a long belt life"
     },{
-        benefit: "Letraset sheets containing Lorem"
+        key: 'Hair protection',
+        benefit: "The neoprene strap is gentler on hair, reducing the risk of hair pulling compared to traditional rubber straps"
+    },{
+        key: 'Adaptation to conditions',
+        benefit: "Neoprene retains its properties well in both warm and cold waters, making it a versatile choice for divers in a variety of conditions"
+    },{
+        key: 'Branding',
+        benefit: "Neoprene straps can be easily branded with logos or other markings, which can be attractive to commercial dive operators and dive teams"
+    },{
+        key: 'Aesthetics',
+        benefit: "Neoprene straps are available in a variety of colors and patterns, allowing you to personalize your gear and add your individual style"
     }
 ];
 

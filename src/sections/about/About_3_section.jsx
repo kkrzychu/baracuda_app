@@ -1,28 +1,19 @@
-import { ownerAvatar } from "../../assets";
-import styles, { layout } from "../../style";
+
+import { about_3_production_h, about_3_production_desc, leftVariants } from "../../constants";
+import { motion } from "framer-motion";
 
 const About_3_section = () => {
+
 	return (
-		<section id='about_3' className={layout.sectionReverse}>
+		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} id='about_3' className={`flex flex-row justify-center items-center py-28`}>
+			<motion.div variants={leftVariants} className='w-[80%] xl:w-[60%] flex flex-col items-center justify-center'>
+				<h2 className={`font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] md:w-full w-auto text-white text-center`}>{about_3_production_h}</h2>
 
-        <div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>Company Owner</h2>
+				<p className={`font-poppins font-normal text-[18px] leading-[30.8px] text-center text-white md:max-w-[60%] max-w-[470px] my-10`}>{about_3_production_desc}</p>
 
-					<p className={`${styles.paragraph} text-white mt-5`}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor vitae felis non eleifend. Pellentesque metus libero, placerat vel varius sodales, sollicitudin ut turpis. Fusce id leo condimentum, elementum ante vel, faucibus odio. Morbi condimentum lacinia libero.
-							Maecenas laoreet convallis urna in egestas. In id diam bibendum, efficitur massa et, convallis neque.
-            </p>
-					<p className={`${styles.paragraph} text-white mt-5`}>
-          The manufacturing process produces a foamed plastic filled with air micro-particles. Neoprene is a stretchable material, adapting to the shape of the object. It is waterproof and the right production technology can provide this property when creating various products.
-							Neoprene protects against mechanical damage. It provides thermal protection to reduce the impact of high and low temperatures.
-              </p>
-				</div>
 
-				<div className={`flex flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] max-h-[450px] object-contain' src={ownerAvatar} />
-				</div>
-
-		</section>
+			</motion.div>
+		</motion.section>
 	);
 };
 

@@ -29,12 +29,12 @@ const Products = () => {
 			</div>
 			<div className={`${styles.bg_products_4} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
-					<Products_4_section />
+				<Products_5_section />
 				</div>
 			</div>
 			<div className={`${styles.bg_products_5} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
-					<Products_5_section />
+					<Products_4_section />
 				</div>
 			</div>
 			<div className={`${styles.bg_products_6} ${styles.flexCenter} w-full`}>

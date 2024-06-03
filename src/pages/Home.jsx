@@ -5,6 +5,7 @@ import Home_4_section from "../sections/home/Home_4_section";
 import Home_5_section from "../sections/home/Home_5_section";
 import Home_6_section from "../sections/home/Home_6_section";
 import Home_2_cards_section from "../sections/home/Home_2_cards_section";
+import Home_4_develop_section from "../sections/home/Home_4_develop_section";
 
 
 import { home_section_1 } from "../assets";
@@ -39,8 +40,13 @@ const Home = () => {
 					<Home_4_section />
 				</div>
 			</div>
-			<div className={`${styles.bg_home_5} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_home_4} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
+					<Home_4_develop_section />
+				</div>
+			</div>
+			<div className={`${styles.bg_home_5} ${styles.flexCenter} w-full`}>
+				<div className={`xl:max-w-[1280px]  w-[95%] rounded-xl`}>
 					<Home_5_section />
 				</div>
 			</div>

@@ -19,7 +19,7 @@ const styles = {
     bg_home_2: 'bg-transparent',
     bg_home_3: 'bg-transparent',
     bg_home_4: 'bg-transparent',
-    bg_home_5: 'bg-indigo-950',
+    bg_home_5: 'bg-transparent',
     bg_home_6: 'bg-transparent',
 
     bg_products_1: "bg-transparent",

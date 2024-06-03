@@ -1,4 +1,4 @@
-import { strap_1, strap_2, strap_3, strap_4 } from "../../assets";
+import { girl_1} from "../../assets";
 import { home_sec_2_h, home_sec_2_desc, leftVariants, rightVariants } from "../../constants";
 import { motion } from "framer-motion";
 import styles, { layout } from "../../style";
@@ -19,14 +19,8 @@ const Home_2_section = () => {
 			</motion.div>
 
 			<motion.div variants={rightVariants} className={`flex-1 flex gap-[10px] justify-center items-start flex-row md:items-start xl:px-0 sm:px-16 px-6 md:mt-0 mt-6`}>
-				<div className='flex flex-1 h-full bg-white flex-col rounded box-shadow p-4 '>
-					<img className=' h-[100%] object-contain' src={strap_1} />
-					<img className=' h-[100%] object-contain' src={strap_2} />
-				</div>
-
-				<div className='flex flex-1 h-full bg-white flex-col rounded box-shadow p-4 '>
-					<img className=' h-[100%] object-contain' src={strap_3} />
-					<img className=' h-[100%] object-contain' src={strap_4} />
+				<div className='flex flex-1 h-full bg-transparent flex-col rounded-xl box-shadow p-4 '>
+					<img className=' h-[100%] object-contain' src={girl_1} />
 				</div>
 			</motion.div>
 		</motion.section>

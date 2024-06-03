@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
-import { strap_1, strap_3 } from "../../assets";
+
+import { strap_1 } from "../../assets";
 import styles, { layout } from "../../style";
 import { home_sec_3_h, home_sec_3_desc, leftVariants, rightVariants } from "../../constants";
 import Button from "../../components/Button";
@@ -19,16 +18,8 @@ const Home_3_section = () => {
 			</motion.div>
 
 			<motion.div variants={leftVariants} className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-				<div className='w-[100%] h-[150px] bg-white flex flex-col rounded box-shadow p-4 '>
+				<div className='w-full h-full bg-white flex flex-col rounded-xl box-shadow p-4 '>
 					<img className=' h-[100%] object-contain' src={strap_1} />
-				</div>
-
-				<div className='w-[100%] flex justify-center my-6 items-center'>
-					<FontAwesomeIcon icon={faAnglesDown} className='w-[30px] text-white h-[30px]' />
-				</div>
-
-				<div className='w-[100%] h-[150px] bg-white flex flex-col rounded box-shadow p-4 '>
-					<img className=' h-[100%] object-contain' src={strap_3} />
 				</div>
 			</motion.div>
 		</motion.section>
