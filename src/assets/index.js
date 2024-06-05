@@ -42,6 +42,7 @@ import girl_1 from './girl_1.png';
 import girl_2 from './girl_2.png';
 import developing from './developing.jpg';
 import people_talking from './people_talking.jpg';
+import jacket_1 from './jacket_1.jpg';
 
 
 export {
@@ -88,5 +89,6 @@ export {
     girl_1,
     girl_2,
     developing,
-    people_talking
+    people_talking,
+    jacket_1
 }

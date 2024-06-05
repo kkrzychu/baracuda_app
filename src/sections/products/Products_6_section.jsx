@@ -1,4 +1,5 @@
-import { bands, COLOURS, neo_pack } from "../../assets";
+import { bands, COLOURS, neo_pack, jacket_1 } from "../../assets";
+import { products_bands_desc, products_wetsuit_desc, products_wetsuit_2_desc, products_jackets_desc, products_kit_desc, products_kit_2_desc } from "../../constants";
 import styles, { layout } from "../../style";
 
 const Products_6_section = () => {
@@ -10,16 +11,13 @@ const Products_6_section = () => {
 					<h2 className={`${styles.heading2} text-white`}>BANDS</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-						there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+						{products_bands_desc}
 					</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-					</p>
+
 				</div>
 
 				<div className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded bg-white h-[100%] max-h-[450px] object-contain' src={bands} />
+					<img className='rounded-xl bg-white h-[100%] max-h-[450px] object-contain' src={bands} />
 				</div>
 			</section>
 
@@ -29,11 +27,10 @@ const Products_6_section = () => {
 					<h2 className={`${styles.heading2} text-white`}>WETSUIT</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-						there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+						{products_wetsuit_desc}
 					</p>
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+						{products_wetsuit_2_desc}
 					</p>
 				</div>
 
@@ -42,17 +39,32 @@ const Products_6_section = () => {
 				</div>
 			</section>
 
-			{/* KIT */}
+			{/* JACKETS */}
 			<section id='product_6_3' className={layout.section}>
+				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+					<h2 className={`${styles.heading2} text-white`}>JACKETS</h2>
+
+					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+						{products_jackets_desc}
+					</p>
+
+				</div>
+
+				<div className={`flex-1 flex justify-center items-center flex-col  sm:px-16 px-6 md:mt-0 mt-6`}>
+					<img className='rounded-xl h-[100%] max-h-[450px] object-contain' src={jacket_1} />
+				</div>
+			</section>
+
+			{/* KIT */}
+			<section id='product_6_4' className={layout.sectionReverse}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>ORDER A KIT</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-						there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+						{products_kit_desc}
 					</p>
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+						{products_kit_2_desc}
 					</p>
 				</div>
 
