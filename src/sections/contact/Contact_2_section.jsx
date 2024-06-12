@@ -13,7 +13,7 @@ const Contact_2_section = () => {
 						<img src={ukFlag} className='w-[100px]' />
 					</div>
 
-					<div className='w-[100%] flex flex-row p-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
 						</div>
@@ -27,13 +27,13 @@ const Contact_2_section = () => {
 						</div>
 					</div>
 
-					<div className='w-[100%] flex flex-row p-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
 						</div>
 						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>info@baracuda-neo.pl</p>
 					</div>
-					<div className='w-[100%] flex flex-row p-6 mb-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 mb-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faPhone} className='text-3xl' />
 						</div>
@@ -49,7 +49,7 @@ const Contact_2_section = () => {
 						<img src={poland_flag} className='w-[100px]' />
 					</div>
 
-					<div className='w-[100%] flex flex-row p-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
 						</div>
@@ -63,13 +63,13 @@ const Contact_2_section = () => {
 						</div>
 					</div>
 
-					<div className='w-[100%] flex flex-row p-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
 						</div>
 						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>info@baracuda-neo.pl</p>
 					</div>
-					<div className='w-[100%] flex flex-row p-6 mb-6 items-center'>
+					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 mb-6 items-center'>
 						<div className='px-6 '>
 							<FontAwesomeIcon icon={faPhone} className='text-3xl' />
 						</div>

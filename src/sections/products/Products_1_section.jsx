@@ -17,7 +17,7 @@ const Products_1_section = () => {
 
 	return (
 		<>
-			<section id='products_1' className={`${layout.section} relative md:mb-20`}>
+			<motion.section id='products_1' className={`${layout.section} relative md:mb-20`}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1, delayChildren: 0.45 }} className=' md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
 						{heading_chars_1.map((x, index) => (
@@ -59,7 +59,7 @@ const Products_1_section = () => {
 				</div>
 
 				{/* <img className='w-[200px] flex ss:hidden absolute bottom-[-75px] left-[25%]' src={diverIcon} /> */}
-			</section>
+			</motion.section>
 		</>
 	);
 };

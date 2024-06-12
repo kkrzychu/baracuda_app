@@ -1,16 +1,17 @@
 import styles, { layout } from "../../style";
-import { ask_for_an_offer } from "../../constants";
+import { ask_for_an_offer, centerVariants } from "../../constants";
+import { motion } from "framer-motion";
 
 const Contact_1_section = () => {
 	return (
-		<section id='contact_1' className={layout.section}>
-			<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+		<motion.section id='contact_1' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={layout.section}>
+			<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 				<h2 className={`${styles.heading2} text-white`}>Ask for an offer</h2>
 
 				<p className={`${styles.paragraph} text-white mt-5`}>{ask_for_an_offer}</p>
-			</div>
+			</motion.div>
 
-			<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+			<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 				{/* EMAIL INPUT */}
 
 				<div className='w-full max-w-[450px] mt-10 md:mt-0'>
@@ -45,8 +46,8 @@ const Contact_1_section = () => {
 						SUBMIT
 					</button>
 				</div>
-			</div>
-		</section>
+			</motion.div>
+		</motion.section>
 	);
 };
 

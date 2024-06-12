@@ -104,45 +104,62 @@ export const splitStringRegex = (str) => {
 
 export const leftVariants = {
 	offscreen: {
-		y: 500,
+		x: -700,
 	},
 	onscreen: {
-		y: 0,
+		x: 0,
 		transition: {
 			type: "spring",
-			bounce: 0.4,
-			duration: 2.5,
+			bounce: 0.3,
+			duration: 2,
 		},
 	},
 };
 
 export const rightVariants = {
 	offscreen: {
-		y: 500,
+		x: 700,
 	},
 	onscreen: {
-		y: 0,
+		x: 0,
 		transition: {
 			type: "spring",
-			bounce: 0.4,
+			bounce: 0.3,
 			duration: 2,
 		},
 	},
 };
 
+export const centerVariants = {
+    offscreen: {
+		y: 300,
+	},
+	onscreen: {
+		y: 0,
+		transition: {
+			type: "spring",
+			bounce: 0.3,
+			duration: 2,
+		},
+	},
+}
+
 export const productIntro = [
     {
         icon: faMedal,
+        variant: centerVariants,
         img: Surfer,
         title: 'High quality material',
         description: "Our neoprene ensures unparalleled durability, flexibility, and user comfort. That's why our products are the perfect choice for those who value high quality and comfort."
     },{
         icon: faHands,
+        variant: centerVariants,
         img: Handmade,
         title: 'Handmade',
         description: "Our products are carefully hand-sewn using specialized sewing machines. This allows us to ensure not only precision in craftsmanship but also attention to every detail."
     },{
         icon: faUsers,
+        variant: centerVariants,
         img: Fitting,
         title: 'Fitted to you',
         description: "We have the ability to create tailor-made products to suit each customer's needs. Whether it's custom sizing, design preferences, or specific requirements"
@@ -195,26 +212,35 @@ export const allProductsFromNeopren = [
     {
         title: 'Strap',
         desc: 'Made from soft and durable neoprene, they ensure a snug and comfortable fit, allowing you to enjoy your diving experience to the fullest.'
-    },
-    {
+    },{
         title: 'Bands',
         desc: "Made from high-quality neoprene, they provide a secure fit, moisture-wicking, and protection from cold and wind, allowing you to enjoy them all day long."
-    },
-    {
+    },{
         title: 'Caps',
         desc: 'Make your mark with our embroidered logo caps.'
-    },
-    {
+    },{
         title: 'Wetsuits',
         desc: 'Engineered for comfort, flexibility, and durability, our wetsuits are the perfect companion for your underwater adventures.'
-    },
-    {
+    },{
         title: 'Brylok',
         desc: 'Keep your keys secure and add a touch of style with our durable and vibrant key fobs.'
     },{
         title: 'Bottle caps',
         desc: 'Keep your scuba tanks secure and easily identifiable with our durable and vibrant valve caps.'
+    },{
+        title: 'Hoods',
+        desc: 'Our neoprene diving hood provides warmth and protection in cold waters.'
+    },{
+        title: 'Undersuit',
+        desc: 'Our neoprene diving vest provides warmth and comfort, fitting perfectly to the body and protecting against cold in deep waters.'
+    },{
+        title: 'Swimsuits',
+        desc: 'Unmatched style and comfort! Explore our swimwear collection that will accentuate your uniqueness on the beach.'
     },
+    // {
+    //     title: 'Swimming cap',
+    //     desc: 'Comfortable swimming caps.'
+    // }
 ]
 
 

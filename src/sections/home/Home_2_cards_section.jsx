@@ -1,13 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { layout } from "../../style";
 import { productIntro } from "../../constants";
+import { motion } from "framer-motion";
+
 
 const Products_2_cards_section = () => {
     return (
-		<section id='product_2' className={`${layout.section} items-center md:gap-0 gap-8 justify-around sm:mt-0 my-10`}>
+		<motion.section id='product_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} className={`${layout.section} items-center md:gap-0 gap-8 justify-around sm:mt-0 my-10`}>
 			{productIntro.map((intro, index) => (
 
-				<div key={index} className='flex flex-col bg-scroll bg-cover bg-no-repeat bg-center text-white rounded-xl md:w-[30%] w-[85%] min-w-[300px] md:h-[550px]  p-6' style={{ backgroundImage: `url("${intro.img}")`}}>
+				<motion.div key={`cards_${index}`} variants={intro.variant} className='flex flex-col bg-scroll bg-cover bg-no-repeat bg-center text-white rounded-xl md:w-[30%] w-[85%] min-w-[300px] md:h-[550px]  p-6' style={{ backgroundImage: `url("${intro.img}")`}}>
 					
 					<div className="flex flex-col backdrop-blur-sm bg-black/30 rounded-xl">
 						<div className='flex flex-row w-[100%] items-center p-2 justify-center'>
@@ -21,11 +23,11 @@ const Products_2_cards_section = () => {
 					</div>
 
 
-				</div>
+				</motion.div>
 
 			))}
 
-		</section>
+		</motion.section>
 	);
 }
 
