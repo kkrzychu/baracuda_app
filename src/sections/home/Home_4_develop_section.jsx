@@ -1,16 +1,24 @@
 import { developing } from "../../assets";
 import styles, { layout } from "../../style";
-import { home_sec_4_dev_h, home_sec_4_dev_desc, centerVariants } from "../../constants";
+import { centerVariants } from "../../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Home_4_develop_section = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
 
     return (
 		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} id='home_3' className={`${layout.sectionReverse}  md:mb-20`}>
 			<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-				<h2 className={`${styles.heading2} text-white`}>{home_sec_4_dev_h}</h2>
+				<h2 className={`${styles.heading2} text-white`}>{t('home_sec_4_dev_h')}</h2>
 
-				<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{home_sec_4_dev_desc}</p>
+				<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('home_sec_4_dev_desc')}</p>
 
 			</motion.div>
 

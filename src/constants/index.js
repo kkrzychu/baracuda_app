@@ -20,6 +20,8 @@ import Surfer from '../assets/surfer.jpg'
 import Handmade from '../assets/handmade.jpg'
 import Fitting from '../assets/fitting.jpg'
 
+// TEXT INSIDE TRANSLATIONS FOLDER
+
 export const gallery = [Bands,NeoPack,ProductLogo1,Strap1,Strap2,Strap3,Strap4,Straps,BestDivers,StrapPack,Brylok,BottleCap,WetSuit];
 
 export const footerShortDesc = 'Experience quality and innovation with our neoprene products. Dive into comfort and functionality!';
@@ -67,25 +69,25 @@ export const about_handmade_1 = "Production is a complex process aimed at obtain
 export const about_handmade_2 = "Each order is discussed in detail and tailored to the expectations and capabilities of the customer. Many works are still made by hand, with the utmost care.";
 
 export const about_neopren_where_use = [
-    "Industry (automotive, electronics: waterproof and thermal covers for equipment and machinery, winches; foot coverings)",
-    "Rescue (protectors, bands, pullers, covers, shields)",
-    "Hiking (covers for bottles, thermoses, cups, etc.)",
-    "Recreation (water sports - clothes, outfits, accessories, body bands and protectors and equipment)",
-    "Fitness (weight loss clothes and belts; wacu equipment seals)",
-    "Hobbies (fishing, sailing, motorboating)",
-    "Utility items (covers for laptops/notebooks, cell phones, cameras, lenses, GPS electronic devices, etc.).",
-    "Sports (equipment covers and pole covers - a lightweight and convenient option for proper protection against bumps and injuries for children and teenagers; protectors, armbands for various parts of the body)",
-    "Rehabilitation (a wide range of possible armbands and accessories for rehabilitation, musculoskeletal improvement and coordination with very high safety)",
-    "Animals (various products, including: protective bands for horses; vests, shoes for dogs and cats, etc.).",
-    "Advertising (advertising gadgets with unique features)"
+    { key: 'about_used_for_1' },
+    { key: 'about_used_for_2' },
+    { key: 'about_used_for_3' },
+    { key: 'about_used_for_4' },
+    { key: 'about_used_for_5' },
+    { key: 'about_used_for_6' },
+    { key: 'about_used_for_7' },
+    { key: 'about_used_for_8' },
+    { key: 'about_used_for_9' },
+    { key: 'about_used_for_10' },
+    { key: 'about_used_for_11' }
 ];
 
 export const about_neopren_solutions = [
-    "Available neoprene thicknesses range from 1.5 mm to 10 mm in stock and up to 30 mm on request",
-    "The texture of the finish can be rough, smooth or finely crimped",
-    "Perforated neoprene is also available on special order, which provides additional properties such as ventilation and breathability",
-    "Neoprene can be covered on one or both sides with a variety of materials, such as lycra, stretch, terry, flausch, and others on request",
-    "Various colors of neoprene covering are available",
+    { key: 'about_solutions_1'},
+    { key: 'about_solutions_2'},
+    { key: 'about_solutions_3'},
+    { key: 'about_solutions_4'},
+    { key: 'about_solutions_5'}
 ];
 
 export const about_3_production_h = 'Individual Approach to Production at the Highest Level';
@@ -149,20 +151,20 @@ export const productIntro = [
         icon: faMedal,
         variant: centerVariants,
         img: Surfer,
-        title: 'High quality material',
-        description: "Our neoprene ensures unparalleled durability, flexibility, and user comfort. That's why our products are the perfect choice for those who value high quality and comfort."
+        title: 'home_card_1_title',
+        description: "home_card_1_description"
     },{
         icon: faHands,
         variant: centerVariants,
         img: Handmade,
-        title: 'Handmade',
-        description: "Our products are carefully hand-sewn using specialized sewing machines. This allows us to ensure not only precision in craftsmanship but also attention to every detail."
+        title: 'home_card_2_title',
+        description: "home_card_2_description"
     },{
         icon: faUsers,
         variant: centerVariants,
         img: Fitting,
-        title: 'Fitted to you',
-        description: "We have the ability to create tailor-made products to suit each customer's needs. Whether it's custom sizing, design preferences, or specific requirements"
+        title: 'home_card_3_title',
+        description: "home_card_3_description"
     },
 ]
 
@@ -210,96 +212,75 @@ export const footerLinks = [
 
 export const allProductsFromNeopren = [
     {
-        title: 'Strap',
-        desc: 'Made from soft and durable neoprene, they ensure a snug and comfortable fit, allowing you to enjoy your diving experience to the fullest.'
+        title: 'product_manufacture_1_title',
+        desc: 'product_manufacture_1_desc'
     },{
-        title: 'Bands',
-        desc: "Made from high-quality neoprene, they provide a secure fit, moisture-wicking, and protection from cold and wind, allowing you to enjoy them all day long."
+        title: 'product_manufacture_2_title',
+        desc: "product_manufacture_2_desc"
     },{
-        title: 'Caps',
-        desc: 'Make your mark with our embroidered logo caps.'
+        title: 'product_manufacture_3_title',
+        desc: 'product_manufacture_3_desc'
     },{
-        title: 'Wetsuits',
-        desc: 'Engineered for comfort, flexibility, and durability, our wetsuits are the perfect companion for your underwater adventures.'
+        title: 'product_manufacture_4_title',
+        desc: 'product_manufacture_4_desc'
     },{
-        title: 'Brylok',
-        desc: 'Keep your keys secure and add a touch of style with our durable and vibrant key fobs.'
+        title: 'product_manufacture_5_title',
+        desc: 'product_manufacture_5_desc'
     },{
-        title: 'Bottle caps',
-        desc: 'Keep your scuba tanks secure and easily identifiable with our durable and vibrant valve caps.'
+        title: 'product_manufacture_6_title',
+        desc: 'product_manufacture_6_desc'
     },{
-        title: 'Hoods',
-        desc: 'Our neoprene diving hood provides warmth and protection in cold waters.'
+        title: 'product_manufacture_7_title',
+        desc: 'product_manufacture_7_desc'
     },{
-        title: 'Undersuit',
-        desc: 'Our neoprene diving vest provides warmth and comfort, fitting perfectly to the body and protecting against cold in deep waters.'
+        title: 'product_manufacture_8_title',
+        desc: 'product_manufacture_8_desc'
     },{
-        title: 'Swimsuits',
-        desc: 'Unmatched style and comfort! Explore our swimwear collection that will accentuate your uniqueness on the beach.'
+        title: 'product_manufacture_9_title',
+        desc: 'product_manufacture_9_desc'
     },
-    // {
-    //     title: 'Swimming cap',
-    //     desc: 'Comfortable swimming caps.'
-    // }
+
 ]
 
 
 export const strapBenefits = [
     {
-        key: 'Comfort',
-        benefit: "The neoprene strap is wide and soft, which minimizes pressure on the head and makes it comfortable to wear, even during prolonged diving"
+        key: 'products_strap_benefits_1_key',
+        benefit: 'products_strap_benefits_1_benefit'
     },{
-        key: 'Stability',
-        benefit: "Thanks to its width, the neoprene strap better distributes pressure, which helps keep the mask stable on the face, preventing it from slipping"
+        key: 'products_strap_benefits_2_key',
+        benefit: 'products_strap_benefits_2_benefit'
     },{
-        key: 'Easy fit',
-        benefit: "Neoprene straps often have adjustment mechanisms that make it quick and easy to adjust the strap length to suit the diver's individual needs"
+        key: 'products_strap_benefits_3_key',
+        benefit: 'products_strap_benefits_3_benefit'
     },{
-        key: 'Slip Resistance',
-        benefit: "Neoprene has non-slip properties, reducing the risk of the strap sliding around in the hair, even when wet"
+        key: 'products_strap_benefits_4_key',
+        benefit: 'products_strap_benefits_4_benefit'
     },{
-        key: 'Durability',
-        benefit: "Neoprene is a durable material that is resistant to sea salt, chlorine and UV rays, ensuring a long belt life"
+        key: 'products_strap_benefits_5_key',
+        benefit: 'products_strap_benefits_5_benefit'
     },{
-        key: 'Hair protection',
-        benefit: "The neoprene strap is gentler on hair, reducing the risk of hair pulling compared to traditional rubber straps"
+        key: 'products_strap_benefits_6_key',
+        benefit: 'products_strap_benefits_6_benefit'
     },{
-        key: 'Adaptation to conditions',
-        benefit: "Neoprene retains its properties well in both warm and cold waters, making it a versatile choice for divers in a variety of conditions"
+        key: 'products_strap_benefits_7_key',
+        benefit: 'products_strap_benefits_7_benefit'
     },{
-        key: 'Branding',
-        benefit: "Neoprene straps can be easily branded with logos or other markings, which can be attractive to commercial dive operators and dive teams"
+        key: 'products_strap_benefits_8_key',
+        benefit: 'products_strap_benefits_8_benefit'
     },{
-        key: 'Aesthetics',
-        benefit: "Neoprene straps are available in a variety of colors and patterns, allowing you to personalize your gear and add your individual style"
+        key: 'products_strap_benefits_9_key',
+        benefit: 'products_strap_benefits_9_benefit'
     }
 ];
 
 export const aboutGoals = [
-    {
-        key: "goal_1",
-        goal: "Our company stands for QUALITY WITHOUT COMPROMISES"
-    },
-    {
-        key: "goal_2",
-        goal: "Our customers include police and rescue services"
-    },
-    {
-        key: "goal_3",
-        goal: "We are personally involved in every stage of production"
-    },
-    {
-        key: "goal_4",
-        goal: "We manufacture our products exclusively from neoprene and EU-sourced materials"
-    },
-    {
-        key: "goal_5",
-        goal: "We sew our products only from the highest quality approved materials of European origin"
-    },
-    {
-        key: "goal_6",
-        goal: "The neoprene we use is certified by HumanTest, confirming its safety for human skin"
-    }
+    { key: "about_intro_goal_1" },
+    { key: "about_intro_goal_2" },
+    { key: "about_intro_goal_3" },
+    { key: "about_intro_goal_4" },
+    { key: "about_intro_goal_5" },
+    { key: "about_intro_goal_6" }
 ]
 
 

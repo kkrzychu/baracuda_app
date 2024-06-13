@@ -1,14 +1,23 @@
 import { product_logo_1 } from "../../assets";
 import styles, { layout } from "../../style";
-import { products_intro, splitStringRegex } from "../../constants";
+import { splitStringRegex } from "../../constants";
 import Button from "../../components/Button";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Products_1_section = () => {
-	const heading_chars_1 = splitStringRegex("See Our");
-	const heading_chars_2 = splitStringRegex("Products");
-	const heading_chars_3 = splitStringRegex("or match the offer to yourself");
-	const intro_chars = splitStringRegex(products_intro);
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
+	const heading_chars_1 = splitStringRegex(t("products_heading_chars_1"));
+	const heading_chars_2 = splitStringRegex(t("products_heading_chars_2"));
+	const heading_chars_3 = splitStringRegex(t("products_heading_chars_3"));
+	const intro_chars = splitStringRegex(t('products_intro'));
 
 	const charVariants = {
 		hidden: { opacity: 0 },
@@ -51,7 +60,7 @@ const Products_1_section = () => {
 						))}
 					</motion.p>
 
-					<Button to={"contact"} text={"Contact us"} styles={"mt-6"} />
+					<Button to={"contact"} text={"btn_contact_us"} styles={"mt-6"} />
 				</div>
 
 				<div className={`flex-1 hidden md:flex  justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>

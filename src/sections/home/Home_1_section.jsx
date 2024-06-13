@@ -2,14 +2,23 @@ import styles from "../../style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ownerAvatar } from "../../assets";
 import Stats from "../../components/Stats";
-import { home_intro, splitStringRegex, socialMedia } from "../../constants";
+import { splitStringRegex, socialMedia } from "../../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Home_1_section = () => {
-	const introChars = splitStringRegex(home_intro);
-	const heading_chars_1 = splitStringRegex('High Quality');
-	const heading_chars_2 = splitStringRegex('Neoprene');
-	const heading_chars_3 = splitStringRegex('Products.');
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
+	const introChars = splitStringRegex(t('home_intro'));
+	const heading_chars_1 = splitStringRegex(t('home_heading_chars_1'));
+	const heading_chars_2 = splitStringRegex(t('home_heading_chars_2'));
+	const heading_chars_3 = splitStringRegex(t('home_heading_chars_3'));
 
 	const charVariants = {
 		hidden: { opacity: 0 },

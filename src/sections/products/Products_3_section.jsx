@@ -1,20 +1,28 @@
 import { diversStrap } from "../../assets";
 import styles, { layout } from "../../style";
-import { products_strap_1_desc, products_strap_2_desc, centerVariants } from "../../constants";
+import { centerVariants } from "../../constants";
 import { motion } from "framer-motion";
-
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 // STRAP
 const Products_3_section = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
 	return (
 		<motion.section id='product_3' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`${layout.section} `}>
 			<motion.div variants={centerVariants} className='flex flex-col w-[100%] text-white p-6'>
 				<h2 className={`${styles.heading2} `}>STRAP</h2>
 
 				<p className={`${styles.paragraph}`}>
-					{products_strap_1_desc}
+					{t('products_strap_1_desc')}
 					<br /><br />
-					{products_strap_2_desc}
+					{t('products_strap_2_desc')}
 				</p>
 
 			</motion.div>

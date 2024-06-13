@@ -4,18 +4,27 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { centerVariants, strapBenefits } from "../../constants";
 import styles, { layout } from "../../style";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Products_4_section = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
 	return (
 		<motion.section id='product_4'  initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`${layout.sectionReverse}`}>
 			<motion.div variants={centerVariants} className='flex flex-col md:w-[65%] w-full justify-center px-10 sm:px-16 px-6 text-white'>
-				<h1 className={`${styles.heading2} mb-6`}>Benefits</h1>
+				<h1 className={`${styles.heading2} mb-6`}>{t('products_strap_benefits_h')}</h1>
 
 				<ul className='flex flex-col md:items-start items-center'>
 					{strapBenefits.map((item, index) => (
 						<li key={`benefits_${index}`} className='mb-6 flex flex-row items-top'>
 							<FontAwesomeIcon className='w-[10px] h-[10px] mr-[10px] mt-[10px]' icon={faCircle} />
-							<span className={`${styles.paragraph}`}><span className="font-bold tracking-wider">{item.key}</span> - {item.benefit}</span>
+							<span className={`${styles.paragraph}`}><span className="font-bold tracking-wider">{t(`${item.key}`)}</span> - {t(`${item.benefit}`)}</span>
 						</li>
 					))}
 				</ul>

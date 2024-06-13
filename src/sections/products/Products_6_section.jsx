@@ -1,18 +1,29 @@
 import { bands, COLOURS, neo_pack, jacket_1 } from "../../assets";
-import { products_bands_desc, products_wetsuit_desc, products_wetsuit_2_desc, products_jackets_desc, products_kit_desc, products_kit_2_desc, centerVariants } from "../../constants";
+import { centerVariants } from "../../constants";
 import styles, { layout } from "../../style";
 import { motion } from "framer-motion"
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Products_6_section = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
+
+
 	return (
 		<>
 			{/* BANDS */}
 			<motion.section id='product_6_1' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={layout.section}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>BANDS</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('products_bands_h')}</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_bands_desc}
+						{t('products_bands_desc')}
 					</p>
 
 				</motion.div>
@@ -25,13 +36,13 @@ const Products_6_section = () => {
 			{/* WETSUIT */}
 			<motion.section id='product_6_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={layout.sectionReverse}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>WETSUIT</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('products_wetsuit_h')}</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_wetsuit_desc}
+						{t('products_wetsuit_desc')}
 					</p>
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_wetsuit_2_desc}
+						{t('products_wetsuit_2_desc')}
 					</p>
 				</motion.div>
 
@@ -43,10 +54,10 @@ const Products_6_section = () => {
 			{/* JACKETS */}
 			<motion.section id='product_6_3' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={layout.section}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>JACKETS</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('products_jacket_h')}</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_jackets_desc}
+						{t('products_jackets_desc')}
 					</p>
 
 				</motion.div>
@@ -59,13 +70,13 @@ const Products_6_section = () => {
 			{/* KIT */}
 			<motion.section id='product_6_4' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={layout.sectionReverse}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>ORDER A KIT</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('products_kit_h')}</h2>
 
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_kit_desc}
+						{t('products_kit_desc')}
 					</p>
 					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
-						{products_kit_2_desc}
+						{t('products_kit_2_desc')}
 					</p>
 				</motion.div>
 

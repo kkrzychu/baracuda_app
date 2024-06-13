@@ -1,19 +1,28 @@
 import { europeFlag, straps, neopren, sewing, neoprene_structure } from "../../assets";
-import { about_neopren_1, about_neopren_2, about_neopren_where_use, about_neopren_solutions, about_handmade_1, about_handmade_2, centerVariants } from "../../constants";
+import { about_neopren_where_use, about_neopren_solutions, centerVariants } from "../../constants";
 import styles, { layout } from "../../style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const About_2_section = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
 	return (
 		<>
 			<motion.section id='about_2_1_1' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={`flex md:flex-row flex-col sm:pt-16 pt-6`}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>Neoprene - amazing material</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('about_neopren_2_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{about_neopren_1}</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{about_neopren_2}</p>
+					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_neopren_1')}</p>
+					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_neopren_2')}</p>
 				</motion.div>
 
 				<motion.div variants={centerVariants} className='flex-1 flex flex-col items-center justify-center sm:px-16 px-6 mt-20'>
@@ -37,13 +46,13 @@ const About_2_section = () => {
 
 			<motion.section id='about_2_1_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={`flex md:flex-row-reverse flex-col`}>
 				<motion.div variants={centerVariants} className='flex-1 flex flex-col items-center justify-center sm:px-16 px-6'>
-					<h4 className={`font-poppins font-semibold xs:text-[24px] text-[20px] xs:leading-[38px] leading-[33px] md:w-full w-auto md:text-left text-center text-white`}>Versatility of neoprene solutions at your request:</h4>
+					<h4 className={`font-poppins font-semibold xs:text-[24px] text-[20px] xs:leading-[38px] leading-[33px] md:w-full w-auto md:text-left text-center text-white`}>{t('about_solutions_h')}</h4>
 
 					<ul className='md:mt-0 mt-6'>
 						{about_neopren_solutions.map((item, index) => (
 							<li key={`about_1_${index}`} className='pt-2 flex flex-row text-white items-top text-xl '>
 								<FontAwesomeIcon icon={faCircle} className={`w-[13px] h-[13px] object-contain pr-4 pt-2`} />
-								<p className={`font-poppins font-normal text-[18px] leading-[30.8px] md:text-left`}>{item}</p>
+								<p className={`font-poppins font-normal text-[18px] leading-[30.8px] md:text-left`}>{t(`${item.key}`)}</p>
 							</li>
 						))}
 					</ul>
@@ -58,13 +67,13 @@ const About_2_section = () => {
 
 			<motion.section id='about_2_1_3' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={`flex md:flex-row flex-col py-6`}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h4 className={`font-poppins font-semibold xs:text-[24px] text-[20px] xs:leading-[38px] leading-[33px] md:w-full w-auto md:text-left text-center text-white`}>Neoprene is used in various fields:</h4>
+					<h4 className={`font-poppins font-semibold xs:text-[24px] text-[20px] xs:leading-[38px] leading-[33px] md:w-full w-auto md:text-left text-center text-white`}>{t('about_used_for_h')}</h4>
 
 					<ul className='md:mt-0 mt-6'>
 						{about_neopren_where_use.map((item, index) => (
 							<li key={`about_2_${index}`} className='pt-2 flex flex-row text-white items-top text-xl'>
 								<FontAwesomeIcon icon={faCircle} className={`w-[13px] h-[13px] object-contain pr-4 pt-2`} />
-								<p className={`font-poppins font-normal text-[18px] leading-[30.8px] md:text-left`}>{item}</p>
+								<p className={`font-poppins font-normal text-[18px] leading-[30.8px] md:text-left`}>{t(`${item.key}`)}</p>
 							</li>
 						))}
 					</ul>
@@ -73,10 +82,10 @@ const About_2_section = () => {
 
 			<motion.section id='about_2_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={layout.sectionReverse}>
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
-					<h2 className={`${styles.heading2} text-white`}>Handmade products</h2>
+					<h2 className={`${styles.heading2} text-white`}>{t('about_handmade_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{about_handmade_1}</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{about_handmade_2}</p>
+					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_handmade_1')}</p>
+					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_handmade_2')}</p>
 				</motion.div>
 
 				<motion.div variants={centerVariants} className='flex-1 flex flex-col items-center justify-center sm:px-16 px-6 md:my-0 my-10'>
