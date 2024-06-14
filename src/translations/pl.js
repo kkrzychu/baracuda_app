@@ -2,10 +2,32 @@
 
 const pl_lang = {
 
-    // FOOTER && NAVBAR
+    // FOOTER 
     footerShortDesc: "Doświadcz jakości i innowacji dzięki naszym produktom neoprenowym. Zanurz się w komforcie i funkcjonalności!",
     copyrigth_text: "Copyright Ⓒ 2024 UP4Q. Wszelkie prawa zastrzeżone.",
+    footer_link_product_title_1: "Produkty",
+    footer_link_product_1: "Strap",
+    footer_link_product_2: "Opaski",
+    footer_link_product_3: "Kombinezony nurkowe",
+    footer_link_product_4: "Zestawy",
+    footer_link_product_5: "Więcej",
+    footer_link_info_title_2: "Informacje",
+    footer_link_info_1: "Zapytaj o ofertę",
+    footer_link_info_2: "O nas",
 
+
+    // NAVBAR
+    nav_title_1: "Strona główna",
+    nav_title_2: "Produkty",
+    nav_title_3: "O nas",
+    nav_title_4: "Kontakt",
+
+    // STATS
+    stat_1: "sprzedanych produktów",
+    stat_2: "klientów",
+    stat_3: "lat doświadczenia",
+
+    // BUTTONS
     btn_view_products: "ZOBACZ PRODUKTY",
     btn_ask_us: "ZAPYTAJ NAS",
     btn_more: "WIĘCEJ",

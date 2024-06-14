@@ -2,10 +2,31 @@
 
 const en_lang = {
 
-    // FOOTER && NAVBAR && BUTTONS
+    // FOOTER  
     footerShortDesc: "Experience quality and innovation with our neoprene products. Dive into comfort and functionality!",
     copyrigth_text: "Copyright Ⓒ 2024 UP4Q. All Rights Reserved.",
+    footer_link_product_title_1: "Products",
+    footer_link_product_1: "Strap",
+    footer_link_product_2: "Bands",
+    footer_link_product_3: "Wetsuit",
+    footer_link_product_4: "Pack",
+    footer_link_product_5: "More",
+    footer_link_info_title_2: "Info",
+    footer_link_info_1: "Ask for an offer",
+    footer_link_info_2: "About us",
 
+    // NAVBAR
+    nav_title_1: "Home",
+    nav_title_2: "Products",
+    nav_title_3: "About",
+    nav_title_4: "Contact",
+
+    // STATS
+    stat_1: "products sold",
+    stat_2: "customers",
+    stat_3: "years of experience",
+
+    // BUTTONS
     btn_view_products: "VIEW PRODUCTS",
     btn_ask_us: "ASK US",
     btn_more: "MORE",

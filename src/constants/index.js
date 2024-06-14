@@ -171,39 +171,39 @@ export const productIntro = [
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "footer_link_product_title_1",
         links: [
             {
-                name: "Strap",
+                name: "footer_link_product_1",
                 link: "https://www.hoobank.com/content/",
             },
             {
-                name: "Bands",
+                name: "footer_link_product_2",
                 link: "https://www.hoobank.com/how-it-works/",
             },
             {
-                name: "WetSuit",
+                name: "footer_link_product_3",
                 link: "https://www.hoobank.com/create/",
             },
             {
-                name: "Pack",
+                name: "footer_link_product_4",
                 link: "https://www.hoobank.com/explore/",
             },
             {
-                name: "More",
+                name: "footer_link_product_5",
                 link: "https://www.hoobank.com/terms-and-services/",
             },
         ],
     },
     {
-        title: "Info",
+        title: "footer_link_info_title_2",
         links: [
             {
-                name: "Ask for an offer",
+                name: "footer_link_info_1",
                 link: "https://www.hoobank.com/help-center/",
             },
             {
-                name: "About us",
+                name: "footer_link_info_2",
                 link: "https://www.hoobank.com/partners/",
             }
         ],
@@ -310,33 +310,33 @@ export const socialMedia = [
 export const navLinks = [
     {
         id: 'home',
-        title: 'Home'
+        title: 'nav_title_1'
     },{
         id: 'products',
-        title: 'Products'
+        title: 'nav_title_2'
     },{
         id: 'about',
-        title: 'About'
+        title: 'nav_title_3'
     },{
         id: 'contact',
-        title: 'Contact'
+        title: 'nav_title_4'
     }
 ];
 
 export const stats = [
     {
         id: "stats-1",
-        title: "products sold",
+        title: "stat_1",
         value: "30000",
         postfix: "+"
     },{
         id: "stats-2",
-        title: "customers",
+        title: "stat_2",
         value: "500",
         postfix: "+"
     },{
         id: "stats-3",
-        title: "years of experience",
+        title: "stat_3",
         value: "70+",
         postfix: "+"
     }

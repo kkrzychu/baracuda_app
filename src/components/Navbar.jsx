@@ -2,9 +2,13 @@ import { navLinks } from "../constants";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useState } from "react";
 import { close, menu } from "../assets";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Navbar = () => {
+	
 	const [toggle, setToggle] = useState(false);
+
 
 	return (
 		<nav className={`w-full flex py-[20px] justify-between items-center `}>
@@ -42,9 +46,15 @@ function CustomLink({ to, children, isToggle, onClick }) {
 	const resolvedPath = useResolvedPath(to);
 	const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
 	return (
 		<li onClick={onClick} className={`${isToggle} font-poppins navItems font-normal  ${isActive ? "active" : ""} text-white`}>
-			<Link to={to}>{children}</Link>
+			<Link to={to}>{t(`${children}`)}</Link>
 			<div className={` ${isActive ? "active" : ""}`}></div>
 		</li>
 	);

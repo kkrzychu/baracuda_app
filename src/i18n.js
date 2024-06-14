@@ -3,7 +3,10 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import en_lang from './translations/en';
 import pl_lang from './translations/pl';
-// import Backend from 'i18next-http-backend';
+import de_lang from './translations/de';
+import es_lang from './translations/es';
+import cz_lang from './translations/cz';
+import fr_lang from './translations/fr';
 
 
 i18n
@@ -21,6 +24,18 @@ i18n
         },
         pl: {
             translation: pl_lang
+        },
+        de: {
+          translation: de_lang
+        },
+        fr: {
+          translation: fr_lang
+        },
+        es: {
+          translation: es_lang
+        },
+        cz: {
+          translation: cz_lang
         }
     }
   });

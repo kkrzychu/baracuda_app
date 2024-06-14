@@ -1,8 +1,17 @@
 import { stats } from "../constants";
 import styles from "../style";
 import AnimatedNumbers from "react-animated-numbers";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from "react";
 
 const Stats = () => {
+
+	const { t, i18n } = useTranslation();
+	
+	useEffect(() => {
+		i18n.changeLanguage(navigator.language);
+	}, [])
+
 	return (
 		<section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 xl:px-0 sm:px-16 px-6`}>
 			{stats.map((stat) => (
@@ -19,7 +28,7 @@ const Stats = () => {
 						/>
 						{stat.postfix}
 					</h4>
-					<p className='flex w-[60%] font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3'>{stat.title}</p>
+					<p className='flex w-[60%] font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3'>{t(`${stat.title}`)}</p>
 				</div>
 			))}
 		</section>
