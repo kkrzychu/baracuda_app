@@ -15,7 +15,7 @@ const Home_5_section = () => {
 	}, [])
 
 	return (
-		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} id='home_5' className={`flex md:flex-row flex-col sm:py-10 py-6  bg-black/30 backdrop-blur-sm`}>
+		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} id='home_5' className={`flex md:flex-row flex-col sm:py-10 py-6  bg-black/30 backdrop-blur-sm`}>
 
 			<motion.div variants={centerVariants} className={`hidden md:flex w-80  sm:px-16 px-6 relative `}>
 				<img src={landingSewing} className='w-full xl:h-[550px] md:h-[500px] h-[550px] absolute rounded-xl top-[-100px] left-[10%]' />

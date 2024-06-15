@@ -17,7 +17,7 @@ const Home_4_section = () => {
 
 
 	return (
-		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} id='home_4' className={`${layout.section}`}>
+		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} id='home_4' className={`${layout.section}`}>
 
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('home_sec_4_h')}</h2>

@@ -15,7 +15,7 @@ const Products_2_cards_section = () => {
 
 
     return (
-		<motion.section id='product_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.8 }} className={`${layout.section} items-center md:gap-0 gap-8 justify-around sm:mt-0 my-10`}>
+		<motion.section id='product_2' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`${layout.section} items-center md:gap-0 gap-8 justify-around sm:mt-0 my-10`}>
 			{productIntro.map((intro, index) => (
 
 				<motion.div key={`cards_${index}`} variants={intro.variant} className='flex flex-col bg-scroll bg-cover bg-no-repeat bg-center text-white rounded-xl md:w-[30%] w-[85%] min-w-[300px] md:h-[550px]  p-6' style={{ backgroundImage: `url("${intro.img}")`}}>

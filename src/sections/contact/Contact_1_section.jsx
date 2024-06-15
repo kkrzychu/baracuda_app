@@ -10,6 +10,13 @@ const Contact_1_section = () => {
 	
 	useEffect(() => {
 		i18n.changeLanguage(navigator.language);
+		const hash = window.location.hash;
+		if (hash) {
+			const element = document.querySelector(hash);
+			if (element) {
+				element.scrollIntoView({ behavior: "smooth" });
+			}
+		}
 	}, [])
 
 

@@ -4,6 +4,7 @@ import { socialMedia, footerLinks } from "../constants";
 import Logo from "../assets/logo_3.jpg";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
+import FooterLink from "./FooterLink";
 
 const Footer = () => {
 
@@ -11,6 +12,7 @@ const Footer = () => {
 	
 	useEffect(() => {
 		i18n.changeLanguage(navigator.language);
+
 	}, [])
 
 
@@ -29,9 +31,10 @@ const Footer = () => {
 								<h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>{t(`${footerlink.title}`)}</h4>
 								<ul className='list-none mt-4'>
 									{footerlink.links.map((link, index) => (
-										<li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"}`}>
-											{t(`${link.name}`)}
-										</li>
+
+										<FooterLink to={`${link.path}`} key={`long_${link.id}`} isToggle={index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"}>
+											{link.name}
+										</FooterLink>
 									))}
 								</ul>
 							</div>

@@ -10,6 +10,8 @@ import { motion } from "framer-motion";
 import styles from "../style";
 
 const Products = () => {
+
+
 	return (
 		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-full">
 			<div className={`${styles.bg_products_1} ${styles.flexCenter} w-full`}>

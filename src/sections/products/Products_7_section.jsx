@@ -24,7 +24,7 @@ const Products_7_section = () => {
 			</motion.div>
 
 			<motion.div variants={centerVariants} className='flex flex-1 flex-row justify-center md:mt-[6rem] mt-16 flex-wrap sm:px-16 px-6'>
-				<div className='flex flex-wrap gap-x-20 w-full md:w-[80%]'>
+				<div className='flex flex-wrap gap-x-20 w-full md:w-[85%]'>
 					{allProductsFromNeopren.map((item, index) => (
 						<div key={`allProducts_${index}`} className='flex flex-row w-[400px] md:mr-6 mr-0 mb-10'>
 							{/* //margin: 0 auto 2.5rem auto; */}

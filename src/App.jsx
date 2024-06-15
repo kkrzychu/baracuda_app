@@ -26,7 +26,7 @@ const App = () => {
 
 	useEffect(() => {
 		window.addEventListener("scroll", handleScroll);
-	});
+	}, []);
 
 	return (
 		<div className='bg-primary w-full overflow-hidden'>
