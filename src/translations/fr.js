@@ -2,6 +2,10 @@
 
 const fr_lang = {
 
+    // EMAIL
+    email_response_success: "Merci pour votre message. Nous vous répondrons dès que possible.",
+    email_response_error: "Une erreur s'est produite lors de l'envoi du courriel. Veuillez réessayer ou envoyer un message directement à notre adresse e-mail d'entreprise.",
+
     // FOOTER  
     footerShortDesc: "Découvrez la qualité et l'innovation avec nos produits en néoprène. Plongez dans le confort et la fonctionnalité !",
     copyrigth_text: "Copyright Ⓒ 2024 UP4Q. Tous droits réservés.",

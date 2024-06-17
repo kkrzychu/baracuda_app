@@ -22,7 +22,7 @@ const Footer = () => {
 				<div className={`${styles.flexStart} md:flex-row flex-col items-center mb-8 w-full sm:px-16 px-6`}>
 					<div className='flex-[1] flex flex-col justify-start items-center md:mr-10 mr-0'>
 						<img src={Logo} alt='hoobank' className='w-[266px] h-[72.14px] object-contain' />
-						<p className={`${styles.paragraph} mt-4 max-w-[312px] text-white`}>{t('footerShortDesc')}</p>
+						<p className={`font-poppins font-normal text-[18px] leading-[30.8px] text-center mt-4 max-w-[312px] text-white`}>{t('footerShortDesc')}</p>
 					</div>
 
 					<div className='flex-[1.5] w-full flex flex-row justify-center gap-20 flex-wrap md:mt-0 mt-10'>

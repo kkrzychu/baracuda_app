@@ -1,6 +1,10 @@
 
 
 const pt_lang = {
+
+    // EMAIL
+    email_response_success: "Obrigado pela sua mensagem. Responderemos o mais breve possível.",
+    email_response_error: "Ocorreu um erro ao enviar o email. Por favor, tente novamente ou envie uma mensagem diretamente para o nosso endereço de email corporativo.",
     
     // FOOTER  
     footerShortDesc: "Experimente qualidade e inovação com os nossos produtos de neoprene. Mergulhe em conforto e funcionalidade!",

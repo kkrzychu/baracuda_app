@@ -2,6 +2,10 @@
 
 const nl_lang = {
 
+    // EMAIL
+    email_response_success: "Bedankt voor uw bericht. We zullen zo snel mogelijk antwoorden.",
+    email_response_error: "Er is een fout opgetreden bij het verzenden van de e-mail. Probeer het opnieuw of stuur een bericht rechtstreeks naar ons bedrijfse-mailadres.",
+
     // FOOTER  
     footerShortDesc: "Ervaar kwaliteit en innovatie met onze neopreen producten. Duik in comfort en functionaliteit!",
     copyrigth_text: "Copyright Ⓒ 2024 UP4Q. Alle rechten voorbehouden.",

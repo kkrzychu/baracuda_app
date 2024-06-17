@@ -2,6 +2,10 @@
 
 const pl_lang = {
 
+    // EMAIL
+    email_response_success: "Dziękujemy za Twoją wiadomość. Odpowiemy tak szybko, jak to będzie możliwe.",
+    email_response_error: "Wystąpił błąd podczas wysyłania wiadomości e-mail. Spróbuj ponownie lub wyślij wiadomość bezpośrednio na nasz firmowy adres e-mail.",
+
     // FOOTER 
     footerShortDesc: "Doświadcz jakości i innowacji dzięki naszym produktom neoprenowym. Zanurz się w komforcie i funkcjonalności!",
     copyrigth_text: "Copyright Ⓒ 2024 UP4Q. Wszelkie prawa zastrzeżone.",

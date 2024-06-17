@@ -2,6 +2,10 @@
 
 const dk_lang = {
 
+    // EMAIL
+    email_response_success: "Tak for din besked. Vi vil svare så hurtigt som muligt.",
+    email_response_error: "Der opstod en fejl under afsendelsen af e-mailen. Prøv venligst igen eller send en besked direkte til vores firmas e-mailadresse.",
+
     // FOOTER
     footerShortDesc: "Oplev kvalitet og innovation med vores neoprenprodukter. Dyk ned i komfort og funktionalitet!",
     copyrigth_text: "Ophavsret Ⓒ 2024 UP4Q. Alle rettigheder forbeholdes.",

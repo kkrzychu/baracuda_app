@@ -16,7 +16,7 @@ const Products_7_section = () => {
 
 
 	return (
-		<motion.section id='product_7' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`flex flex-col sm:py-16 py-6`}>
+		<motion.section id='product_7' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.1 }} className={`flex flex-col sm:py-16 py-6`}>
 			<motion.div variants={centerVariants} className={`${layout.sectionInfo}  sm:px-16 px-6 `}>
 				<h2 className={`font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] md:w-full w-auto text-center text-white`}>{t('product_what_manufature_h')}</h2>
 

@@ -2,6 +2,10 @@
 
 const cz_lang = {
 
+    // EMAIL
+    email_response_success: "Děkujeme za Vaši zprávu. Odpovíme co nejdříve.",
+    email_response_error: "Při odesílání e-mailu došlo k chybě. Zkuste to prosím znovu nebo pošlete zprávu přímo na náš firemní e-mail.",
+
     // FOOTER  
     footerShortDesc: "Zažijte kvalitu a inovace s našimi neoprenovými produkty. Ponořte se do pohodlí a funkcionality!",
     copyrigth_text: "Autorská práva Ⓒ 2024 UP4Q. Všechna práva vyhrazena.",

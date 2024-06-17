@@ -4,6 +4,8 @@ import { poland_flag, ukFlag } from "../../assets";
 import { layout } from "../../style";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
+import { centerVariants } from "../../constants";
+import { motion } from "framer-motion";
 
 const Contact_2_section = () => {
 
@@ -14,9 +16,9 @@ const Contact_2_section = () => {
 	}, [])
 
 	return (
-		<section id='contact_2' className={layout.section}>
+		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} id='contact_2' className={layout.section}>
 			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
-				<div className='rounded-xl box-shadow w-full bg-[#00000082] h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+				<motion.div variants={centerVariants} className='rounded-xl box-shadow w-full bg-[#00000082] h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>{t('contact_office')}</h2>
 						<img src={ukFlag} className='w-[100px]' />
@@ -48,11 +50,11 @@ const Contact_2_section = () => {
 						</div>
 						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>099 281 34</p>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 
 			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
-				<div className='rounded-xl box-shadow bg-[#00000082] w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+				<motion.div variants={centerVariants} className='rounded-xl box-shadow bg-[#00000082] w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>{t('contact_production')}</h2>
 						<img src={poland_flag} className='w-[100px]' />
@@ -84,9 +86,9 @@ const Contact_2_section = () => {
 						</div>
 						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>0048 600 38 23 38</p>
 					</div>
-				</div>
+				</motion.div>
 			</div>
-		</section>
+		</motion.section>
 	);
 };
 

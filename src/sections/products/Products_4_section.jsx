@@ -16,7 +16,7 @@ const Products_4_section = () => {
 	}, [])
 
 	return (
-		<motion.section id='product_4'  initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`${layout.sectionReverse}`}>
+		<motion.section id='product_4'  initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.1 }} className={`${layout.sectionReverse}`}>
 			<motion.div variants={centerVariants} className='flex flex-col md:w-[65%] w-full justify-center px-10 sm:px-16 px-6 text-white'>
 				<h1 className={`${styles.heading2} mb-6`}>{t('products_strap_benefits_h')}</h1>
 
