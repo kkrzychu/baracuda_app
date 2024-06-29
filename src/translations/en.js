@@ -153,7 +153,7 @@ const en_lang = {
     about_used_for_9: "Rehabilitation (a wide range of possible armbands and accessories for rehabilitation, musculoskeletal improvement and coordination with very high safety)",
     about_used_for_10: "Animals (various products, including: protective bands for horses; vests, shoes for dogs and cats, etc.).",
     about_used_for_11: "Advertising (advertising gadgets with unique features)",
-    about_handmade_h: "Handmade products",
+    about_handmade_h: "Hand-finished products",
     about_handmade_1: "Production is a complex process aimed at obtaining products of the highest quality. Our experience in design and our machinery allow us to create unique items, often made to individual order.",
     about_handmade_2: "Each order is discussed in detail and tailored to the expectations and capabilities of the customer. Many works are still made by hand, with the utmost care.",
     about_3_production_h: "Individual Approach to Production at the Highest Level",

@@ -1,4 +1,4 @@
-import { product_logo_1 } from "../../assets";
+import { ownerAvatar } from "../../assets";
 import styles, { layout } from "../../style";
 import { splitStringRegex } from "../../constants";
 import Button from "../../components/Button";
@@ -26,7 +26,7 @@ const Products_1_section = () => {
 
 	return (
 		<>
-			<motion.section id='product_1' className={`${layout.section} relative md:mb-20`}>
+			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-48 md:mb-20`}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1, delayChildren: 0.45 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
 						{heading_chars_1.map((x, index) => (
@@ -64,7 +64,7 @@ const Products_1_section = () => {
 				</div>
 
 				<div className={`flex-1 hidden md:flex  justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] max-h-[500px] bg-white object-contain' src={product_logo_1} />
+					<img className='rounded h-[100%] max-h-[500px] object-contain' src={ownerAvatar} />
 				</div>
 
 				{/* <img className='w-[200px] flex ss:hidden absolute bottom-[-75px] left-[25%]' src={diverIcon} /> */}

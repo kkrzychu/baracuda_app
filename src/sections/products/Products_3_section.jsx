@@ -17,9 +17,10 @@ const Products_3_section = () => {
 	return (
 		<motion.section id='product_3' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} className={`${layout.section} `}>
 			<motion.div variants={centerVariants} className='flex flex-col w-[100%] text-white p-6'>
+				
 				<h2 className={`${styles.heading2} `}>STRAP</h2>
 
-				<p className={`${styles.paragraph}`}>
+				<p className={`${styles.paragraph} `}>
 					{t('products_strap_1_desc')}
 					<br /><br />
 					{t('products_strap_2_desc')}
@@ -27,8 +28,9 @@ const Products_3_section = () => {
 
 			</motion.div>
 
-			<motion.div variants={centerVariants} className='flex flex-col w-[100%] p-6'>
-				<img className='rounded h-[100%] object-contain' src={diversStrap} />
+			<motion.div variants={centerVariants} className='flex flex-col relative w-[100%] p-6'>
+				<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
+				<img className='rounded h-[100%] z-[100] object-contain' src={diversStrap} />
 			</motion.div>
 		</motion.section>
 	);

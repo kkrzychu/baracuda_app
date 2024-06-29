@@ -153,7 +153,7 @@ const pt_lang = {
     about_used_for_9: "Reabilitação (uma ampla gama de braçadeiras e acessórios para reabilitação, melhoria musculoesquelética e coordenação com alta segurança)",
     about_used_for_10: "Animais (vários produtos, incluindo: faixas protetoras para cavalos; coletes, sapatos para cães e gatos, etc.)",
     about_used_for_11: "Publicidade (gadgets publicitários com recursos únicos)",
-    about_handmade_h: "Produtos artesanais",
+    about_handmade_h: "Produtos acabados à mão",
     about_handmade_1: "A produção é um processo complexo destinado a obter produtos da mais alta qualidade. Nossa experiência em design e nossa maquinaria nos permitem criar itens únicos, muitas vezes feitos sob encomenda.",
     about_handmade_2: "Cada pedido é discutido detalhadamente e adaptado às expectativas e capacidades do cliente. Muitos trabalhos ainda são feitos manualmente, com o máximo cuidado.",
     about_3_production_h: "Abordagem individual à produção no mais alto nível",

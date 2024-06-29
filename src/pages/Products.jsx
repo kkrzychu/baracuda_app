@@ -8,13 +8,14 @@ import Products_7_section from "../sections/products/Products_7_section";
 import Products_8_section from "../sections/products/Products_8_section";
 import { motion } from "framer-motion";
 import styles from "../style";
+import { bf_tail } from "../assets";
 
 const Products = () => {
 
 
 	return (
 		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-full">
-			<div className={`${styles.bg_products_1} ${styles.flexCenter} w-full`}>
+			<div className={`${styles.bg_products_1} ${styles.flexCenter} w-full`} style={{ backgroundImage: `url(${bf_tail})` }}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_1_section />
 				</div>

@@ -38,11 +38,21 @@ import surfer from './surfer.jpg';
 import close from './close.svg';
 import menu from './menu.svg';
 import neoprene_structure from './neoprene_structure.jpg';
+import neoprene_structure_transparent from './neoprene_structure_transparent.png';
 import girl_1 from './girl_1.png';
 import girl_2 from './girl_2.png';
 import developing from './developing.jpg';
 import people_talking from './people_talking.jpg';
 import jacket_1 from './jacket_1.jpg';
+import product_section_1 from './product_section_1.jpg';
+import bf_tail from './bf_tail.jpg'
+import bg_diver from './bg_diver.jpg'
+import bg_jellyfish from './bg_jellyfish.jpg'
+import bg_jellyfish_2 from './bg_jellyfish_2.jpg'
+import bg_sand_beach_1 from './bg_sand_beach_1.jpg'
+import bg_sand_beach_2 from './bg_sand_beach_2.jpg'
+import bg_water from './bg_water.jpg'
+import bg_waves from './bg_waves.jpg'
 
 
 export {
@@ -90,5 +100,15 @@ export {
     girl_2,
     developing,
     people_talking,
-    jacket_1
+    jacket_1,
+    neoprene_structure_transparent,
+    product_section_1,
+    bf_tail,
+    bg_diver,
+    bg_jellyfish,
+    bg_jellyfish_2,
+    bg_sand_beach_1,
+    bg_sand_beach_2,
+    bg_water,
+    bg_waves,
 }

@@ -28,8 +28,9 @@ const Products_6_section = () => {
 
 				</motion.div>
 
-				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded-xl bg-white h-[100%] max-h-[450px] object-contain' src={bands} />
+				<motion.div variants={centerVariants} className={`flex-1 flex relative justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
+					<img className='rounded-xl bg-white h-[100%] z-[100] max-h-[450px] object-contain' src={bands} />
 				</motion.div>
 			</motion.section>
 
@@ -46,8 +47,9 @@ const Products_6_section = () => {
 					</p>
 				</motion.div>
 
-				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] max-h-[450px] object-contain' src={COLOURS} />
+				<motion.div variants={centerVariants} className={`flex-1 flex relative justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
+					<img className='rounded h-[100%] max-h-[450px] z-[100] object-contain' src={COLOURS} />
 				</motion.div>
 			</motion.section>
 
@@ -62,8 +64,9 @@ const Products_6_section = () => {
 
 				</motion.div>
 
-				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-center flex-col  sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded-xl h-[100%] max-h-[450px] object-contain' src={jacket_1} />
+				<motion.div variants={centerVariants} className={`flex-1 flex relative justify-center items-center flex-col  sm:px-16 px-6 md:mt-0 mt-6`}>
+					<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
+					<img className='rounded-xl h-[100%] max-h-[450px] z-[100] object-contain' src={jacket_1} />
 				</motion.div>
 			</motion.section>
 
@@ -80,8 +83,9 @@ const Products_6_section = () => {
 					</p>
 				</motion.div>
 
-				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded bg-white h-[100%] max-h-[450px] object-contain' src={neo_pack} />
+				<motion.div variants={centerVariants} className={`flex-1 flex relative justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
+					<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
+					<img className='rounded bg-white h-[100%] max-h-[450px] z-[100] object-contain' src={neo_pack} />
 				</motion.div>
 			</motion.section>
 		</>

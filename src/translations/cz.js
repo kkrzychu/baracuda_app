@@ -153,7 +153,7 @@ const cz_lang = {
     about_used_for_9: "Rehabilitace (široká škála možných popruhů a doplňků pro rehabilitaci, zlepšení pohybového aparátu a koordinaci s velmi vysokou bezpečností)",
     about_used_for_10: "Zvířata (různé produkty, včetně: ochranných popruhů pro koně; vesty, boty pro psy a kočky, atd.).",
     about_used_for_11: "Reklama (reklamní gadgety s jedinečnými vlastnostmi)",
-    about_handmade_h: "Ručně vyráběné výrobky",
+    about_handmade_h: "Ručně dokončené produkty",
     about_handmade_1: "Výroba je složitý proces zaměřený na získání výrobků nejvyšší kvality. Naše zkušenosti v designu a naše stroje nám umožňují vytvářet unikátní položky, často vyráběné na individuální objednávku.",
     about_handmade_2: "Každá objednávka je podrobně projednána a přizpůsobena očekáváním a možnostem zákazníka. Mnoho prací je stále vyráběno ručně, s maximální péčí.",
     about_3_production_h: "Individuální přístup k výrobě na nejvyšší úrovni",

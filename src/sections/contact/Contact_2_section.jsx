@@ -4,21 +4,32 @@ import { poland_flag, ukFlag } from "../../assets";
 import { layout } from "../../style";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
-import { centerVariants } from "../../constants";
+import { defaultVariants, leftVariants } from "../../constants";
 import { motion } from "framer-motion";
+import UseWindowSize from "../../components/UseWindowSize";
 
 const Contact_2_section = () => {
 
 	const { t, i18n } = useTranslation();
+	const { width } = UseWindowSize();
+
+	console.log(width)
 	
 	useEffect(() => {
 		i18n.changeLanguage(navigator.language);
 	}, [])
 
+	const transtionParams = {
+		type: "spring",
+		bounce: 0.3,
+		duration: 2,
+		delay: (width > 1060) ? 0.3 : 0 
+	}
+
 	return (
-		<motion.section initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.3 }} id='contact_2' className={layout.section}>
+		<section  id='contact_2' className={layout.section}>
 			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
-				<motion.div variants={centerVariants} className='rounded-xl box-shadow w-full bg-[#00000082] h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, margin: '100px'}} variants={leftVariants} className='rounded-xl box-shadow w-full bg-[#00000082] h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>{t('contact_office')}</h2>
 						<img src={ukFlag} className='w-[100px]' />
@@ -38,7 +49,7 @@ const Contact_2_section = () => {
 						</div>
 					</div>
 
-					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
+					{/* <div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
 						</div>
@@ -49,18 +60,18 @@ const Contact_2_section = () => {
 							<FontAwesomeIcon icon={faPhone} className='text-3xl' />
 						</div>
 						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>099 281 34</p>
-					</div>
+					</div> */}
 				</motion.div>
 			</div>
 
 			<div className={`${layout.sectionInfo} md:p-[5rem] p-[2rem] text-white`}>
-				<motion.div variants={centerVariants} className='rounded-xl box-shadow bg-[#00000082] w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
+				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, margin: '100px' }} transition={transtionParams} variants={defaultVariants} className='rounded-xl box-shadow bg-[#00000082] w-full h-full flex flex-col md:gap-[3rem] gap-[1rem]'>
 					<div className='w-[100%] flex flex-row items-center justify-between p-6'>
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>{t('contact_production')}</h2>
 						<img src={poland_flag} className='w-[100px]' />
 					</div>
 
-					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
+					{/* <div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
 							<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
 						</div>
@@ -72,7 +83,7 @@ const Contact_2_section = () => {
 
 							<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>{t('contact_poland')}</p>
 						</div>
-					</div>
+					</div> */}
 
 					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>
@@ -88,7 +99,7 @@ const Contact_2_section = () => {
 					</div>
 				</motion.div>
 			</div>
-		</motion.section>
+		</section>
 	);
 };
 

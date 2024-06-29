@@ -22,7 +22,7 @@ const styles = {
     bg_home_5: 'bg-transparent',
     bg_home_6: 'bg-transparent',
 
-    bg_products_1: "bg-transparent",
+    bg_products_1: "bg-cover bg-no-repeat bg-center bg-fixed",
     bg_products_2: 'bg-transparent',
     bg_products_3: 'bg-transparent',
     bg_products_4: 'bg-transparent',
@@ -35,7 +35,7 @@ const styles = {
     bg_about_2: 'bg-transparent',
     bg_about_3: 'bg-cover bg-no-repeat bg-center bg-fixed',
 
-    bg_contact_1: 'bg-transparent',
+    bg_contact_1: 'bg-cover bg-no-repeat bg-center bg-fixed',
     bg_contact_2: 'bg-transparent',
 }
 

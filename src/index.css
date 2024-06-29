@@ -130,8 +130,10 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: radial-gradient(circle, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  /* background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%); */
   filter: blur(123px);
+  opacity: 0.5;
 }
 
 .pink__gradient {

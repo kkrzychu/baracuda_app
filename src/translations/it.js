@@ -153,7 +153,7 @@ const it_lang = {
     about_used_for_9: "Riabilitazione (una vasta gamma di possibili fasce e accessori per riabilitazione, miglioramento muscoloscheletrico e coordinazione con sicurezza elevata)",
     about_used_for_10: "Animali (vari prodotti, inclusi: fasce protettive per cavalli; giubbotti, scarpe per cani e gatti, ecc.)",
     about_used_for_11: "Pubblicità (gadget pubblicitari con caratteristiche uniche)",
-    about_handmade_h: "Prodotti fatti a mano",
+    about_handmade_h: "Prodotti rifiniti a mano",
     about_handmade_1: "La produzione è un processo complesso finalizzato alla realizzazione di prodotti di altissima qualità. La nostra esperienza nel design e nei macchinari ci permette di creare articoli unici, spesso realizzati su ordinazione individuale.",
     about_handmade_2: "Ogni ordine viene discusso nel dettaglio e adattato alle aspettative e alle capacità del cliente. Molte opere sono ancora realizzate a mano, con la massima cura.",
     about_3_production_h: "Approccio individuale alla produzione di alto livello",

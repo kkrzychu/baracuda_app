@@ -153,7 +153,7 @@ const fr_lang = {
     about_used_for_9: "Réhabilitation (une large gamme de brassards possibles et d'accessoires pour la rééducation, l'amélioration du système musculo-squelettique et la coordination avec une sécurité très élevée)",
     about_used_for_10: "Animaux (divers produits, y compris : bandes de protection pour chevaux ; gilets, chaussures pour chiens et chats, etc.)",
     about_used_for_11: "Publicité (gadgets publicitaires avec des caractéristiques uniques)",
-    about_handmade_h: "Produits faits à la main",
+    about_handmade_h: "Produits finis à la main",
     about_handmade_1: "La production est un processus complexe visant à obtenir des produits de la plus haute qualité. Notre expérience en design et notre équipement nous permettent de créer des articles uniques, souvent réalisés sur commande individuelle.",
     about_handmade_2: "Chaque commande est discutée en détail et adaptée aux attentes et aux capacités du client. Beaucoup de travaux sont encore réalisés à la main, avec le plus grand soin.",
     about_3_production_h: "Approche individuelle de la production au plus haut niveau",

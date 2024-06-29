@@ -46,7 +46,7 @@ const Home_1_section = () => {
 
 					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.2 }} className='text-gradient text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
 						{heading_chars_2.map((x, index) => (
-							<motion.span key={`h2_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
+							<motion.span key={`h2_${index}`} transition={{ duration: 0.2 }} variants={charVariants}>
 								{x}
 							</motion.span>
 						))}

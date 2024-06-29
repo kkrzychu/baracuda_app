@@ -153,7 +153,7 @@ const ch_lang = {
     about_used_for_9: "Rehabilitation (eine breite Palette von möglichen Armbändern und Zubehör für die Rehabilitation, Muskelaufbau und Koordination mit sehr hoher Sicherheit)",
     about_used_for_10: "Tiere (verschiedene Produkte, einschließlich: Schutzbänder für Pferde; Westen, Schuhe für Hunde und Katzen, etc.).",
     about_used_for_11: "Werbung (Werbeartikel mit einzigartigen Funktionen)",
-    about_handmade_h: "Handgemachte Produkte",
+    about_handmade_h: "Handgefertigte Produkte",
     about_handmade_1: "Die Produktion ist ein komplexer Prozess, der darauf abzielt, Produkte von höchster Qualität zu erhalten. Unsere Erfahrung im Design und unsere Maschinen ermöglichen es uns, einzigartige Artikel zu schaffen, die oft auf individuelle Bestellung gefertigt werden.",
     about_handmade_2: "Jede Bestellung wird ausführlich besprochen und an die Erwartungen und Möglichkeiten des Kunden angepasst. Viele Arbeiten werden nach wie vor von Hand und mit größter Sorgfalt ausgeführt.",
     about_3_production_h: "Individueller Ansatz zur Produktion auf höchstem Niveau",

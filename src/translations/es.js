@@ -153,7 +153,7 @@ const es_lang = {
     about_used_for_9: "Rehabilitación (una amplia gama de posibles brazaletes y accesorios para rehabilitación, mejora musculoesquelética y coordinación con una seguridad muy alta)",
     about_used_for_10: "Animales (varios productos, incluyendo: bandas protectoras para caballos; chalecos, zapatos para perros y gatos, etc.)",
     about_used_for_11: "Publicidad (gadgets publicitarios con características únicas)",
-    about_handmade_h: "Productos hechos a mano",
+    about_handmade_h: "Productos acabados a mano",
     about_handmade_1: "La producción es un proceso complejo destinado a obtener productos de la más alta calidad. Nuestra experiencia en diseño y nuestra maquinaria nos permiten crear artículos únicos, a menudo hechos a medida.",
     about_handmade_2: "Cada pedido se discute en detalle y se adapta a las expectativas y capacidades del cliente. Muchos trabajos se realizan todavía a mano, con el máximo cuidado.",
     about_3_production_h: "Enfoque individualizado en la producción al más alto nivel",

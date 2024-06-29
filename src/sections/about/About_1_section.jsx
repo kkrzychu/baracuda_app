@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
-import { aboutGoals, centerVariants } from "../../constants";
+import { aboutGoals, leftVariants, rightVariants } from "../../constants";
 import styles, { layout } from "../../style";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
@@ -22,8 +22,8 @@ const About_1_section = () => {
 	}, [])
 
 	return (
-		<motion.section id='about_1' initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} className={`${layout.section}`} >
-				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+		<section id='about_1'  className={`flex md:flex-row flex-col sm:pt-16 pt-6 sm:pb-36 pb-6`} >
+				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} variants={leftVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h1 className={`flex flex-col text-white items-center md:items-start font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]`}>{t('about_1_title')}</h1>
 					<p className={`${styles.paragraph} text-white`}>
 						{t('about_intro_part_1')}
@@ -31,7 +31,7 @@ const About_1_section = () => {
 					<p className={`${styles.paragraph} text-white mt-6`}>{t('about_intro_part_2')}</p>
 				</motion.div>
 
-				<motion.div variants={centerVariants} className='flex-1 flex justify-center items-center sm:px-16 px-6'>
+				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} variants={rightVariants} className='flex-1 flex justify-center items-center sm:px-16 px-6'>
 					<ul className="md:mt-0 mt-6">
 						{aboutGoals.map((item) => (
 							<li key={item.key} className='pt-2 flex flex-row items-top text-xl text-white'>
@@ -41,7 +41,7 @@ const About_1_section = () => {
 						))}
 					</ul>
 				</motion.div>
-		</motion.section>
+		</section>
 	);
 };
 

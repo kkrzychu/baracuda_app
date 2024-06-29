@@ -61,62 +61,84 @@ export const splitStringRegex = (str) => {
 
 export const leftVariants = {
 	offscreen: {
-		x: -700,
+		y: 300,
+        opacity: 0
 	},
 	onscreen: {
-		x: 0,
+		y: 0,
+        opacity: 1,
 		transition: {
 			type: "spring",
 			bounce: 0.3,
 			duration: 2,
+            delay: 0
 		},
-	},
+	}
 };
 
 export const rightVariants = {
 	offscreen: {
-		x: 700,
+		y: 300,
+        opacity: 0
 	},
 	onscreen: {
-		x: 0,
+		y: 0,
+        opacity: 1,
 		transition: {
 			type: "spring",
 			bounce: 0.3,
 			duration: 2,
+            delay: 0.2
 		},
+	}
+};
+
+export const defaultVariants = {
+	offscreen: {
+		y: 300,
+        opacity: 0
 	},
+	onscreen: {
+		y: 0,
+        opacity: 1,
+	}
 };
 
 export const centerVariants = {
     offscreen: {
 		y: 300,
+        opacity: 0
 	},
 	onscreen: {
 		y: 0,
+        opacity: 1,
 		transition: {
 			type: "spring",
 			bounce: 0.3,
 			duration: 2,
 		},
-	},
+	}
 }
 
 export const productIntro = [
     {
         icon: faMedal,
         variant: centerVariants,
+        delay: 0,
         img: Surfer,
         title: 'home_card_1_title',
         description: "home_card_1_description"
     },{
         icon: faHands,
         variant: centerVariants,
+        delay: .5,
         img: Handmade,
         title: 'home_card_2_title',
         description: "home_card_2_description"
     },{
         icon: faUsers,
         variant: centerVariants,
+        delay: 1,
         img: Fitting,
         title: 'home_card_3_title',
         description: "home_card_3_description"
