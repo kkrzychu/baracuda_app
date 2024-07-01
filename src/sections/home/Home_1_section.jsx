@@ -1,6 +1,6 @@
 import styles from "../../style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ownerAvatar } from "../../assets";
+import { head_strap } from "../../assets";
 import Stats from "../../components/Stats";
 import { splitStringRegex, socialMedia } from "../../constants";
 import { motion } from "framer-motion";
@@ -76,7 +76,7 @@ const Home_1_section = () => {
 				</div>
 
 				<div className={`flex-1 flex items-center justify-center md:justify-end  md:my-0 my-10 relative`}>
-					<img src={ownerAvatar} alt='mainStrap' className='w-[100%] h-[100%] object-contain max-h-[350px] sm:max-h-[400px] md:max-h-[500px] xl:px-0 sm:px-16 px-6 relative z-[5]' />
+					<img src={head_strap} alt='mainStrap' className='w-[100%] h-[100%] object-contain max-h-[350px] sm:max-h-[400px] md:max-h-[500px] xl:px-0 sm:px-16 px-6 relative z-[5]' />
 				</div>
 			</section>
 			<Stats />

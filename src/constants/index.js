@@ -3,26 +3,36 @@
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMedal, faUsers, faHands } from "@fortawesome/free-solid-svg-icons";
 
-import Bands from '../assets/bands.png'
-import NeoPack from '../assets/neo_pack.png'
-import ProductLogo1 from '../assets/product_logo_1.png'
-import Strap1 from '../assets/strap_1.png'
-import Strap2 from '../assets/strap_2.png'
-import Strap3 from '../assets/strap_3.png'
-import Strap4 from '../assets/strap_4.png'
-import Straps from '../assets/straps.png'
-import BestDivers from '../assets/best_divers.png'
-import StrapPack from '../assets/strap_pack.png'
-import Brylok from '../assets/brylok.png'
-import BottleCap from '../assets/nakladki_butla.png'
-import WetSuit from '../assets/COLOURS.jpg'
-import Surfer from '../assets/surfer.jpg'
-import Handmade from '../assets/handmade.jpg'
-import Fitting from '../assets/fitting.jpg'
+
+import { 
+    bands,
+    neo_pack,
+    product_logo_1,
+    strap_1,
+    strap_2,
+    strap_3,
+    strap_4,
+    straps,
+    best_divers,
+    strap_pack,
+    brylok,
+    nakladki_butla,
+    wetsuit_color,
+    surfer,
+    handmade,
+    fitting, 
+    jacket_1_bg,
+    jacket_2_bg,
+    jacket_3_bg,
+    jacket_4_bg,
+    jacket_5_bg,
+} from "../assets";
 
 // TEXT INSIDE TRANSLATIONS FOLDER
 
-export const gallery = [Bands,NeoPack,ProductLogo1,Strap1,Strap2,Strap3,Strap4,Straps,BestDivers,StrapPack,Brylok,BottleCap,WetSuit];
+export const jackets_gallery = [jacket_1_bg, jacket_2_bg, jacket_3_bg, jacket_4_bg, jacket_5_bg];
+
+export const gallery = [bands,neo_pack,product_logo_1,strap_1,strap_2,strap_3,strap_4,straps,best_divers,strap_pack,brylok,nakladki_butla,wetsuit_color];
 
 
 export const about_neopren_where_use = [
@@ -120,26 +130,38 @@ export const centerVariants = {
 	}
 }
 
+export const pageVariants = {
+    initial: { opacity: 0, y: "100vh" },
+    in: { opacity: 1, y: 0 },
+    out: { opacity: 0, y: "-100vh" }
+};
+  
+export const pageTransition = {
+    type: "tween",
+    ease: "anticipate",
+    duration: 0.8
+};
+
 export const productIntro = [
     {
         icon: faMedal,
         variant: centerVariants,
         delay: 0,
-        img: Surfer,
+        img: surfer,
         title: 'home_card_1_title',
         description: "home_card_1_description"
     },{
         icon: faHands,
         variant: centerVariants,
         delay: .5,
-        img: Handmade,
+        img: handmade,
         title: 'home_card_2_title',
         description: "home_card_2_description"
     },{
         icon: faUsers,
         variant: centerVariants,
         delay: 1,
-        img: Fitting,
+        img: fitting,
         title: 'home_card_3_title',
         description: "home_card_3_description"
     },

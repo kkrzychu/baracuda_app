@@ -53,6 +53,20 @@ import bg_sand_beach_1 from './bg_sand_beach_1.jpg'
 import bg_sand_beach_2 from './bg_sand_beach_2.jpg'
 import bg_water from './bg_water.jpg'
 import bg_waves from './bg_waves.jpg'
+import straps_prod from './straps_prod.png'
+
+import head_strap from './head_strap.png'
+import head_band from './head_band.png'
+import straps_in_row from './straps_in_row.png'
+import wetsuit_color from './wetsuit_color.png'
+
+import jacket_1_bg from './jacket_1_bg.png'
+import jacket_2_bg from './jacket_2_bg.png'
+import jacket_3_bg from './jacket_3_bg.png'
+import jacket_4_bg from './jacket_4_bg.png'
+import jacket_5_bg from './jacket_5_bg.png'
+
+import main_logo from './main_logo.png'
 
 
 export {
@@ -111,4 +125,15 @@ export {
     bg_sand_beach_2,
     bg_water,
     bg_waves,
+    straps_prod,
+    head_strap,
+    head_band,
+    straps_in_row,
+    wetsuit_color,
+    jacket_1_bg,
+    jacket_2_bg,
+    jacket_3_bg,
+    jacket_4_bg,
+    jacket_5_bg,
+    main_logo
 }

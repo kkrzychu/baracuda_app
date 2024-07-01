@@ -32,9 +32,13 @@ const Products_4_section = () => {
 
 			<motion.div variants={centerVariants} className='flex flex-row md:w-[35%] w-full sm:px-16 px-6 gap-6'>
 
-				<div className='w-[100%] bg-white flex flex-col rounded box-shadow p-4 '>
+				{/* <div className='w-[100%] bg-white flex flex-col rounded box-shadow p-4 '>
 					<img className=' h-[100%] object-contain' src={strap_3} />
 					<img className=' h-[100%] object-contain' src={strap_4} />
+				</div> */}
+				<div className={`box-shadow p-4 product-container-benefits `}>
+					<img className=' z-[100] object-contain product-image' src={strap_3} />
+					<img className=' z-[100] object-contain product-image' src={strap_4} />
 				</div>
 			</motion.div>
 		</motion.section>

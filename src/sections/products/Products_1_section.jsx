@@ -1,4 +1,4 @@
-import { ownerAvatar } from "../../assets";
+import { head_band } from "../../assets";
 import styles, { layout } from "../../style";
 import { splitStringRegex } from "../../constants";
 import Button from "../../components/Button";
@@ -64,8 +64,13 @@ const Products_1_section = () => {
 				</div>
 
 				<div className={`flex-1 hidden md:flex  justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>
-					<img className='rounded h-[100%] max-h-[500px] object-contain' src={ownerAvatar} />
+					{/* <img className='rounded h-[100%] max-h-[500px] object-contain' src={ownerAvatar} /> */}
+					<div className={`self-center  box-shadow p-4 `}>
+						<img className=' h-[100%] z-[100] object-contain rounded-xl' src={head_band} />
+					</div>
 				</div>
+
+				
 
 				{/* <img className='w-[200px] flex ss:hidden absolute bottom-[-75px] left-[25%]' src={diverIcon} /> */}
 			</motion.section>

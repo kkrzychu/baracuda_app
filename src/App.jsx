@@ -37,7 +37,7 @@ const App = () => {
 			</div>
 
 			<div className={`bg-black-gradient  ${styles.flexStart} flex-col w-full`}>
-				<AnimatePresence>
+				<AnimatePresence mode="wait">
 					<ScrollToTop>
 						<Routes>
 							<Route path='/home' element={<Home />} />

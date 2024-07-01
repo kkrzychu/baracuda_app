@@ -28,9 +28,12 @@ const Products_3_section = () => {
 
 			</motion.div>
 
-			<motion.div variants={centerVariants} className='flex flex-col relative w-[100%] p-6'>
-				<div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
-				<img className='rounded h-[100%] z-[100] object-contain' src={diversStrap} />
+			<motion.div variants={centerVariants} className='flex flex-col w-[100%] p-6'>
+				{/* <div className={`blue__gradient  absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div> */}
+				{/* <img className='rounded-xl h-[100%] z-[100] object-contain' src={diversStrap} /> */}
+				<div className={`w-full h-full flex box-shadow p-4 `}>
+					<img className='w-full z-[100] self-center  rounded-xl object-contain' src={diversStrap} />
+				</div>
 			</motion.div>
 		</motion.section>
 	);

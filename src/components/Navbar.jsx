@@ -1,7 +1,8 @@
 import { navLinks } from "../constants";
 import { useState } from "react";
-import { close, menu } from "../assets";
+import { close, menu, main_logo } from "../assets";
 import CustomLink from "./CustomLink";
+
 
 const Navbar = () => {
 	
@@ -10,10 +11,10 @@ const Navbar = () => {
 
 
 	return (
-		<nav className={`w-full flex py-[20px] justify-between items-center `}>
+		<nav className={`w-full flex  justify-between items-center `}>
 			{/* LOGO IN THE FUTURE */}
-			{/* <img src={logo} alt='hoobank' className='w-[124px] h-[32px]' /> */}
-			<h1 className='text-white font-bold w-[124px] h-[32px] '>UP4Q</h1>
+			<img src={main_logo} alt='up4q' className='w-[124px]' />
+			{/* <h1 className='text-white font-bold w-[124px] h-[32px] '>UP4Q</h1> */}
 
 			<ul className='list-none sm:flex hidden justify-end items-center flex-1'>
 				{navLinks.map((nav, index) => (

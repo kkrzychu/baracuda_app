@@ -3,6 +3,7 @@ import styles from "../../style";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from "react";
+import { straps_in_row, straps_prod } from "../../assets";
 
 const Products_5_section = () => {
 
@@ -21,9 +22,17 @@ const Products_5_section = () => {
 				<p className='w-full md:w-[80%] text-white text-center font-poppins font-normal text-[18px] leading-[30.8px] mb-10'>{t('products_strap_versions_desc')}</p>
 			</motion.div>
 
-			<motion.div variants={centerVariants} className='flex md:flex-row flex-col md:justify-around md:gap-0 gap-10 items-center w-[100%]'>
-				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
-				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
+			<motion.div variants={centerVariants} className='flex md:flex-row flex-col md:justify-around gap-10 items-center w-[100%] p-6'>
+				{/* <div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
+				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div> */}
+
+				<div className={`self-center box-shadow p-4 product-container`}>
+					<img className='h-[100%] z-[1] object-contain product-image' src={straps_prod} />
+				</div>
+
+				<div className={`self-center box-shadow p-4 product-container`}>
+					<img className='h-[100%] z-[1] object-contain product-image' src={straps_in_row} />
+				</div>
 			</motion.div>
 		</motion.section>
 	);

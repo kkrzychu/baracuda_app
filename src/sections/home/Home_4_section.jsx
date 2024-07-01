@@ -26,8 +26,8 @@ const Home_4_section = () => {
 				</motion.div>
 
 				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
-					<div className='w-full h-full flex flex-col  bg-white rounded-xl box-shadow p-4 '>
-						<img className=' h-[100%] object-contain' src={straps} />
+					<div className='w-full h-full flex flex-col box-shadow p-4 product-container'>
+						<img className=' h-[100%] object-contain product-image' src={straps} />
 					</div>
 
 				</motion.div>
