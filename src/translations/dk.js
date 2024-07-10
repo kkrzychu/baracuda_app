@@ -40,6 +40,7 @@ const dk_lang = {
     home_heading_chars_1: "Høj kvalitet",
     home_heading_chars_2: "Neopren",
     home_heading_chars_3: "Produkter.",
+    home_main_heading_chars: "Høj kvalitet Neopren Produkter",
     home_intro: "Opdag verdenen af unikke neoprenprodukter, hvor kvalitet møder innovativt design. Vores produkter er resultatet af omhyggeligt håndværk og en passion for fremragende kvalitet. Fordyb dig i komforten og funktionaliteten i vores alsidige udvalg af neoprenvarer.",
     home_card_1_title: 'Høj kvalitetsmateriale',
     home_card_1_description: "Vores neopren sikrer enestående holdbarhed, fleksibilitet og brugerkomfort. Derfor er vores produkter det perfekte valg for dem, der værdsætter høj kvalitet og komfort.",
@@ -62,7 +63,8 @@ const dk_lang = {
 
     // PRODUCTS PAGE
     products_heading_chars_1: "Se vores",
-    products_heading_chars_2: "produkter",
+    products_heading_chars_2: "Produkter",
+    products_main_heading_chars: "Se vores Produkter",
     products_heading_chars_3: "eller tilpas tilbuddet til dig selv",
     products_intro: "Gennemse vores brede udvalg af produkter og find det perfekte match til dig. Er du ikke sikker på, hvor du skal starte? Kontakt os, og vi vil hjælpe med at skræddersy tilbuddet efter dine forventninger og behov.",
     products_strap_1_desc: "En dykkermaske rem er en rem, der bruges til at sikre masken godt på dykkerens ansigt, en nøglekomponent af dykkerudstyr for komfort og sikkerhed under vandet. Neoprenremme vælges ofte på grund af deres bredde, blødhed og mindre risiko for at glide igennem håret, hvilket minimerer risikoen for at trække i håret. De er typisk bredere end standardremme, hvilket hjælper med at fordele trykket jævnt på bagsiden af hovedet og forhindrer ubehag under langvarig dykning.",

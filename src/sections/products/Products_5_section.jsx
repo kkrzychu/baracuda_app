@@ -23,8 +23,6 @@ const Products_5_section = () => {
 			</motion.div>
 
 			<motion.div variants={centerVariants} className='flex md:flex-row flex-col md:justify-around gap-10 items-center w-[100%] p-6'>
-				{/* <div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div>
-				<div className='flex flex-col bg-white rounded md:w-[35%] w-[80%] h-[400px]'></div> */}
 
 				<div className={`self-center box-shadow p-4 product-container`}>
 					<img className='h-[100%] z-[1] object-contain product-image' src={straps_prod} />

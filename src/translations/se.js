@@ -39,7 +39,8 @@ const se_lang = {
 	// HOME PAGE
 	home_heading_chars_1: "Hög kvalitet",
 	home_heading_chars_2: "Neopren",
-	home_heading_chars_3: "produkter.",
+	home_heading_chars_3: "Produkter.",
+	home_main_heading_chars: "Hög kvalitet Neopren produkter",
 	home_intro: "Upptäck världen av unika neoprenprodukter där kvalitet möter innovativ design. Våra produkter är resultatet av noggrant hantverk och en passion för excellens. Fördjupa dig i komforten och funktionaliteten som erbjuds av vårt breda sortiment av neoprenvaror.",
 	home_card_1_title: "Material av hög kvalitet",
 	home_card_1_description: "Vårt neopren säkerställer enastående hållbarhet, flexibilitet och användarkomfort. Därför är våra produkter det perfekta valet för dem som värdesätter hög kvalitet och komfort.",
@@ -63,6 +64,7 @@ const se_lang = {
 	// PRODUCTS PAGE
 	products_heading_chars_1: "Se våra",
 	products_heading_chars_2: "produkter",
+	products_main_heading_chars: "Se våra Produkter",
 	products_heading_chars_3: "eller matcha erbjudandet till dig själv",
 	products_intro: "Bläddra genom vårt breda utbud av produkter och hitta det perfekta matchningen för dig. Inte säker på var du ska börja? Kontakta oss, så hjälper vi dig att skräddarsy erbjudandet efter dina förväntningar och behov.",
 	products_strap_1_desc:"En dykmaskrem är en rem som används för att säkra masken ordentligt mot dykarens ansikte, en nyckelkomponent för komfort och säkerhet under vatten. Neoprenremmar väljs ofta för sin bredd, mjukhet och mindre risk att glida genom håret, vilket minimerar risken för hårdragning. De är vanligtvis bredare än standardremmar, vilket hjälper till att jämnt fördela trycket på baksidan av huvudet och förhindrar obehag under längre dykningar.",

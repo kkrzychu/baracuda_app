@@ -1,5 +1,5 @@
 
-import { strap_1 } from "../../assets";
+import { strap_logo_bg } from "../../assets";
 import styles, { layout } from "../../style";
 import { centerVariants } from "../../constants";
 import Button from "../../components/Button";
@@ -28,7 +28,7 @@ const Home_3_section = () => {
 
 			<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-start flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
 				<div className='w-full h-full  flex flex-col  box-shadow p-4 product-container'>
-					<img className=' h-[100%] object-contain product-image' src={strap_1} />
+					<img className=' h-[100%] object-contain product-image' src={strap_logo_bg} />
 				</div>
 			</motion.div>
 		</motion.section>

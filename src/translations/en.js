@@ -40,6 +40,7 @@ const en_lang = {
     home_heading_chars_1: "High Quality",
     home_heading_chars_2: "Neoprene",
     home_heading_chars_3: "Products.",
+    home_main_heading_chars: "High Quality Neoprene Products",
     home_intro: "Discover the world of unique neoprene products where quality meets innovative design. Our products are the result of meticulous craftsmanship and a passion for excellence. Immerse yourself in the comfort and functionality offered by our diverse range of neoprene goods.",
     home_card_1_title: 'High quality material',
     home_card_1_description: "Our neoprene ensures unparalleled durability, flexibility, and user comfort. That's why our products are the perfect choice for those who value high quality and comfort.",
@@ -63,6 +64,7 @@ const en_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "See Our",
     products_heading_chars_2: "Products",
+    products_main_heading_chars: "See Our Products",
     products_heading_chars_3: "or match the offer to yourself",
     products_intro: "Browse through our diverse range of products and find the perfect match for you. Not sure where to start? Get in touch with us, and we'll help tailor the offer to your expectations and needs.",
     products_strap_1_desc: "A diving mask strap is a strap used to secure the mask firmly to the diver's face, a key piece of diving equipment for comfort and safety underwater. Neoprene straps are often chosen for their width, softness and less likelihood of slipping through hair, minimizing the risk of hair pulling. They are typically wider than standard straps, which helps evenly distribute pressure on the back of the head and prevents discomfort during prolonged diving.",

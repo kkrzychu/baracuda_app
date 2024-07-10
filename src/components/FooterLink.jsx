@@ -13,7 +13,7 @@ const FooterLink = ({ to, children, isToggle }) => {
 	}, [])
 
 	return (
-        <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${isToggle} `}>
+        <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite link-hover cursor-pointer ${isToggle} `}>
             <Link to={to}>{t(`${children}`)}</Link>
         </li>
 	);

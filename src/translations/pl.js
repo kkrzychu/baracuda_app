@@ -41,6 +41,7 @@ const pl_lang = {
     home_heading_chars_1: "Wysokiej Jakości",
     home_heading_chars_2: "Produkty",
     home_heading_chars_3: "Neoprenowe.",
+    home_main_heading_chars: "Wysokiej Jakości Produkty Neoprenowe",
     home_intro: "Odkryj świat wyjątkowych produktów neoprenowych, w których jakość łączy się z innowacyjnym wzornictwem. Nasze produkty są wynikiem skrupulatnego rzemiosła i pasji do doskonałości. Zanurz się w komforcie i funkcjonalności oferowanej przez naszą różnorodną gamę produktów neoprenowych.",
     home_card_1_title: 'Wysokiej jakości materiał',
     home_card_1_description: "Nasz neopren zapewnia niezrównaną trwałość, elastyczność i komfort użytkowania. Dlatego nasze produkty są idealnym wyborem dla tych, którzy cenią sobie wysoką jakość i wygodę.",
@@ -64,6 +65,7 @@ const pl_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Zobacz Nasze",
     products_heading_chars_2: "Produkty",
+    products_main_heading_chars: "Zobacz Nasze Produkty",
     products_heading_chars_3: "lub dopasuj ofertę do siebie",
     products_intro: "Przejrzyj naszą różnorodną ofertę produktów i znajdź coś dla siebie. Nie wiesz od czego zacząć? Skontaktuj się z nami, a pomożemy dopasować ofertę do Twoich oczekiwań i potrzeb.",
     products_strap_1_desc: "Pasek do maski nurkowej to pasek używany do stabilnego mocowania maski do twarzy nurka, kluczowego elementu sprzętu do nurkowania zapewniającego komfort i bezpieczeństwo pod wodą. Paski neoprenowe są często wybierane ze względu na ich szerokość, miękkość i mniejsze prawdopodobieństwo prześlizgnięcia się przez włosy, minimalizując ryzyko ich pociągnięcia. Są one zazwyczaj szersze niż standardowe paski, co pomaga równomiernie rozłożyć nacisk na tył głowy i zapobiega dyskomfortowi podczas długotrwałego nurkowania.",

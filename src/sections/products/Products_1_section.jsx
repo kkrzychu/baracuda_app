@@ -14,9 +14,9 @@ const Products_1_section = () => {
 		i18n.changeLanguage(navigator.language);
 	}, [])
 
-	const heading_chars_1 = splitStringRegex(t("products_heading_chars_1"));
-	const heading_chars_2 = splitStringRegex(t("products_heading_chars_2"));
+
 	const heading_chars_3 = splitStringRegex(t("products_heading_chars_3"));
+	const main_heading_chars = splitStringRegex(t("products_main_heading_chars"));
 	const intro_chars = splitStringRegex(t('products_intro'));
 
 	const charVariants = {
@@ -28,21 +28,15 @@ const Products_1_section = () => {
 		<>
 			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-48 md:mb-20`}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
+
 					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1, delayChildren: 0.45 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
-						{heading_chars_1.map((x, index) => (
+						{main_heading_chars.map((x, index) => (
 							<motion.span key={`h1_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
 								{x}
 							</motion.span>
 						))}
 					</motion.h1>
 
-					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1, delayChildren: 0 }} className=' md:items-start text-gradient font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
-						{heading_chars_2.map((x, index) => (
-							<motion.span key={`h2_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
-								{x}
-							</motion.span>
-						))}
-					</motion.h1>
 
 					<motion.h4 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.03, delayChildren: 0.45 }} className='md:items-start text-white text-center md:text-start mt-6 font-poppins font-semibold ss:text-[36px] text-[26px] ss:leading-[50px] leading-[38px]'>
 						{heading_chars_3.map((x, index) => (
@@ -64,15 +58,11 @@ const Products_1_section = () => {
 				</div>
 
 				<div className={`flex-1 hidden md:flex  justify-center items-center flex-col sm:px-16 px-6 md:mt-0 mt-6`}>
-					{/* <img className='rounded h-[100%] max-h-[500px] object-contain' src={ownerAvatar} /> */}
 					<div className={`self-center  box-shadow p-4 `}>
-						<img className=' h-[100%] z-[100] object-contain rounded-xl' src={head_band} />
+						<img className=' h-[100%] z-[100] object-contain rounded-xl product-image' src={head_band} />
 					</div>
 				</div>
-
 				
-
-				{/* <img className='w-[200px] flex ss:hidden absolute bottom-[-75px] left-[25%]' src={diverIcon} /> */}
 			</motion.section>
 		</>
 	);

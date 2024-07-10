@@ -40,6 +40,7 @@ const fr_lang = {
     home_heading_chars_1: "Haute Qualité",
     home_heading_chars_2: "Néoprène",
     home_heading_chars_3: "Produits.",
+    home_main_heading_chars: "Haute Qualité Néoprène Produits",
     home_intro: "Découvrez le monde des produits uniques en néoprène où la qualité rencontre le design innovant. Nos produits sont le résultat d'un artisanat méticuleux et d'une passion pour l'excellence. Imprégnez-vous du confort et de la fonctionnalité offerts par notre gamme diversifiée de produits en néoprène.",
     home_card_1_title: "Matériau de haute qualité",
     home_card_1_description: "Notre néoprène assure une durabilité, une flexibilité et un confort utilisateur incomparables. C'est pourquoi nos produits sont le choix parfait pour ceux qui apprécient la haute qualité et le confort.",
@@ -63,6 +64,7 @@ const fr_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Découvrez Nos",
     products_heading_chars_2: "Produits",
+    products_main_heading_chars: "Découvrez Nos Produits",
     products_heading_chars_3: "ou adaptez l'offre à vous-même",
     products_intro: "Parcourez notre large gamme de produits et trouvez celui qui vous convient parfaitement. Vous ne savez pas par où commencer ? Contactez-nous et nous vous aiderons à adapter l'offre à vos attentes et besoins.",
     products_strap_1_desc: "Une sangle de masque de plongée est utilisée pour fixer fermement le masque sur le visage du plongeur, un élément essentiel de l'équipement de plongée pour le confort et la sécurité sous l'eau. Les sangles en néoprène sont souvent choisies pour leur largeur, leur douceur et leur moindre risque de glisser à travers les cheveux, réduisant ainsi le risque d'arrachage. Elles sont généralement plus larges que les sangles standard, ce qui aide à répartir uniformément la pression sur l'arrière de la tête et prévient l'inconfort pendant les plongées prolongées.",

@@ -27,7 +27,6 @@ const Products_7_section = () => {
 				<div className='flex flex-wrap gap-x-20 w-full md:w-[85%]'>
 					{allProductsFromNeopren.map((item, index) => (
 						<div key={`allProducts_${index}`} className='flex flex-row w-[400px] md:mr-6 mr-0 mb-10'>
-							{/* //margin: 0 auto 2.5rem auto; */}
 							<div className='bg-indigo-600 rounded-lg flex items-center justify-center w-[40px] h-[40px] p-3'>
 								<FontAwesomeIcon icon={faCube} className={` object-contain text-white`} />
 							</div>

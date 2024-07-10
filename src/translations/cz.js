@@ -40,6 +40,7 @@ const cz_lang = {
     home_heading_chars_1: "Vysoká kvalita",
     home_heading_chars_2: "Neoprenové",
     home_heading_chars_3: "produkty.",
+    home_main_heading_chars: "Vysoká kvalita Neoprenové Produkty",
     home_intro: "Objevte svět unikátních neoprenových produktů, kde se kvalita setkává s inovativním designem. Naše produkty jsou výsledkem pečlivé řemeslné práce a vášně pro excelenci. Ponořte se do pohodlí a funkcionality nabízené naší rozmanitou škálou neoprenového zboží.",
     home_card_1_title: 'Vysoká kvalita materiálu',
     home_card_1_description: "Náš neopren zaručuje nekompromisní odolnost, flexibilitu a uživatelský komfort. Proto jsou naše produkty ideální volbou pro ty, kteří ocení vysokou kvalitu a pohodlí.",
@@ -63,6 +64,7 @@ const cz_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Podívejte se na naše",
     products_heading_chars_2: "produkty",
+    products_main_heading_chars: "Podívejte se na naše Produkty",
     products_heading_chars_3: "nebo si nabídku přizpůsobte podle sebe",
     products_intro: "Prohlédněte si naši rozmanitou nabídku produktů a najděte ten pravý pro vás. Nevíte, kde začít? Kontaktujte nás a rádi vám pomůžeme přizpůsobit nabídku vašim očekáváním a potřebám.",
     products_strap_1_desc: "Popruh na potápěčskou masku je popruh používaný k pevnému uchycení masky na obličeji potápěče, klíčová součást potápěčské výbavy pro pohodlí a bezpečnost pod vodou. Neoprenové popruhy jsou často vybírány pro svou šířku, měkkost a menší pravděpodobnost sklouznutí skrz vlasy, čímž minimalizují riziko vytahování vlasů. Typicky jsou širší než běžné popruhy, což pomáhá rovnoměrně rozložit tlak na zadní části hlavy a předchází nepohodlí při dlouhodobém potápění.",

@@ -40,6 +40,7 @@ const pt_lang = {
     home_heading_chars_1: "Alta Qualidade",
     home_heading_chars_2: "Neoprene",
     home_heading_chars_3: "Produtos.",
+    home_main_heading_chars: "Alta Qualidade Neoprene Produtos",
     home_intro: "Descubra o mundo de produtos únicos em neoprene onde qualidade encontra design inovador. Nossos produtos são o resultado de um trabalho artesanal meticuloso e paixão pela excelência. Mergulhe no conforto e na funcionalidade oferecidos pela nossa diversificada linha de produtos em neoprene.",
     home_card_1_title: 'Material de alta qualidade',
     home_card_1_description: "Nosso neoprene garante durabilidade, flexibilidade e conforto ao usuário sem igual. Por isso, nossos produtos são a escolha perfeita para aqueles que valorizam alta qualidade e conforto.",
@@ -63,6 +64,7 @@ const pt_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Veja Nossos",
     products_heading_chars_2: "Produtos",
+    products_main_heading_chars: "Veja Nossos Produtos",
     products_heading_chars_3: "ou combine a oferta com você mesmo",
     products_intro: "Navegue pela nossa ampla gama de produtos e encontre o ajuste perfeito para você. Não sabe por onde começar? Entre em contato conosco e ajudaremos a adaptar a oferta às suas expectativas e necessidades.",
     products_strap_1_desc: "A tira da máscara de mergulho é utilizada para fixar firmemente a máscara no rosto do mergulhador, sendo uma peça fundamental para o conforto e a segurança debaixo d'água. As tiras de neoprene são frequentemente escolhidas pela sua largura, maciez e menor probabilidade de escorregar pelos cabelos, minimizando o risco de puxar os cabelos. Geralmente são mais largas do que as tiras padrão, o que ajuda a distribuir uniformemente a pressão na parte de trás da cabeça e evita desconfortos durante mergulhos prolongados.",

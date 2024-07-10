@@ -39,7 +39,8 @@ const no_lang = {
     // HOME PAGE
     home_heading_chars_1: "Høy kvalitet",
     home_heading_chars_2: "Neopren",
-    home_heading_chars_3: "produkter.",
+    home_heading_chars_3: "Produkter.",
+    home_main_heading_chars: "Høy kvalitet Neopren Produkter",
     home_intro: "Oppdag verden av unike neoprenprodukter der kvalitet møter innovativ design. Våre produkter er resultatet av grundig håndverk og lidenskap for ekspertise. Fordyp deg i komforten og funksjonaliteten som tilbys av vårt mangfoldige utvalg av neoprenvarer.",
     home_card_1_title: 'Material av høy kvalitet',
     home_card_1_description: "Vår neopren sikrer enestående holdbarhet, fleksibilitet og brukerkomfort. Derfor er våre produkter det perfekte valget for de som verdsetter høy kvalitet og komfort.",
@@ -62,7 +63,8 @@ const no_lang = {
 
     // PRODUCTS PAGE
     products_heading_chars_1: "Se våre",
-    products_heading_chars_2: "produkter",
+    products_heading_chars_2: "Produkter",
+    products_main_heading_chars: "Se våre Produkter",
     products_heading_chars_3: "eller tilpass tilbudet til deg selv",
     products_intro: "Bla gjennom vårt varierte utvalg av produkter og finn det perfekte matchet for deg. Er du usikker på hvor du skal begynne? Ta kontakt med oss, så hjelper vi deg med å tilpasse tilbudet til dine forventninger og behov.",
     products_strap_1_desc: "En dykkermaske stropp er en reim som brukes til å sikre masken fast til dykkerens ansikt, en viktig del av dykkerutstyret for komfort og sikkerhet under vann. Neoprenstropper velges ofte for sin bredde, mykhet og mindre sannsynlighet for å gli gjennom håret, noe som reduserer risikoen for håruttrekk. De er typisk bredere enn standardstropper, noe som hjelper med å jevnt fordele trykket på baksiden av hodet og forhindrer ubehag under lengre dykk.",

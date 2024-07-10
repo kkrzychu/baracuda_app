@@ -1,5 +1,4 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
 import { straps } from "../../assets";
 import styles, { layout } from "../../style";
 import { centerVariants } from "../../constants";

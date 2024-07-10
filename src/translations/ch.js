@@ -40,6 +40,7 @@ const ch_lang = {
     home_heading_chars_1: "Hohe Qualität",
     home_heading_chars_2: "Neopren",
     home_heading_chars_3: "Produkte.",
+    home_main_heading_chars: "Hohe Qualität Neopren Produkte",
     home_intro: "Entdecken Sie die Welt einzigartiger Neoprenprodukte, wo Qualität auf innovatives Design trifft. Unsere Produkte sind das Ergebnis sorgfältiger Handwerkskunst und einer Leidenschaft für Exzellenz. Tauchen Sie ein in den Komfort und die Funktionalität unserer vielfältigen Auswahl an Neoprenwaren.",
     home_card_1_title: 'Material von hoher Qualität',
     home_card_1_description: "Unser Neopren garantiert unübertroffene Haltbarkeit, Flexibilität und Benutzerkomfort. Deshalb sind unsere Produkte die perfekte Wahl für alle, die hohe Qualität und Komfort schätzen.",
@@ -63,6 +64,7 @@ const ch_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Entdecken Sie unsere",
     products_heading_chars_2: "Produkte",
+    products_main_heading_chars: "Entdecken Sie unsere Produkte",
     products_heading_chars_3: "oder passen Sie das Angebot an sich an",
     products_intro: "Durchstöbern Sie unsere vielfältige Produktpalette und finden Sie das perfekte Produkt für Ihre Bedürfnisse. Sie wissen nicht, wo Sie anfangen sollen? Kontaktieren Sie uns, und wir helfen Ihnen gerne dabei, das Angebot an Ihre Erwartungen und Bedürfnisse anzupassen.",
     products_strap_1_desc: "Ein Tauchmaskenband ist ein Band, das verwendet wird, um die Maske fest im Gesicht des Tauchers zu sichern, ein Schlüsselelement der Tauchausrüstung für Komfort und Sicherheit unter Wasser. Neoprenbänder werden oft aufgrund ihrer Breite, Weichheit und geringeren Wahrscheinlichkeit, durch Haare zu rutschen, gewählt, was das Risiko des Haarziehens minimiert. Sie sind typischerweise breiter als Standardbänder, was hilft, den Druck gleichmäßig auf der Rückseite des Kopfes zu verteilen und Unannehmlichkeiten während des langen Tauchgangs zu vermeiden.",

@@ -14,22 +14,13 @@ const Products = () => {
 
 
 	return (
-		// <motion.div initial="initial"
-		// animate="in"
-		// exit="out"
-		// variants={pageVariants}
-		// transition={pageTransition} className="w-full">
+
 		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-full">
 			<div className={`${styles.bg_products_1} ${styles.flexCenter} w-full`} style={{ backgroundImage: `url(${bf_tail})` }}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_1_section />
 				</div>
 			</div>
-			{/* <div className={`${styles.bg_products_2} ${styles.flexCenter} w-full`}>
-				<div className={`${styles.boxWidth}`}>
-					<Products_2_section />
-				</div>
-			</div> */}
 			<div className={`${styles.bg_products_3} ${styles.flexCenter} w-full`}>
 				<div className={`${styles.boxWidth}`}>
 					<Products_3_section />

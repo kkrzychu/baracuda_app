@@ -40,6 +40,7 @@ const it_lang = {
     home_heading_chars_1: "Alta Qualità",
     home_heading_chars_2: "Neoprene",
     home_heading_chars_3: "Prodotti.",
+    home_main_heading_chars: "Alta Qualità Neoprene Prodotti",
     home_intro: "Scopri il mondo dei prodotti unici in neoprene dove la qualità incontra il design innovativo. I nostri prodotti sono il risultato di una lavorazione meticolosa e di una passione per l'eccellenza. Immergiti nel comfort e nella funzionalità offerti dalla nostra vasta gamma di beni in neoprene.",
     home_card_1_title: 'Materiale di alta qualità',
     home_card_1_description: "Il nostro neoprene garantisce una durabilità, flessibilità e comfort utente senza pari. Ecco perché i nostri prodotti sono la scelta perfetta per coloro che apprezzano alta qualità e comfort.",
@@ -63,6 +64,7 @@ const it_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Guarda i nostri",
     products_heading_chars_2: "Prodotti",
+    products_main_heading_chars: "Guarda i nostri Prodotti",
     products_heading_chars_3: "o personalizza l'offerta su misura per te",
     products_intro: "Sfoglia la nostra gamma diversificata di prodotti e trova la soluzione perfetta per te. Non sai da dove iniziare? Contattaci e ti aiuteremo a personalizzare l'offerta in base alle tue aspettative ed esigenze.",
     products_strap_1_desc: "Una fascia per maschera subacquea è una cinghia utilizzata per fissare saldamente la maschera al viso del subacqueo, un elemento fondamentale per il comfort e la sicurezza sott'acqua. Le fasce in neoprene sono spesso scelte per la loro larghezza, morbidezza e minore probabilità di scivolare tra i capelli, riducendo il rischio di tirare i capelli. Sono generalmente più larghe delle fasce standard, il che aiuta a distribuire uniformemente la pressione sulla parte posteriore della testa e previene il disagio durante le immersioni prolungate.",

@@ -1,72 +1,57 @@
-import about_section_1 from './about_section_1.jpg';
-import about_section_3 from './about_section_3.jpg';
-import bands from './bands.png';
-import best_divers from './best_divers.png';
-import brylok from './brylok.png';
-import COLOURS from './COLOURS.jpg';
-import diverIcon from './diverIcon.png';
-import diversStrap from './diversStrap.jpg';
-import divingMask from './divingMask.png';
-import europeFlag from './europeFlag.png';
-import fitting from './fitting.jpg';
-import handmade from './handmade.jpg';
-import highQualityRating from './highQualityRating.jpg';
-import home_section_1 from './home_section_1.jpg';
-import home_section_2 from './home_section_2.jpg';
-import landingSewing from './landingSewing.jpg';
-import logo_1 from './logo_1.jpg';
-import logo_2 from './logo_2.jpg';
-import logo_3 from './logo_3.jpg';
-import logo_4 from './logo_4.jpg';
-import materialSizors from './materialSizors.jpg';
-import nakladki_butla from './nakladki_butla.png';
-import neo_pack from './neo_pack.png';
-import neopren from './neopren.png';
-import ownerAvatar from './ownerAvatar.png';
-import poland_flag from './poland_flag.png';
-import ukFlag from './ukFlag.png';
-import product_logo_1 from './product_logo_1.png';
-import products_section_1 from './products_section_1.jpg';
-import sewing from './sewing.jpg';
-import strap_1 from './strap_1.png';
-import strap_2 from './strap_2.png';
-import strap_3 from './strap_3.png';
-import strap_4 from './strap_4.png';
-import strap_pack from './strap_pack.png';
-import straps from './straps.png';
-import surfer from './surfer.jpg';
-import close from './close.svg';
-import menu from './menu.svg';
-import neoprene_structure from './neoprene_structure.jpg';
-import neoprene_structure_transparent from './neoprene_structure_transparent.png';
-import girl_1 from './girl_1.png';
-import girl_2 from './girl_2.png';
-import developing from './developing.jpg';
-import people_talking from './people_talking.jpg';
-import jacket_1 from './jacket_1.jpg';
-import product_section_1 from './product_section_1.jpg';
-import bf_tail from './bf_tail.jpg'
-import bg_diver from './bg_diver.jpg'
-import bg_jellyfish from './bg_jellyfish.jpg'
-import bg_jellyfish_2 from './bg_jellyfish_2.jpg'
-import bg_sand_beach_1 from './bg_sand_beach_1.jpg'
-import bg_sand_beach_2 from './bg_sand_beach_2.jpg'
-import bg_water from './bg_water.jpg'
-import bg_waves from './bg_waves.jpg'
-import straps_prod from './straps_prod.png'
+// BACKGROUNDS
+import about_section_1 from './backgrounds/about_section_1.jpg';
+import about_section_3 from './backgrounds/about_section_3.jpg';
+import home_section_1 from './backgrounds/home_section_1.jpg';
+import bf_tail from './backgrounds/bf_tail.jpg'
+import bg_diver from './backgrounds/bg_diver.jpg'
+import bg_sand_beach_2 from './backgrounds/bg_sand_beach_2.jpg'
 
-import head_strap from './head_strap.png'
-import head_band from './head_band.png'
-import straps_in_row from './straps_in_row.png'
-import wetsuit_color from './wetsuit_color.png'
 
-import jacket_1_bg from './jacket_1_bg.png'
-import jacket_2_bg from './jacket_2_bg.png'
-import jacket_3_bg from './jacket_3_bg.png'
-import jacket_4_bg from './jacket_4_bg.png'
-import jacket_5_bg from './jacket_5_bg.png'
+// PRODUCTS
+import bands from './products/bands.png';
+import best_divers from './products/best_divers.png';
+import brylok from './products/brylok.png';
+import diversStrap from './products/diversStrap.jpg';
+import nakladki_butla from './products/nakladki_butla.png';
+import neo_pack from './products/neo_pack.png';
+import neopren from './products/neopren.png';
+import product_logo_1 from './products/product_logo_1.png';
+import strap_1 from './products/strap_1.png';
+import strap_2 from './products/strap_2.png';
+import strap_3 from './products/strap_3.png';
+import strap_4 from './products/strap_4.png';
+import strap_pack from './products/strap_pack.png';
+import straps from './products/straps.png';
+import neoprene_structure_transparent from './products/neoprene_structure_transparent.png';
+import girl_1 from './products/girl_1.png';
+import straps_prod from './products/straps_prod.png'
+import head_strap from './products/head_strap.png'
+import head_band from './products/head_band.png'
+import straps_in_row from './products/straps_in_row.png'
+import wetsuit_color from './products/wetsuit_color.png'
+import jacket_1_bg from './products/jacket_1_bg.png'
+import jacket_2_bg from './products/jacket_2_bg.png'
+import jacket_3_bg from './products/jacket_3_bg.png'
+import jacket_4_bg from './products/jacket_4_bg.png'
+import jacket_5_bg from './products/jacket_5_bg.png'
+import mask_bg from './products/mask_bg.png'
 
-import main_logo from './main_logo.png'
+// CARDS BACKGROUNDS
+import fitting from './cards_backgrounds/fitting.jpg';
+import handmade from './cards_backgrounds/handmade.jpg';
+import landingSewing from './cards_backgrounds/landingSewing.jpg';
+import sewing from './cards_backgrounds/sewing.jpg';
+import surfer from './cards_backgrounds/surfer.jpg';
+import developing from './cards_backgrounds/developing.jpg';
+
+// ICONS
+import europeFlag from './icons/europeFlag.png';
+import logo_1 from './icons/logo_1.png';
+import poland_flag from './icons/poland_flag.png';
+import ukFlag from './icons/ukFlag.png';
+import close from './icons/close.svg';
+import menu from './icons/menu.svg';
+import strap_logo_bg from './icons/strap_logo_bg.png'
 
 
 export {
@@ -75,29 +60,18 @@ export {
     bands,
     best_divers,
     brylok,
-    COLOURS,
-    diverIcon,
     diversStrap,
-    divingMask,
     europeFlag,
     fitting,
     handmade,
-    highQualityRating,
     home_section_1,
-    home_section_2,
     landingSewing,
     logo_1,
-    logo_2,
-    logo_3,
-    logo_4,
-    materialSizors,
     nakladki_butla,
     neo_pack,
     neopren,
-    ownerAvatar,
     poland_flag,
     product_logo_1,
-    products_section_1,
     sewing,
     strap_1,
     strap_2,
@@ -109,22 +83,12 @@ export {
     close,
     menu,
     ukFlag,
-    neoprene_structure,
     girl_1,
-    girl_2,
     developing,
-    people_talking,
-    jacket_1,
     neoprene_structure_transparent,
-    product_section_1,
     bf_tail,
     bg_diver,
-    bg_jellyfish,
-    bg_jellyfish_2,
-    bg_sand_beach_1,
     bg_sand_beach_2,
-    bg_water,
-    bg_waves,
     straps_prod,
     head_strap,
     head_band,
@@ -135,5 +99,6 @@ export {
     jacket_3_bg,
     jacket_4_bg,
     jacket_5_bg,
-    main_logo
+    strap_logo_bg,
+    mask_bg
 }

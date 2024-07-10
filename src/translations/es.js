@@ -40,6 +40,7 @@ const es_lang = {
     home_heading_chars_1: "Alta Calidad",
     home_heading_chars_2: "Neopreno",
     home_heading_chars_3: "Productos.",
+    home_main_heading_chars: "Alta Calidad Neopreno Productos",
     home_intro: "Descubre el mundo de productos únicos de neopreno donde la calidad se encuentra con el diseño innovador. Nuestros productos son el resultado de un meticuloso trabajo artesanal y una pasión por la excelencia. Sumérgete en la comodidad y funcionalidad que ofrecen nuestra amplia gama de bienes de neopreno.",
     home_card_1_title: "Material de alta calidad",
     home_card_1_description: "Nuestro neopreno garantiza una durabilidad, flexibilidad y comodidad inigualables. Por eso, nuestros productos son la elección perfecta para aquellos que valoran la alta calidad y la comodidad.",
@@ -63,6 +64,7 @@ const es_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Descubre Nuestros",
     products_heading_chars_2: "Productos",
+    products_main_heading_chars: "Descubre Nuestros Productos",
     products_heading_chars_3: "o adapta la oferta a ti mismo",
     products_intro: "Explora nuestra amplia gama de productos y encuentra la combinación perfecta para ti. ¿No estás seguro por dónde empezar? Ponte en contacto con nosotros y te ayudaremos a adaptar la oferta a tus expectativas y necesidades.",
     products_strap_1_desc: "Una correa de máscara de buceo es una correa utilizada para asegurar la máscara firmemente al rostro del buceador, una pieza clave del equipo de buceo para comodidad y seguridad bajo el agua. Las correas de neopreno suelen ser elegidas por su anchura, suavidad y menor probabilidad de deslizamiento a través del cabello, minimizando el riesgo de tirones de pelo. Suelen ser más anchas que las correas estándar, lo que ayuda a distribuir uniformemente la presión en la parte posterior de la cabeza y evita molestias durante el buceo prolongado.",

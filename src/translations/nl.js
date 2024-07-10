@@ -40,6 +40,7 @@ const nl_lang = {
     home_heading_chars_1: "Hoge Kwaliteit",
     home_heading_chars_2: "Neopreen",
     home_heading_chars_3: "Producten.",
+    home_main_heading_chars: "Hoge Kwaliteit Neopreen Producten",
     home_intro: "Ontdek de wereld van unieke neopreen producten waar kwaliteit samengaat met innovatief design. Onze producten zijn het resultaat van nauwgezet vakmanschap en een passie voor uitmuntendheid. Laat je onderdompelen in het comfort en de functionaliteit die onze diverse range aan neopreen goederen biedt.",
     home_card_1_title: 'Hoogwaardig materiaal',
     home_card_1_description: "Ons neopreen staat garant voor ongeëvenaarde duurzaamheid, flexibiliteit en gebruikerscomfort. Daarom zijn onze producten de perfecte keuze voor wie waarde hecht aan hoge kwaliteit en comfort.",
@@ -63,6 +64,7 @@ const nl_lang = {
     // PRODUCTS PAGE
     products_heading_chars_1: "Bekijk onze",
     products_heading_chars_2: "Producten",
+    products_main_heading_chars: "Bekijk onze Producten",
     products_heading_chars_3: "of pas het aanbod aan op jezelf",
     products_intro: "Blader door ons diverse assortiment en vind de perfecte match voor jou. Weet je niet waar te beginnen? Neem contact met ons op en we helpen je graag bij het aanpassen van het aanbod aan jouw verwachtingen en behoeften.",
     products_strap_1_desc: "Een duikmaskerband is een band die wordt gebruikt om het masker stevig op het gezicht van de duiker te bevestigen, een belangrijk onderdeel van duikuitrusting voor comfort en veiligheid onder water. Neopreen banden worden vaak gekozen vanwege hun breedte, zachtheid en minder kans op uitglijden door het haar, wat het risico op haaruitval minimaliseert. Ze zijn meestal breder dan standaard banden, wat helpt om de druk gelijkmatig over de achterkant van het hoofd te verdelen en ongemak tijdens langdurig duiken voorkomt.",

@@ -29,9 +29,7 @@ const Products_8_section = () => {
 
 			<div  className='sm:px-16 px-6 md:columns-4 sm:columns-3 columns-2 w-[100%] gap-[20px]'>
 				{gallery.map((item, index) => (
-					// <div key={`galery_${index}`} className='w-[100%] mb-[10px] rounded-lg bg-white break-inside-avoid box-shadow'>
-					// 	<img src={item} className='max-w-[100%]' />
-					// </div>
+
 					<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, margin: "100px" }} variants={defaultVariants} transition={{
 						type: "spring",
 						bounce: 0.3,

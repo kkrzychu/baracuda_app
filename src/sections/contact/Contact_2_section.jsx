@@ -49,18 +49,6 @@ const Contact_2_section = () => {
 						</div>
 					</div>
 
-					{/* <div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
-						<div className='px-6'>
-							<FontAwesomeIcon icon={faEnvelope} className='text-3xl' />
-						</div>
-						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>info@baracuda-neo.pl</p>
-					</div>
-					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 mb-6 items-center'>
-						<div className='px-6'>
-							<FontAwesomeIcon icon={faPhone} className='text-3xl' />
-						</div>
-						<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>099 281 34</p>
-					</div> */}
 				</motion.div>
 			</div>
 
@@ -70,20 +58,6 @@ const Contact_2_section = () => {
 						<h2 className={`font-poppins font-semibold xs:text-[35px] text-[25px] xs:leading-[76.8px] leading-[66.8px] w-full text-left`}>{t('contact_production')}</h2>
 						<img src={poland_flag} className='w-[100px]' />
 					</div>
-
-					{/* <div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
-						<div className='px-6'>
-							<FontAwesomeIcon icon={faLocationDot} className='text-3xl' />
-						</div>
-
-						<div className='flex flex-col'>
-							<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>Budowlanych 33 (p17)</p>
-
-							<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>Głogów 67-200</p>
-
-							<p className='font-poppins font-bold text-[18px] leading-[30.8px] text-left'>{t('contact_poland')}</p>
-						</div>
-					</div> */}
 
 					<div className='w-[100%] flex flex-row py-6 px-0 md:px-6 items-center'>
 						<div className='px-6'>

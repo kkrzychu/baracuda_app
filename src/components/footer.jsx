@@ -1,7 +1,7 @@
 import styles from "../style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { socialMedia, footerLinks } from "../constants";
-import { main_logo } from "../assets";
+import { logo_1 } from "../assets";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import FooterLink from "./FooterLink";
@@ -19,7 +19,7 @@ const Footer = () => {
 				<section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
 					<div className={`${styles.flexStart} md:flex-row flex-col items-center mb-8 w-full sm:px-16 px-6`}>
 						<div className='flex-[1] flex flex-col justify-start items-center md:mr-10 mr-0'>
-							<img src={main_logo} alt='hoobank' className='w-[266px] h-[72.14px] object-contain' />
+							<img src={logo_1} alt='hoobank' className='w-[150px]  object-contain' />
 							<p className={`font-poppins font-normal text-[18px] leading-[30.8px] text-center mt-4 max-w-[312px] text-white`}>{t("footerShortDesc")}</p>
 						</div>
 

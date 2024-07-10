@@ -27,7 +27,6 @@ const Home_2_section = () => {
 			</motion.div>
 
 			<motion.div variants={centerVariants} className={`flex-1 flex gap-[10px] justify-center items-start flex-row md:items-start xl:px-0 sm:px-16 px-6 md:mt-0 mt-6`}>
-				{/* <div className='flex flex-1 h-full bg-transparent relative flex-col rounded-xl box-shadow p-4 '> */}
 				<div className={`self-center  box-shadow p-4 product-container `}>
 					<img className=' h-[100%] z-[100] object-contain product-image' src={girl_1} />
 				</div>
