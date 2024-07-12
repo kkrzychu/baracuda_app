@@ -75,6 +75,9 @@ const Products_6_section = () => {
 							{jackets_gallery.map((item, index) => (
 
 								<div key={index} className={`self-center w-[350px] box-shadow p-4 product-container scroll-item flex-shrink-0  scroll-snap-center`}>
+									<div className="absolute z-[100] flex items-center justify-center">
+										<h1 className="text-white tracking-wide text-center text-wrap text-[25px] font-bold 	">{t('products_jacket_project').toUpperCase()}</h1>
+									</div>
 									<img className='h-[100%] z-[1] object-contain product-image' src={item} />
 								</div>
 							))}

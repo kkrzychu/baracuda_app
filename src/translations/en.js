@@ -93,6 +93,7 @@ const en_lang = {
     products_bands_h: "BANDS",
     products_wetsuit_h: "WETSUIT",
     products_jacket_h: "JACKETS",
+    products_jacket_project: "Project by Helswell. Implementation and production up4Q",
     products_kit_h: "ORDER A KIT",
     products_bands_desc: "Our neoprene headbands are the perfect solution for anyone who values comfort and functionality. Made from the highest quality neoprene, they provide excellent thermal insulation, protecting your head from the cold on chilly days and effectively wicking away moisture during intense workouts. Thanks to the flexible material, the headbands fit perfectly to the shape of your head, ensuring all-day comfort. Available in a wide range of colors and patterns, they are a stylish addition to any sports and everyday outfit. Choose reliability and opt for our neoprene headbands, which are suitable for any situation!",
     products_wetsuit_desc: "Our company offers exceptional diving suits, custom-made from the highest quality neoprene, ensuring a perfect fit and maximum comfort during every underwater adventure. With a personalized approach to each client, we create suits that not only provide excellent protection against cold and abrasions but also highlight the unique style of the wearer. Additionally, at the client's request, we can adorn the suit with any design or print, making our product truly unique and one-of-a-kind. By choosing our diving suits, you are investing in reliability, durability, and aesthetics that will perform even in the most demanding conditions.",

@@ -93,6 +93,7 @@ const cz_lang = {
     products_bands_h: "PÁSKY",
     products_wetsuit_h: "POTÁPĚČSKÝ OBLEK",
     products_jacket_h: "BUNĚČNÍ",
+    products_jacket_project: "Projekt firmy Helswell. Realizace a výroba up4Q",
     products_kit_h: "OBJEDNAT SADU",
     products_bands_desc: "Naše neoprenové čelenky jsou ideálním řešením pro každého, kdo oceňuje pohodlí a funkčnost. Vyrobeny z nejvyšší kvality neoprenu poskytují vynikající tepelnou izolaci, chrání hlavu před chladem v chladných dnech a efektivně odvádějí vlhkost během intenzivních tréninků. Díky flexibilnímu materiálu se čelenky dokonale přizpůsobí tvaru vaší hlavy, zajistíce celodenní pohodlí. Jsou k dispozici v široké škále barev a vzorů, jsou stylovým doplňkem jakékoliv sportovní a každodenní výbavy. Vyberte spolehlivost a sáhněte po našich neoprenových čelencích, které jsou vhodné do jakékoli situace!",
     products_wetsuit_desc: "Naše společnost nabízí výjimečné potápěčské obleky, vyrobené na míru z nejvyšší kvality neoprenu, zaručující perfektní sedění a maximální komfort během každého podvodního dobrodružství. S personalizovaným přístupem k každému klientovi vytváříme obleky, které nejen poskytují vynikající ochranu proti chladu a oděru, ale také zdůrazňují jedinečný styl nositele. Navíc na požádání můžeme oblek ozdobit libovolným designem nebo potiskem, čímž se náš produkt stává opravdu jedinečným. Vybráním našich potápěčských obleků investujete do spolehlivosti, odolnosti a estetiky, která obstojí i v nejnáročnějších podmínkách.",

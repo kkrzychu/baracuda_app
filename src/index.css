@@ -268,7 +268,7 @@ transform: rotateX(0deg) translateZ(20px);
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('./assets/bg_sand_beach_2.jpg') center/cover no-repeat;
+  background: url('./assets/backgrounds/bg_sand_beach_2.jpg') center/cover no-repeat;
   /* filter: blur(2px); */
   z-index: 0;
   border-radius: 1rem;
@@ -295,7 +295,7 @@ transform: rotateX(0deg) translateZ(20px);
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('./assets/bg_sand_beach_2.jpg') center/cover no-repeat;
+  background: url('./assets/backgrounds/bg_sand_beach_2.jpg') center/cover no-repeat;
   /* filter: blur(2px); */
   z-index: 0;
   border-radius: 1rem;

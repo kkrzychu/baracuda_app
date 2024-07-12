@@ -93,6 +93,7 @@ const no_lang = {
     products_bands_h: "BÅND",
     products_wetsuit_h: "VÅTDRAKT",
     products_jacket_h: "JAKKER",
+    products_jacket_project: "Prosjekt av firmaet Helswell. Gjennomføring og produksjon up4Q",
     products_kit_h: "BESTILL EN PAKKE",
     products_bands_desc: "Våre neoprenpannebånd er den perfekte løsningen for alle som verdsetter komfort og funksjonalitet. Laget av høykvalitets neopren, gir de utmerket termisk isolasjon, beskytter hodet mot kulden på kalde dager og trekker effektivt bort fuktighet under intense treningsøkter. Takket være det fleksible materialet tilpasser pannebåndene seg perfekt til hodets form, og sikrer komfort hele dagen. Tilgjengelig i et bredt utvalg av farger og mønstre, er de et stilig tillegg til alle sports- og hverdagsantrekk. Velg pålitelighet og velg våre neoprenpannebånd, som passer til enhver situasjon!",
     products_wetsuit_desc: "Vårt selskap tilbyr enestående dykkerdrakter, skreddersydd av høykvalitets neopren, som sikrer en perfekt passform og maksimal komfort under hvert undervanns eventyr. Med en personlig tilnærming til hver klient skaper vi drakter som ikke bare gir utmerket beskyttelse mot kulde og skrubbsår, men som også fremhever bærerens unike stil. I tillegg, etter kundens ønske, kan vi pryde drakten med hvilket som helst design eller trykk, noe som gjør vårt produkt virkelig unikt og enestående. Ved å velge våre dykkerdrakter investerer du i pålitelighet, holdbarhet og estetikk som vil fungere selv under de mest krevende forhold.",
