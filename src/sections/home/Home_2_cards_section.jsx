@@ -30,7 +30,7 @@ const Products_2_cards_section = () => {
 					<div className="flex flex-col backdrop-blur-sm bg-black/30 rounded-xl">
 						<div className='flex flex-row w-[100%] items-center p-2 justify-center'>
 							<FontAwesomeIcon icon={intro.icon} className='text-[25px]' />
-							<h1 className='text-[23px] font-bold ml-[10px]'>{t(`${intro.title}`)}</h1>
+							<h1 className='text-[23px] text-center font-bold ml-[10px]'>{t(`${intro.title}`)}</h1>
 						</div>
 
 						<div className='flex flex-row w-[100%] items-center p-2'>

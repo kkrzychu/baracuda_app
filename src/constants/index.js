@@ -305,7 +305,7 @@ export const socialMedia = [
 
 export const navLinks = [
     {
-        id: 'home',
+        id: '',
         title: 'nav_title_1'
     },{
         id: 'products',

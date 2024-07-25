@@ -26,10 +26,10 @@ const Products_1_section = () => {
 
 	return (
 		<>
-			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-48 md:mb-20`}>
+			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-16 md:mb-20`}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 
-					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1, delayChildren: 0.45 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
+					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 0.0 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
 						{main_heading_chars.map((x, index) => (
 							<motion.span key={`h1_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
 								{x}
@@ -38,7 +38,7 @@ const Products_1_section = () => {
 					</motion.h1>
 
 
-					<motion.h4 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.03, delayChildren: 0.45 }} className='md:items-start text-white text-center md:text-start mt-6 font-poppins font-semibold ss:text-[36px] text-[26px] ss:leading-[50px] leading-[38px]'>
+					<motion.h4 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.03, delayChildren: 0.0 }} className='md:items-start text-white text-center md:text-start mt-6 font-poppins font-semibold ss:text-[36px] text-[26px] ss:leading-[50px] leading-[38px]'>
 						{heading_chars_3.map((x, index) => (
 							<motion.span key={`h3_${index}`} transition={{ duration: 0.01 }} variants={charVariants}>
 								{x}
@@ -46,7 +46,7 @@ const Products_1_section = () => {
 						))}
 					</motion.h4>
 
-					<motion.p initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 0.45 }} className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5 text-white`}>
+					<motion.p initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 0.0 }} className={`${styles.paragraph} max-w-[470px] md:text-left text-center mt-5 text-white`}>
 						{intro_chars.map((x, index) => (
 							<motion.span key={`p_intro_${index}`} transition={{ duration: 0.01 }} variants={charVariants}>
 								{x}

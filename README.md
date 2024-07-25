@@ -12,8 +12,8 @@ Photos
 1. Photo by [sulox32](https://pixabay.com/photos/sea-beach-drone-vacations-summer-4768869/) on [Pixabay](https://pixabay.com/)
 2. Photo by [Sean Oulashin](https://unsplash.com/de/fotos/seashore-during-golden-hour-KMn4VEeEPR8) on [Unsplash](https://unsplash.com/)
 3. Photo by [](https://pixabay.com/photos/sea-humpback-whale-tail-ocean-2052650/) on [Pixabay](https://pixabay.com/)
-4. Photo by [Pexels](https://pixabay.com/photos/flippers-ocean-person-sea-swimming-1836458/) on [Pixabay](https://pixabay.com/)
-5. Photo by [](https://pixabay.com/photos/maldives-tropics-tropical-1993704/) on [Pixabay](https://pixabay.com/)
+4. Photo by [Pexels](https://unsplash.com/photos/a-person-swimming-in-the-ocean-at-sunset-gKfSdzieIJc) on [Unsplash](https://unsplash.com/)
+5. Photo by [NEOM](https://pixabay.com/photos/maldives-tropics-tropical-1993704/) on [Pixabay](https://pixabay.com/)
 6. Photo by [PIRO4D](https://pixabay.com/photos/shark-sea-ocean-water-underwater-3347787/) on [Pixabay](https://pixabay.com/)
 
 7. Photo by [Pexels](https://pixabay.com/photos/concept-man-papers-person-plan-1868728/) on [Pixabay](https://pixabay.com/)

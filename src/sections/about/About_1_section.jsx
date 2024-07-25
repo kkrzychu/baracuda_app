@@ -31,7 +31,7 @@ const About_1_section = () => {
 					<p className={`${styles.paragraph} text-white mt-6`}>{t('about_intro_part_2')}</p>
 				</motion.div>
 
-				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.2 }} variants={rightVariants} className='flex-1 flex justify-center items-center sm:px-16 px-6'>
+				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.1 }} variants={rightVariants} className='flex-1 flex justify-center items-center sm:px-16 px-6'>
 					<ul className="md:mt-0 mt-6">
 						{aboutGoals.map((item) => (
 							<li key={item.key} className='pt-2 flex flex-row items-top text-xl text-white'>

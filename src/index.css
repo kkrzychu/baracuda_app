@@ -50,7 +50,7 @@
 
 .bg-nav-toogle-color {
   background: radial-gradient(circle at top, #2c2c31, #1f1e3b);
-  height: calc(100% - 4rem);
+  height: calc(100% - 3.5rem);
 }
 
 .box-shadow {

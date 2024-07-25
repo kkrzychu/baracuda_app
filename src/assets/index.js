@@ -3,8 +3,8 @@ import about_section_1 from './backgrounds/about_section_1.jpg';
 import about_section_3 from './backgrounds/about_section_3.jpg';
 import home_section_1 from './backgrounds/home_section_1.jpg';
 import bf_tail from './backgrounds/bf_tail.jpg'
-import bg_diver from './backgrounds/bg_diver.jpg'
 import bg_sand_beach_2 from './backgrounds/bg_sand_beach_2.jpg'
+import bg_diver_2 from './backgrounds/bg_diver_2.jpg'
 
 
 // PRODUCTS
@@ -87,7 +87,6 @@ export {
     developing,
     neoprene_structure_transparent,
     bf_tail,
-    bg_diver,
     bg_sand_beach_2,
     straps_prod,
     head_strap,
@@ -100,5 +99,6 @@ export {
     jacket_4_bg,
     jacket_5_bg,
     strap_logo_bg,
-    mask_bg
+    mask_bg,
+    bg_diver_2
 }

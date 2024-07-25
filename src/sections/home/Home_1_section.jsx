@@ -35,7 +35,7 @@ const Home_1_section = () => {
 			<section id='home_1' className={`flex md:flex-row flex-col sm:pt-16 pt-6 sm:pb-6 pb-6`}>
 				<div className={`flex-1 flex items-center md:items-start justify-center flex-col xl:px-0 sm:px-16 px-6 `}>
 
-					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.1 }} className='text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.04 }} className='text-center md:text-left font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
 						{full_main_header.map((x, index) => (
 							<motion.span key={`h3_${index}`} transition={{ duration: 0.1 }} variants={charVariants}>
 								{x}

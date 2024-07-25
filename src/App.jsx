@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
@@ -40,10 +40,11 @@ const App = () => {
 				<AnimatePresence mode="wait">
 					<ScrollToTop>
 						<Routes>
-							<Route path='/home' element={<Home />} />
+							<Route index path='/' element={<Home />} />
 							<Route path='/products' element={<Products />} />
 							<Route path='/about' element={<About />} />
 							<Route path='/contact' element={<Contact />} />
+							<Route path="*" element={<Navigate to="/" />} />
 						</Routes>
 					</ScrollToTop>
 					<Footer />

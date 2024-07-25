@@ -74,7 +74,7 @@ const Products_6_section = () => {
 						<div className="scroll-container h-full flex overflow-x-scroll scroll-snap-x p-4 gap-10">
 							{jackets_gallery.map((item, index) => (
 
-								<div key={index} className={`self-center w-[350px] box-shadow p-4 product-container scroll-item flex-shrink-0  scroll-snap-center`}>
+								<div key={index} className={`self-center md:w-[350px] w-[300px] box-shadow p-4 product-container scroll-item flex-shrink-0  scroll-snap-center`}>
 									<div className="absolute z-[100] flex items-center justify-center">
 										<h1 className="text-white tracking-wide text-center text-wrap text-[25px] font-bold 	">{t('products_jacket_project').toUpperCase()}</h1>
 									</div>
