@@ -8,15 +8,15 @@ import Home_2_cards_section from "../sections/home/Home_2_cards_section";
 import Home_4_develop_section from "../sections/home/Home_4_develop_section";
 
 
-import { home_section_1 } from "../assets";
+// import { home_section_1 } from "../assets";
 import { motion } from "framer-motion";
 import styles from "../style";
 
 const Home = () => {
 	return (
 		
-		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-full">
-			<div className={`${styles.bg_home_1} ${styles.flexCenter} w-full`} style={{ backgroundImage: `url(${home_section_1})` }}>
+		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-screen relative ">
+			<div className={`${styles.bg_home_1} ${styles.flexCenter} w-screen ss:h-screen inset-0`} >
 				<div className={`${styles.boxWidth}`}>
 					<Home_1_section />
 				</div>

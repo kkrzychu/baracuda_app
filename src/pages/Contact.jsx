@@ -9,7 +9,7 @@ const Contact = () => {
 
 		<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0}} className="w-full">
 
-			<div className={`${styles.bg_contact_1} ${styles.flexCenter} w-full`} style={{ backgroundImage: `url(${bg_diver_2})` }}>
+			<div className={`${styles.bg_contact_1} ${styles.flexCenter} ss:h-screen w-full`} style={{ backgroundImage: `url(${bg_diver_2})` }}>
 				<div className={`${styles.boxWidth}`}>
 					<Contact_1_section />
 				</div>

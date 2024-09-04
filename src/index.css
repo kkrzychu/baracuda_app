@@ -4,9 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-
-}
 
 * {
   scroll-behavior: smooth;
@@ -329,4 +326,12 @@ transform: rotateX(0deg) translateZ(20px);
 
 .link-hover:hover {
   color: #61DAFB;
+}
+
+.background-fixed {
+  background-image: url('../src/assets/backgrounds/home_section_1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

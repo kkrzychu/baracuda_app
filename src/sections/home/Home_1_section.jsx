@@ -43,7 +43,7 @@ const Home_1_section = () => {
 						))}
 					</motion.h1>
 
-					<motion.p initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 1 }} className={`${styles.paragraph} max-w-[470px] text-white md:text-left text-center mt-5`}>
+					<motion.p initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 1 }} className={`${styles.paragraph}  text-white md:text-left text-center mt-5`}>
 						{introChars.map((x, index) => (
 							<motion.span key={`h_p_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
 								{x}

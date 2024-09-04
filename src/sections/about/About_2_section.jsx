@@ -21,8 +21,8 @@ const About_2_section = () => {
 				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.1 }} variants={leftVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('about_neopren_2_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_neopren_1')}</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('about_neopren_2')}</p>
+					<p className={`${styles.paragraph} text-white mt-5`}>{t('about_neopren_1')}</p>
+					<p className={`${styles.paragraph} text-white mt-5`}>{t('about_neopren_2')}</p>
 				</motion.div>
 
 				<motion.div initial='offscreen' whileInView='onscreen' viewport={{ once: true, amount: 0.1 }} variants={rightVariants} className='flex-1 relative flex flex-col items-center justify-center sm:px-16 px-6 mt-20'>
@@ -90,8 +90,8 @@ const About_2_section = () => {
 					<div className={`blue__gradient absolute rounded-xl blur-sm  w-[80%] h-[80%]`}></div>
 					<h2 className={`${styles.heading2} text-white z-[100]`}>{t('about_handmade_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5 z-[100]`}>{t('about_handmade_1')}</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5 z-[100]`}>{t('about_handmade_2')}</p>
+					<p className={`${styles.paragraph} text-white mt-5 z-[100]`}>{t('about_handmade_1')}</p>
+					<p className={`${styles.paragraph} text-white mt-5 z-[100]`}>{t('about_handmade_2')}</p>
 				</motion.div>
 
 				<motion.div variants={centerVariants} className='flex-1 flex flex-col items-center justify-center sm:px-16 px-6 md:my-0 my-10'>

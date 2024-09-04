@@ -25,7 +25,7 @@ const Products_2_cards_section = () => {
 					bounce: 0.3,
 					duration: 2,
 					delay: (width > 1060) ? intro.delay : 0
-				}} variants={defaultVariants} className='flex flex-col bg-scroll bg-cover bg-no-repeat bg-center text-white rounded-xl md:w-[30%] w-[85%] min-w-[300px] md:h-[550px]  p-6' style={{ backgroundImage: `url("${intro.img}")`}}>
+				}} variants={defaultVariants} className='flex flex-col bg-scroll bg-cover bg-no-repeat bg-center text-white rounded-xl md:w-[30%] w-[85%] min-w-[300px] max-w-[380px] md:h-[550px]  p-6' style={{ backgroundImage: `url("${intro.img}")`}}>
 					
 					<div className="flex flex-col backdrop-blur-sm bg-black/30 rounded-xl">
 						<div className='flex flex-row w-[100%] items-center p-2 justify-center'>

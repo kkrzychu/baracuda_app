@@ -18,7 +18,7 @@ const Home_4_develop_section = () => {
 			<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 				<h2 className={`${styles.heading2} text-white`}>{t('home_sec_4_dev_h')}</h2>
 
-				<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('home_sec_4_dev_desc')}</p>
+				<p className={`${styles.paragraph} text-white mt-5`}>{t('home_sec_4_dev_desc')}</p>
 
 			</motion.div>
 

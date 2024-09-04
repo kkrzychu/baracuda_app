@@ -23,8 +23,8 @@ const Products_7_section = () => {
 				<p className={`font-poppins font-normal text-[18px] leading-[30.8px] text-center text-white  mt-5`}>{t('product_what_manufature_desc')}</p>
 			</motion.div>
 
-			<motion.div variants={centerVariants} className='flex flex-1 flex-row justify-center md:mt-[6rem] mt-16 flex-wrap sm:px-16 px-6'>
-				<div className='flex flex-wrap gap-x-20 w-full md:w-[85%]'>
+			<motion.div variants={centerVariants} className='flex flex-1 flex-row md:mt-[6rem] mt-16 flex-wrap sm:px-16 px-6'>
+				<div className='flex flex-wrap gap-x-20 justify-center w-full md:w-[85%]'>
 					{allProductsFromNeopren.map((item, index) => (
 						<div key={`allProducts_${index}`} className='flex flex-row w-[400px] md:mr-6 mr-0 mb-10'>
 							<div className='bg-indigo-600 rounded-lg flex items-center justify-center w-[40px] h-[40px] p-3'>

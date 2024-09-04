@@ -26,10 +26,10 @@ const Products_1_section = () => {
 
 	return (
 		<>
-			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-16 md:mb-20`}>
+			<motion.section id='product_1' className={`flex md:flex-row flex-col sm:py-20 py-10 md:mb-20`}>
 				<div className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 
-					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 0.0 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]'>
+					<motion.h1 initial='hidden' animate='reveal' transition={{ staggerChildren: 0.02, delayChildren: 0.0 }} className='text-center md:text-start md:items-start text-white font-poppins font-semibold ss:text-[72px] text-[42px] ss:leading-[100px] leading-[55px]'>
 						{main_heading_chars.map((x, index) => (
 							<motion.span key={`h1_${index}`} transition={{ duration: 0.5 }} variants={charVariants}>
 								{x}

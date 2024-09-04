@@ -11,7 +11,8 @@ const styles = {
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
 
-    bg_home_1: "bg-cover bg-no-repeat bg-center bg-fixed",
+    bg_home_1: "background-fixed",
+    // bg_home_1: "bg-cover bg-no-repeat bg-center bg-fixed",
     bg_home_2: 'bg-transparent',
     bg_home_3: 'bg-transparent',
     bg_home_4: 'bg-transparent',

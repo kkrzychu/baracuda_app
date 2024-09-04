@@ -22,7 +22,7 @@ const Products_6_section = () => {
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('products_bands_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_bands_desc')}
 					</p>
 
@@ -40,17 +40,17 @@ const Products_6_section = () => {
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('products_wetsuit_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_wetsuit_desc')}
 					</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_wetsuit_2_desc')}
 					</p>
 				</motion.div>
 
 				<motion.div variants={centerVariants} className={`flex-1 flex justify-center items-center flex-col md:items-start sm:px-16 px-6 md:mt-0 mt-6`}>
 
-					<div className={`self-center  box-shadow p-4 product-container `}>
+					<div className={`self-center  box-shadow p-4 product-container max-w-[90%] md:max-w-[100%]`}>
 						<img className=' h-[100%] z-[100] object-contain product-image' src={wetsuit_color} />
 					</div>
 				</motion.div>
@@ -61,7 +61,7 @@ const Products_6_section = () => {
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('products_jacket_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_jackets_desc')}
 					</p>
 
@@ -92,10 +92,10 @@ const Products_6_section = () => {
 				<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start sm:px-16 px-6 `}>
 					<h2 className={`${styles.heading2} text-white`}>{t('products_kit_h')}</h2>
 
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_kit_desc')}
 					</p>
-					<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
+					<p className={`${styles.paragraph} text-white mt-5`}>
 						{t('products_kit_2_desc')}
 					</p>
 				</motion.div>

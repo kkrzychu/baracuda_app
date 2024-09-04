@@ -30,7 +30,7 @@ const Products_4_section = () => {
 				</ul>
 			</motion.div>
 
-			<motion.div variants={centerVariants} className='flex flex-row md:w-[35%] w-full sm:px-16 px-6 gap-6'>
+			<motion.div variants={centerVariants} className='flex flex-row md:w-[35%] w-full sm:px-16 px-6 gap-6 justify-center'>
 
 
 				<div className={`box-shadow p-4 product-container-benefits `}>

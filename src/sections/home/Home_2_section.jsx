@@ -21,7 +21,7 @@ const Home_2_section = () => {
 			<motion.div variants={centerVariants} className={`${layout.sectionInfo} md:items-start xl:px-0 sm:px-16 px-6 `}>
 				<h2 className={`${styles.heading2} text-white`}>{t('home_sec_2_h')}</h2>
 
-				<p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>{t('home_sec_2_desc')}</p>
+				<p className={`${styles.paragraph} text-white mt-5`}>{t('home_sec_2_desc')}</p>
 
 				<Button to={"products"} text={"btn_view_products"} styles={"mt-6"} />
 			</motion.div>
